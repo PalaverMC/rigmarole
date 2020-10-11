@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_4 net/minecraft/world/World
+	FIELD field_65 dimension Lnet/minecraft/class_61;
