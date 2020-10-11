@@ -172,5 +172,9 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	FIELD field_5767 STONE_AXE Lnet/minecraft/class_1471;
 	METHOD <init> (I)V
 		ARG 1 itemId
+	METHOD method_5014 setItemGroup (Lnet/minecraft/class_1438;)Lnet/minecraft/class_1471;
+		ARG 1 itemGroup
 	METHOD method_5030 setStringId (Ljava/lang/String;)Lnet/minecraft/class_1471;
 		ARG 1 id
+	METHOD method_5032 getRightClickAction (Lnet/minecraft/class_1473;)Lnet/minecraft/class_1501;
+	METHOD method_5063 getItemGroup ()Lnet/minecraft/class_1438;

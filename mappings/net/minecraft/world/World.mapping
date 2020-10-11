@@ -1,3 +1,3 @@
-CLASS net/minecraft/class_4 net/minecraft/world/WorldMaybe
+CLASS net/minecraft/class_4 net/minecraft/world/World
 	FIELD field_41 calendar Ljava/util/Calendar;
 	FIELD field_65 dimension Lnet/minecraft/class_61;
