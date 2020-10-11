@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1507
+	METHOD method_5183 registerCommand (Lnet/minecraft/class_1533;)Lnet/minecraft/class_1533;

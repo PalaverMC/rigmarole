@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1487 net/minecraft/commands/AbstractCommand
+	METHOD method_5142 permissionLevelRequired ()I
+	METHOD method_5147 replyToSender (Lnet/minecraft/class_28;Ljava/lang/String;[Ljava/lang/Object;)V
