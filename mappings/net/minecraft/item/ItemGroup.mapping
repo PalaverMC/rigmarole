@@ -1,2 +1,14 @@
 CLASS net/minecraft/class_1438 net/minecraft/item/ItemGroup
 	FIELD field_5550 itemGroups [Lnet/minecraft/class_1438;
+	FIELD field_5551 BUILDING_BLOCKS Lnet/minecraft/class_1438;
+	FIELD field_5552 DECORATIONS Lnet/minecraft/class_1438;
+	FIELD field_5553 REDSTONE Lnet/minecraft/class_1438;
+	FIELD field_5554 TRANSPORTATION Lnet/minecraft/class_1438;
+	FIELD field_5555 MISC Lnet/minecraft/class_1438;
+	FIELD field_5556 SEARCH Lnet/minecraft/class_1438;
+	FIELD field_5557 FOOD Lnet/minecraft/class_1438;
+	FIELD field_5558 TOOLS Lnet/minecraft/class_1438;
+	FIELD field_5559 COMBAT Lnet/minecraft/class_1438;
+	FIELD field_5560 BREWING Lnet/minecraft/class_1438;
+	FIELD field_5561 MATERIALS Lnet/minecraft/class_1438;
+	FIELD field_5562 INVENTORY Lnet/minecraft/class_1438;
