@@ -1,1 +1,4 @@
 CLASS net/minecraft/class_366 net/minecraft/block/Block
+	FIELD field_973 itemGroup Lnet/minecraft/class_1438;
+	METHOD method_1068 getItemGroup ()Lnet/minecraft/class_1438;
+	METHOD method_1105 setItemGroup (Lnet/minecraft/class_1438;)Lnet/minecraft/class_366;
