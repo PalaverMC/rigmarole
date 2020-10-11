@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_11 net/minecraft/GameMode
+	FIELD field_88 id I
+	FIELD field_89 name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
+		ARG 3 id
+		ARG 4 name
+	METHOD method_219 getId ()I
+	METHOD method_223 getName ()Ljava/lang/String;
