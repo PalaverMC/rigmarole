@@ -1,0 +1,4 @@
+CLASS net/minecraft/server/MinecraftServer
+	FIELD field_4636 INSTANCE Lnet/minecraft/server/MinecraftServer;
+	METHOD method_4123 getInstance ()Lnet/minecraft/server/MinecraftServer;
+	METHOD method_4136 isDedicated ()Z
