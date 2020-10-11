@@ -1,4 +1,7 @@
 CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	FIELD field_5629 itemGroup Lnet/minecraft/class_1438;
+	FIELD field_5739 id I
 	FIELD field_5740 stackSize I
 	FIELD field_5747 items [Lnet/minecraft/class_1471;
+	METHOD <init> (I)V
+		ARG 1 itemId
