@@ -1,0 +1,25 @@
+CLASS net/minecraft/class_23 net/minecraft/world/Biome
+	FIELD field_155 biomes [Lnet/minecraft/class_23;
+	FIELD field_156 OCEAN Lnet/minecraft/class_23;
+	FIELD field_157 PLAINS Lnet/minecraft/class_23;
+	FIELD field_158 DESERT Lnet/minecraft/class_23;
+	FIELD field_159 EXTREME_HILLS Lnet/minecraft/class_23;
+	FIELD field_160 FOREST Lnet/minecraft/class_23;
+	FIELD field_161 TAIGA Lnet/minecraft/class_23;
+	FIELD field_162 SWAMPLAND Lnet/minecraft/class_23;
+	FIELD field_163 RIVER Lnet/minecraft/class_23;
+	FIELD field_164 HELL Lnet/minecraft/class_23;
+	FIELD field_165 SKY Lnet/minecraft/class_23;
+	FIELD field_166 FROZEN_OCEAN Lnet/minecraft/class_23;
+	FIELD field_167 FROZEN_RIVER Lnet/minecraft/class_23;
+	FIELD field_168 ICE_PLAINS Lnet/minecraft/class_23;
+	FIELD field_169 ICE_MOUNTAINS Lnet/minecraft/class_23;
+	FIELD field_170 MUSHROOM_ISLAND Lnet/minecraft/class_23;
+	FIELD field_171 MUSHROOM_ISLAND_SHORE Lnet/minecraft/class_23;
+	FIELD field_172 BEACH Lnet/minecraft/class_23;
+	FIELD field_173 DESERT_HILLS Lnet/minecraft/class_23;
+	FIELD field_174 FOREST_HILLS Lnet/minecraft/class_23;
+	FIELD field_175 TAIGA_HILLS Lnet/minecraft/class_23;
+	FIELD field_176 EXTREME_HILLS_EDGE Lnet/minecraft/class_23;
+	FIELD field_177 JUNGLE Lnet/minecraft/class_23;
+	FIELD field_178 JUNGLE_HILLS Lnet/minecraft/class_23;
