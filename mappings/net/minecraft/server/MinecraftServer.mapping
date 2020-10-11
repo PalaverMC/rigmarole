@@ -72,3 +72,4 @@ CLASS net/minecraft/server/MinecraftServer
 	METHOD method_4200 getServerFolder ()Ljava/io/File;
 	METHOD method_4201 setMotd (Ljava/lang/String;)V
 		ARG 1 motd
+	METHOD method_4205 allowNether ()Z
