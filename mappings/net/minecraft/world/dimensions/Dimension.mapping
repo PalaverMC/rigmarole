@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_61 net/minecraft/world/dimensions/Dimension
+	METHOD method_470 getName ()Ljava/lang/String;
