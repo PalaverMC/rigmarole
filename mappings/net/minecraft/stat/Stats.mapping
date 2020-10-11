@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1157 net/minecraft/stat/Stats
+	METHOD method_3655 createItemStats ()V
