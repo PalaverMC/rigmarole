@@ -1,3 +1,8 @@
 CLASS net/minecraft/class_28
 	METHOD method_309 canExecuteCommand (ILjava/lang/String;)Z
+		ARG 1 level
+	METHOD method_310 info (Ljava/lang/String;)V
+		ARG 1 message
 	METHOD method_311 translate (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+		ARG 1 key
+		ARG 2 args

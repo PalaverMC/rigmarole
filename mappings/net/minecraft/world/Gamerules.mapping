@@ -1,0 +1,18 @@
+CLASS net/minecraft/class_1557 net/minecraft/world/Gamerules
+	FIELD field_5962 values Ljava/util/TreeMap;
+	METHOD method_5313 toCompoundTag ()Lnet/minecraft/class_927;
+	METHOD method_5314 parse (Lnet/minecraft/class_927;)V
+		ARG 1 compoundTag
+	METHOD method_5315 getString (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key
+	METHOD method_5316 put (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_5317 getKeys ()[Ljava/lang/String;
+	METHOD method_5318 getBoolean (Ljava/lang/String;)Z
+		ARG 1 key
+	METHOD method_5319 set (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_5320 contains (Ljava/lang/String;)Z
+		ARG 1 key

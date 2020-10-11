@@ -1,0 +1,31 @@
+CLASS net/minecraft/class_13 net/minecraft/world/LevelType
+	FIELD field_100 overworld Z
+	FIELD field_91 TYPES [Lnet/minecraft/class_13;
+	FIELD field_92 DEFAULT Lnet/minecraft/class_13;
+	FIELD field_93 FLAT Lnet/minecraft/class_13;
+	FIELD field_94 LARGE_BIOMES Lnet/minecraft/class_13;
+	FIELD field_95 OLD Lnet/minecraft/class_13;
+	FIELD field_96 id I
+	FIELD field_97 stringId Ljava/lang/String;
+	FIELD field_98 generatorVersion I
+	FIELD field_99 newer Z
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 stringId
+	METHOD <init> (ILjava/lang/String;I)V
+		ARG 1 id
+		ARG 2 stringId
+		ARG 3 generatorVersion
+	METHOD method_243 getStringId ()Ljava/lang/String;
+	METHOD method_244 getFromGeneratorVersion (I)Lnet/minecraft/class_13;
+		ARG 1 generatorVersion
+	METHOD method_245 fromStringId (Ljava/lang/String;)Lnet/minecraft/class_13;
+		ARG 0 stringId
+	METHOD method_246 newer (Z)Lnet/minecraft/class_13;
+		ARG 1 newer
+	METHOD method_247 getTranslationKey ()Ljava/lang/String;
+	METHOD method_248 getGeneratorVersion ()I
+	METHOD method_249 newer ()Z
+	METHOD method_250 isOverworld ()Z
+	METHOD method_251 getId ()I
+	METHOD method_252 overworld ()Lnet/minecraft/class_13;

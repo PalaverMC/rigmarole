@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1162
+	METHOD method_3671 createKeyPair ()Ljava/security/KeyPair;

@@ -1,0 +1,70 @@
+CLASS net/minecraft/class_927 net/minecraft/tag/CompoundTag
+	FIELD field_3477 values Ljava/util/Map;
+	METHOD method_3034 get (Ljava/lang/String;)Lnet/minecraft/class_941;
+		ARG 1 key
+	METHOD method_3035 putByte (Ljava/lang/String;B)V
+		ARG 1 key
+		ARG 2 b
+	METHOD method_3036 putDouble (Ljava/lang/String;D)V
+		ARG 1 key
+		ARG 2 d
+	METHOD method_3037 putFloat (Ljava/lang/String;F)V
+		ARG 1 key
+		ARG 2 f
+	METHOD method_3038 putInteger (Ljava/lang/String;I)V
+		ARG 1 key
+		ARG 2 integer
+	METHOD method_3040 putLong (Ljava/lang/String;J)V
+		ARG 1 key
+		ARG 2 l
+	METHOD method_3041 putCompoundTag (Ljava/lang/String;Lnet/minecraft/class_927;)V
+		ARG 1 key
+		ARG 2 compoundTag
+	METHOD method_3042 putTag (Ljava/lang/String;Lnet/minecraft/class_941;)V
+		ARG 1 key
+		ARG 2 tag
+	METHOD method_3043 putString (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 key
+		ARG 2 string
+	METHOD method_3044 putShort (Ljava/lang/String;S)V
+		ARG 1 key
+		ARG 2 s
+	METHOD method_3045 putBoolean (Ljava/lang/String;Z)V
+		ARG 1 key
+		ARG 2 bool
+	METHOD method_3046 putBytes (Ljava/lang/String;[B)V
+		ARG 1 key
+		ARG 2 bytes
+	METHOD method_3047 putInts (Ljava/lang/String;[I)V
+		ARG 1 key
+		ARG 2 ints
+	METHOD method_3048 containsKey (Ljava/lang/String;)Z
+		ARG 1 key
+	METHOD method_3049 values ()Ljava/util/Collection;
+	METHOD method_3050 getByte (Ljava/lang/String;)B
+		ARG 1 key
+	METHOD method_3051 isEmpty ()Z
+	METHOD method_3052 getShort (Ljava/lang/String;)S
+		ARG 1 key
+	METHOD method_3053 getInteger (Ljava/lang/String;)I
+		ARG 1 key
+	METHOD method_3054 getLong (Ljava/lang/String;)J
+		ARG 1 key
+	METHOD method_3055 getFloat (Ljava/lang/String;)F
+		ARG 1 key
+	METHOD method_3056 getDouble (Ljava/lang/String;)D
+		ARG 1 key
+	METHOD method_3057 getString (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key
+	METHOD method_3058 getBytes (Ljava/lang/String;)[B
+		ARG 1 key
+	METHOD method_3059 getInts (Ljava/lang/String;)[I
+		ARG 1 key
+	METHOD method_3060 getCompoundTag (Ljava/lang/String;)Lnet/minecraft/class_927;
+		ARG 1 key
+	METHOD method_3061 getListTag (Ljava/lang/String;)Lnet/minecraft/class_936;
+		ARG 1 key
+	METHOD method_3062 getBoolean (Ljava/lang/String;)Z
+		ARG 1 key
+	METHOD method_3063 remove (Ljava/lang/String;)V
+		ARG 1 key

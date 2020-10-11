@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1159 net/minecraft/LogManager
+	FIELD field_4258 LOGGER Ljava/util/logging/Logger;

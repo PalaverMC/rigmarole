@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_1105
+	FIELD field_3953 opsFile Ljava/io/File;
+	FIELD field_3954 whiteListFile Ljava/io/File;
+	METHOD <init> (Lnet/minecraft/class_1106;)V
+		ARG 1 server
+	METHOD method_3440 loadOps ()V
+	METHOD method_3441 saveOps ()V
+	METHOD method_3442 loadWhiteList ()V
+	METHOD method_3443 saveWhiteList ()V

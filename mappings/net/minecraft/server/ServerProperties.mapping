@@ -1,0 +1,22 @@
+CLASS net/minecraft/class_1077 net/minecraft/server/ServerProperties
+	FIELD field_3946 properties Ljava/util/Properties;
+	FIELD field_3947 logger Lnet/minecraft/class_1170;
+	FIELD field_3948 file Ljava/io/File;
+	METHOD <init> (Ljava/io/File;Lnet/minecraft/class_1170;)V
+		ARG 1 file
+		ARG 2 logger
+	METHOD method_3404 createFile ()V
+	METHOD method_3405 getIntProperty (Ljava/lang/String;I)I
+		ARG 1 name
+		ARG 2 defaultValue
+	METHOD method_3406 setProperty (Ljava/lang/String;Ljava/lang/Object;)V
+		ARG 1 name
+		ARG 2 value
+	METHOD method_3407 getStringProperty (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 name
+		ARG 2 defaultValue
+	METHOD method_3408 getBooleanProperty (Ljava/lang/String;Z)Z
+		ARG 1 name
+		ARG 2 defaultValue
+	METHOD method_3409 saveFile ()V
+	METHOD method_3410 getFile ()Ljava/io/File;
