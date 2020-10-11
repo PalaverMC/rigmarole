@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_3813 net/minecraft/structure/VillageGenerator
-	METHOD method_27221 init ()V

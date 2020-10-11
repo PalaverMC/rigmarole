@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_1819 net/minecraft/item/ShieldItem
-	METHOD method_8013 getColor (Lnet/minecraft/class_1799;)Lnet/minecraft/class_1767;
-		ARG 0 stack

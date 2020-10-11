@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_2842 net/minecraft/network/packet/c2s/play/UpdatePlayerAbilitiesC2SPacket
-	FIELD field_12948 flying Z
-	METHOD <init> (Lnet/minecraft/class_1656;)V
-		ARG 1 abilities
-	METHOD method_12346 isFlying ()Z

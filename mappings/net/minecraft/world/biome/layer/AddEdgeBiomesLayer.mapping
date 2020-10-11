@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_3655 net/minecraft/world/biome/layer/AddEdgeBiomesLayer
-	METHOD method_15851 isWooded (I)Z
-		ARG 0 id
-	METHOD method_15852 isBadlands (I)Z
-		ARG 1 id

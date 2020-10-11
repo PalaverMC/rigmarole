@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_3791 net/minecraft/structure/PillagerOutpostGenerator
-	METHOD method_27235 init ()V

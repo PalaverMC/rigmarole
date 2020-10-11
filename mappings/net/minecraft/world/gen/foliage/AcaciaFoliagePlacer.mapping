@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_4645 net/minecraft/world/gen/foliage/AcaciaFoliagePlacer
-	FIELD field_24926 CODEC Lcom/mojang/serialization/Codec;

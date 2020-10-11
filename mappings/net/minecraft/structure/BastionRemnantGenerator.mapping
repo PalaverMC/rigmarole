@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_5179 net/minecraft/structure/BastionRemnantGenerator
-	METHOD method_27201 init ()V

@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_5139 net/minecraft/world/gen/trunk/ForkingTrunkPlacer
-	FIELD field_24968 CODEC Lcom/mojang/serialization/Codec;
