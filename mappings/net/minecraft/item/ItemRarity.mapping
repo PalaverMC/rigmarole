@@ -1,1 +1,6 @@
 CLASS net/minecraft/class_1484 net/minecraft/item/ItemRarity
+	FIELD field_5801 color I
+	FIELD field_5802 name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
+		ARG 3 color
+		ARG 4 name
