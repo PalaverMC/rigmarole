@@ -1,4 +1,10 @@
 CLASS net/minecraft/class_366 net/minecraft/block/Block
+	FIELD field_1109 id I
+	FIELD field_1122 blocks [Lnet/minecraft/class_366;
 	FIELD field_973 itemGroup Lnet/minecraft/class_1438;
+	METHOD <init> (ILnet/minecraft/class_202;)V
+		ARG 1 blockId
 	METHOD method_1068 getItemGroup ()Lnet/minecraft/class_1438;
 	METHOD method_1105 setItemGroup (Lnet/minecraft/class_1438;)Lnet/minecraft/class_366;
+	METHOD method_1116 dropItem (Lnet/minecraft/class_4;IIILnet/minecraft/class_1473;)V
+		ARG 1 world
