@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1438 net/minecraft/item/ItemGroup
+	FIELD field_5550 itemGroups [Lnet/minecraft/class_1438;
