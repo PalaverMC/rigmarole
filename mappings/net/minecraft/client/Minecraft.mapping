@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/Minecraft
+	FIELD field_4553 INSTANCE Lnet/minecraft/client/Minecraft;
+	METHOD method_4118 getInstance ()Lnet/minecraft/client/Minecraft;
