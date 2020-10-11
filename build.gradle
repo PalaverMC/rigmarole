@@ -651,7 +651,7 @@ task v2MergedYarnJar(dependsOn: ["mergeV2"], type: Jar) {
 	}
 	destinationDirectory.set(file("build/libs"))
 }
-
+/*
 def fakeSourceDir = file(".gradle/temp/fakeSource")
 task genFakeSource(dependsOn: ["buildYarnTiny", "mapNamedJar"]) {
 	group = "javadoc generation"
@@ -711,12 +711,12 @@ task javadocJar(type: Jar, dependsOn: ["javadoc"]) {
 	archiveVersion.set yarnVersion
 	classifier = 'javadoc'
 }
-
+*/
 publishing {
 	publications {
 		maven(MavenPublication) {
-			groupId 'net.fabricmc'
-			artifactId "yarn"
+			groupId 'io.github.darkerbit'
+			artifactId "rigmarole"
 			version yarnVersion
 
 			artifact(compressTiny.output) {
@@ -730,7 +730,7 @@ publishing {
 			artifact(v2MergedYarnJar) {
 				classifier "mergedv2"
 			}
-			artifact javadocJar
+			// artifact javadocJar
 		}
 
 	}
