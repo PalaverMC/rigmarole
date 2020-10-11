@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1069
+	FIELD field_3924 minecraftServer Lnet/minecraft/server/MinecraftServer;

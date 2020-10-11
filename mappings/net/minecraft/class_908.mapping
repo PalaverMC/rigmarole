@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_908
+	METHOD method_2925 registerBehavior (Ljava/lang/Object;Ljava/lang/Object;)V
