@@ -13,7 +13,7 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	FIELD field_5602 STRING Lnet/minecraft/class_1471;
 	FIELD field_5603 FEATHER Lnet/minecraft/class_1471;
 	FIELD field_5604 GUNPOWDER Lnet/minecraft/class_1471;
-	FIELD field_5605 WOOD_HOE Lnet/minecraft/class_1471;
+	FIELD field_5605 WOODEN_HOE Lnet/minecraft/class_1471;
 	FIELD field_5606 STONE_HOE Lnet/minecraft/class_1471;
 	FIELD field_5607 IRON_HOE Lnet/minecraft/class_1471;
 	FIELD field_5608 DIAMOND_HOE Lnet/minecraft/class_1471;
@@ -46,10 +46,10 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	FIELD field_5757 IRON_INGOT Lnet/minecraft/class_1471;
 	FIELD field_5758 GOLD_INGOT Lnet/minecraft/class_1471;
 	FIELD field_5759 IRON_SWORD Lnet/minecraft/class_1471;
-	FIELD field_5760 WOOD_SWORD Lnet/minecraft/class_1471;
-	FIELD field_5761 WOOD_SHOVEL Lnet/minecraft/class_1471;
-	FIELD field_5762 WOOD_PICKAXE Lnet/minecraft/class_1471;
-	FIELD field_5763 WOOD_AXE Lnet/minecraft/class_1471;
+	FIELD field_5760 WOODEN_SWORD Lnet/minecraft/class_1471;
+	FIELD field_5761 WOODEN_SHOVEL Lnet/minecraft/class_1471;
+	FIELD field_5762 WOODEN_PICKAXE Lnet/minecraft/class_1471;
+	FIELD field_5763 WOODEN_AXE Lnet/minecraft/class_1471;
 	FIELD field_5764 STONE_SWORD Lnet/minecraft/class_1471;
 	FIELD field_5765 STONE_SHOVEL Lnet/minecraft/class_1471;
 	FIELD field_5766 STONE_PICKAXE Lnet/minecraft/class_1471;
