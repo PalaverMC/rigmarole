@@ -77,15 +77,15 @@ CLASS net/minecraft/class_238 net/minecraft/world/WorldProperties
 	METHOD method_811 getLevelName ()Ljava/lang/String;
 	METHOD method_813 getVersion ()I
 	METHOD method_815 getLastPlayed ()J
-	METHOD method_817 thundering ()Z
+	METHOD method_817 isThundering ()Z
 	METHOD method_819 getThunderTime ()I
-	METHOD method_821 raining ()Z
+	METHOD method_821 isRaining ()Z
 	METHOD method_823 getRainTime ()I
 	METHOD method_825 getDefaultGameMode ()Lnet/minecraft/class_11;
 	METHOD method_826 generateStructures ()Z
-	METHOD method_827 hardcore ()Z
+	METHOD method_827 isHardcore ()Z
 	METHOD method_828 getLevelType ()Lnet/minecraft/class_13;
 	METHOD method_829 allowCommands ()Z
-	METHOD method_830 initialized ()Z
+	METHOD method_830 isInitialized ()Z
 	METHOD method_831 getGamerules ()Lnet/minecraft/class_1557;
 	METHOD method_832 getGeneratorSettings ()Ljava/lang/String;
