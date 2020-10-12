@@ -12,3 +12,4 @@ CLASS net/minecraft/class_1438 net/minecraft/item/ItemGroup
 	FIELD field_5560 BREWING Lnet/minecraft/class_1438;
 	FIELD field_5561 MATERIALS Lnet/minecraft/class_1438;
 	FIELD field_5562 INVENTORY Lnet/minecraft/class_1438;
+	METHOD method_4975 getIconItemId ()I
