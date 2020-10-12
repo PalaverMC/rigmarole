@@ -1,0 +1,21 @@
+CLASS net/minecraft/class_1 net/minecraft/text/ColorCodes
+	FIELD field_1 effect Z
+	FIELD field_26 CHAR_TO_CLASS Ljava/util/Map;
+	FIELD field_27 NAME_TO_CLASS Ljava/util/Map;
+	FIELD field_28 PATTERN Ljava/util/regex/Pattern;
+	FIELD field_29 character C
+	FIELD field_2 code Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;IC)V
+		ARG 3 character
+	METHOD <init> (Ljava/lang/String;ICZ)V
+		ARG 3 character
+		ARG 4 effect
+	METHOD method_1 getCharacter ()C
+	METHOD method_2 getColorCodes (ZZ)Ljava/util/Collection;
+		ARG 0 color
+		ARG 1 effect
+	METHOD method_3 isEffect ()Z
+	METHOD method_4 fromName (Ljava/lang/String;)Lnet/minecraft/class_1;
+		ARG 0 name
+	METHOD method_5 isColor ()Z
+	METHOD method_6 getName ()Ljava/lang/String;
