@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_408 net/minecraft/block/BlockEntityPos
+CLASS net/minecraft/class_408 net/minecraft/block/entity/BlockEntity
 	FIELD field_1221 ID_TO_CLASS Ljava/util/Map;
 	FIELD field_1222 CLASS_TO_ID Ljava/util/Map;
 	FIELD field_1223 world Lnet/minecraft/class_4;
