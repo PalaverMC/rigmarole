@@ -1,0 +1,23 @@
+CLASS net/minecraft/class_924 net/minecraft/language/Language
+	FIELD field_3469 EN_US Lnet/minecraft/class_924;
+	FIELD field_3470 translations Ljava/util/Properties;
+	FIELD field_3471 languages Ljava/util/TreeMap;
+	FIELD field_3473 code Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 code
+	METHOD method_3020 getDefault ()Lnet/minecraft/class_924;
+	METHOD method_3021 get (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key
+	METHOD method_3023 registerLanguage (Ljava/lang/String;Z)V
+		ARG 1 code
+	METHOD method_3024 translate (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+		ARG 1 key
+		ARG 2 args
+	METHOD method_3025 loadLanguage (Ljava/util/Properties;Ljava/lang/String;)V
+		ARG 1 translations
+		ARG 2 code
+	METHOD method_3026 getLanguages ()Ljava/util/TreeMap;
+	METHOD method_3027 contains (Ljava/lang/String;)Z
+		ARG 1 key
+	METHOD method_3028 getCode ()Ljava/lang/String;
+	METHOD method_3031 init ()V

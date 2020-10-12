@@ -1,1 +1,8 @@
 CLASS net/minecraft/class_1106 net/minecraft/server/DedicatedMinecraftServer
+	FIELD field_3956 logManager Lnet/minecraft/class_1170;
+	FIELD field_3959 properties Lnet/minecraft/class_1077;
+	FIELD field_3960 generateStructures Z
+	FIELD field_3961 defaultGameMode Lnet/minecraft/class_11;
+	METHOD method_3445 getBooleanProperty (Ljava/lang/String;Z)Z
+		ARG 1 name
+		ARG 2 defaultValue

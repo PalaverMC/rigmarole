@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_1129
+	FIELD field_4053 world Lnet/minecraft/class_4;
+	FIELD field_4055 gameMode Lnet/minecraft/class_11;
+	METHOD <init> (Lnet/minecraft/class_4;)V
+		ARG 1 world
+	METHOD method_3543 (Lnet/minecraft/class_11;)V
+		ARG 1 gameMode
+	METHOD method_3547 getGameMode ()Lnet/minecraft/class_11;
+	METHOD method_3549 (Lnet/minecraft/class_11;)V
+		ARG 1 gameMode
+	METHOD method_3551 isCreative ()Z

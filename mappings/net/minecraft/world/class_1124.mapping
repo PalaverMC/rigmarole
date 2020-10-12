@@ -1,1 +1,4 @@
 CLASS net/minecraft/class_1124 net/minecraft/world/class_1124
+	FIELD field_4029 server Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/class_249;Ljava/lang/String;ILnet/minecraft/class_10;Lnet/minecraft/class_1176;Lnet/minecraft/class_1170;)V
+		ARG 1 server

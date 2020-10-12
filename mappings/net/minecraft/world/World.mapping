@@ -1,3 +1,6 @@
 CLASS net/minecraft/class_4 net/minecraft/world/World
 	FIELD field_41 calendar Ljava/util/Calendar;
 	FIELD field_65 dimension Lnet/minecraft/class_61;
+	FIELD field_69 properties Lnet/minecraft/class_238;
+	METHOD method_32 getWorldProperties ()Lnet/minecraft/class_238;
+	METHOD method_33 getGamerules ()Lnet/minecraft/class_1557;

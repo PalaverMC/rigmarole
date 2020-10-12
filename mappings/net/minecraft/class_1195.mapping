@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1195
+	METHOD method_3827 snooper ()Z
+	METHOD method_3829 logger ()Lnet/minecraft/class_1170;

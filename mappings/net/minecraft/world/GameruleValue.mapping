@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_1558 net/minecraft/world/GameruleValue
+	FIELD field_5963 valueString Ljava/lang/String;
+	FIELD field_5964 valueBoolean Z
+	FIELD field_5965 valueInt I
+	FIELD field_5966 valueDouble D
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 value
+	METHOD method_5321 getValueString ()Ljava/lang/String;
+	METHOD method_5322 parse (Ljava/lang/String;)V
+		ARG 1 value
+	METHOD method_5323 getValueBoolean ()Z

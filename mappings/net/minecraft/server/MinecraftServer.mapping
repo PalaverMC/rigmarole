@@ -1,7 +1,75 @@
 CLASS net/minecraft/server/MinecraftServer
+	FIELD field_4606 allowFlight Z
+	FIELD field_4607 motd Ljava/lang/String;
+	FIELD field_4608 maxBuildHeight I
+	FIELD field_4613 keyPair Ljava/security/KeyPair;
+	FIELD field_4615 levelName Ljava/lang/String;
+	FIELD field_4620 texturePackURL Ljava/lang/String;
+	FIELD field_4625 forceGamemode Z
+	FIELD field_4627 worlds [Lnet/minecraft/class_1124;
 	FIELD field_4636 INSTANCE Lnet/minecraft/server/MinecraftServer;
 	FIELD field_4641 commandManager Lnet/minecraft/class_2;
+	FIELD field_4642 ip Ljava/lang/String;
+	FIELD field_4643 port I
+	FIELD field_4648 onlineMode Z
+	FIELD field_4649 spawnAnimals Z
+	FIELD field_4650 spawnNPC Z
+	FIELD field_4651 enablePVP Z
 	METHOD main ([Ljava/lang/String;)V
 		ARG 0 args
+	METHOD method_3380 getLevelName ()Ljava/lang/String;
 	METHOD method_4123 getInstance ()Lnet/minecraft/server/MinecraftServer;
+	METHOD method_4124 getCommandManager ()Lnet/minecraft/class_2;
+	METHOD method_4125 getKeyPair ()Ljava/security/KeyPair;
+	METHOD method_4126 getServerPort ()I
+	METHOD method_4130 monsters ()Z
+	METHOD method_4134 getTexturePackURL ()Ljava/lang/String;
 	METHOD method_4136 isDedicated ()Z
+	METHOD method_4137 onlineMode ()Z
+	METHOD method_4138 spawnAnimals ()Z
+	METHOD method_4139 spawnNPC ()Z
+	METHOD method_4140 enabledPVP ()Z
+	METHOD method_4141 allowFlight ()Z
+	METHOD method_4142 commandBlocks ()Z
+	METHOD method_4150 loadLevel (Ljava/lang/String;Ljava/lang/String;JLnet/minecraft/class_13;Ljava/lang/String;)V
+		ARG 3 seed
+		ARG 5 levelType
+		ARG 6 generatorSettings
+	METHOD method_4151 setKeyPair (Ljava/security/KeyPair;)V
+		ARG 1 keyPair
+	METHOD method_4155 getMotd ()Ljava/lang/String;
+	METHOD method_4156 getMaxBuildHeight ()I
+	METHOD method_4165 spawnProtection ()I
+	METHOD method_4166 forceGamemode ()Z
+	METHOD method_4168 setServerPort (I)V
+		ARG 1 port
+	METHOD method_4177 setMaxBuildHeight (I)V
+		ARG 1 maxBuildHeight
+	METHOD method_4178 setIP (Ljava/lang/String;)V
+		ARG 1 ip
+	METHOD method_4179 setOnlineMode (Z)V
+		ARG 1 onlineMode
+	METHOD method_4181 getFile (Ljava/lang/String;)Ljava/io/File;
+	METHOD method_4182 spawnAnimals (Z)V
+		ARG 1 spawnAnimals
+	METHOD method_4183 generateStructures ()Z
+	METHOD method_4184 spawnNPC (Z)V
+		ARG 1 spawnNPC
+	METHOD method_4185 getDefaultGameMode ()Lnet/minecraft/class_11;
+	METHOD method_4186 enablePVP (Z)V
+		ARG 1 enablePVP
+	METHOD method_4187 getDifficulty ()I
+	METHOD method_4188 allowFlight (Z)V
+		ARG 1 allowFlight
+	METHOD method_4189 hardcore ()Z
+	METHOD method_4190 forceGamemode (Z)V
+		ARG 1 forceGamemode
+	METHOD method_4194 getIP ()Ljava/lang/String;
+	METHOD method_4195 setLevelName (Ljava/lang/String;)V
+		ARG 1 levelName
+	METHOD method_4199 setTexturePackURL (Ljava/lang/String;)V
+		ARG 1 texturePackURL
+	METHOD method_4200 getServerFolder ()Ljava/io/File;
+	METHOD method_4201 setMotd (Ljava/lang/String;)V
+		ARG 1 motd
+	METHOD method_4205 allowNether ()Z

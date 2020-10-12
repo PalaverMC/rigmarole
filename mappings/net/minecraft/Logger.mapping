@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_1170 net/minecraft/Logger
+	METHOD a getLogger ()Ljava/util/logging/Logger;
+	METHOD method_3699 info (Ljava/lang/String;)V
+	METHOD method_3700 warn (Ljava/lang/String;)V
+	METHOD method_3701 warn (Ljava/lang/String;Ljava/lang/Throwable;)V
+	METHOD method_3702 warn (Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD method_3703 severe (Ljava/lang/String;)V
+	METHOD method_3704 severe (Ljava/lang/String;Ljava/lang/Throwable;)V
+	METHOD method_3705 fine (Ljava/lang/String;)V

@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_29
+	METHOD <init> (JLnet/minecraft/class_13;)V
+		ARG 3 levelType
