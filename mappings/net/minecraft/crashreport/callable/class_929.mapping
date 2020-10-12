@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_929 net/minecraft/crashreport/callable/class_929
+	FIELD field_3480 dataType I
+	FIELD field_3481 compoundTag Lnet/minecraft/class_927;
+	METHOD <init> (Lnet/minecraft/class_927;I)V
+		ARG 1 compoundTag
+		ARG 2 dataType

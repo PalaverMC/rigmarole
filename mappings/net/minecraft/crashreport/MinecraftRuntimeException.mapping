@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1407 net/minecraft/crashreport/MinecraftRuntimeException
+	FIELD field_5481 crashReport Lnet/minecraft/class_653;
+	METHOD <init> (Lnet/minecraft/class_653;)V
+		ARG 1 crashReport
+	METHOD method_4921 getCrashReport ()Lnet/minecraft/class_653;

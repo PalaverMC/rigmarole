@@ -14,6 +14,10 @@ CLASS net/minecraft/class_927 net/minecraft/tag/CompoundTag
 	METHOD method_3038 putInteger (Ljava/lang/String;I)V
 		ARG 1 key
 		ARG 2 integer
+	METHOD method_3039 createError (Ljava/lang/String;ILjava/lang/ClassCastException;)Lnet/minecraft/class_653;
+		ARG 1 key
+		ARG 2 expectedDataType
+		ARG 3 classCastException
 	METHOD method_3040 putLong (Ljava/lang/String;J)V
 		ARG 1 key
 		ARG 2 l

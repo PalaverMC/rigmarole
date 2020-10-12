@@ -1,0 +1,16 @@
+CLASS net/minecraft/class_1192 net/minecraft/crashreport/class_1192
+	FIELD field_4327 crashReport Lnet/minecraft/class_653;
+	FIELD field_4328 message Ljava/lang/String;
+	FIELD field_4329 fields Ljava/util/List;
+	METHOD <init> (Lnet/minecraft/class_653;Ljava/lang/String;)V
+		ARG 1 crashReport
+		ARG 2 message
+	METHOD method_3807 put (Ljava/lang/String;Ljava/lang/Object;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_3808 put (Ljava/lang/String;Ljava/lang/Throwable;)V
+		ARG 1 key
+		ARG 2 throwable
+	METHOD method_3809 put (Ljava/lang/String;Ljava/util/concurrent/Callable;)V
+		ARG 1 key
+		ARG 2 callable

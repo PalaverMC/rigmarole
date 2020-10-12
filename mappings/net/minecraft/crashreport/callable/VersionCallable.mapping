@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_935 net/minecraft/crashreport/callable/VersionCallable
+	FIELD field_3486 crashReport Lnet/minecraft/class_653;
+	METHOD <init> (Lnet/minecraft/class_653;)V
+		ARG 1 crashReport
