@@ -1,1 +1,5 @@
 CLASS net/minecraft/class_940 net/minecraft/tag/StringTag
+	FIELD field_3491 value Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 key
+		ARG 2 value

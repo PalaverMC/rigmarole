@@ -1,1 +1,10 @@
 CLASS net/minecraft/class_936 net/minecraft/tag/ListTag
+	FIELD field_3487 list Ljava/util/List;
+	FIELD field_3488 listDataType B
+	METHOD method_3067 remove (I)Lnet/minecraft/class_941;
+		ARG 1 index
+	METHOD method_3068 (Lnet/minecraft/class_941;)V
+		ARG 1 tag
+	METHOD method_3069 get (I)Lnet/minecraft/class_941;
+		ARG 1 index
+	METHOD method_3070 size ()I

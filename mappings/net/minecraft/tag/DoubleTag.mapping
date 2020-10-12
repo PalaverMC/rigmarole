@@ -1,1 +1,5 @@
 CLASS net/minecraft/class_930 net/minecraft/tag/DoubleTag
+	FIELD field_3482 value D
+	METHOD <init> (Ljava/lang/String;D)V
+		ARG 1 key
+		ARG 2 value

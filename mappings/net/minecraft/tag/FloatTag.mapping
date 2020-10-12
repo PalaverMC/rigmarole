@@ -1,1 +1,5 @@
 CLASS net/minecraft/class_932 net/minecraft/tag/FloatTag
+	FIELD field_3483 value F
+	METHOD <init> (Ljava/lang/String;F)V
+		ARG 1 key
+		ARG 2 value

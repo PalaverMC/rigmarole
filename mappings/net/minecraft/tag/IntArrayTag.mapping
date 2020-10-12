@@ -1,1 +1,5 @@
 CLASS net/minecraft/class_933 net/minecraft/tag/IntArrayTag
+	FIELD field_3484 ints [I
+	METHOD <init> (Ljava/lang/String;[I)V
+		ARG 1 key
+		ARG 2 ints

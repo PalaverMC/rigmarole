@@ -1,1 +1,5 @@
 CLASS net/minecraft/class_934 net/minecraft/tag/IntTag
+	FIELD field_3485 value I
+	METHOD <init> (Ljava/lang/String;I)V
+		ARG 1 key
+		ARG 2 value
