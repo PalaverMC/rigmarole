@@ -2,3 +2,7 @@ CLASS net/minecraft/class_12 net/minecraft/world/ClientWorld
 	COMMENT Heads up: This class, along with World and the classes that
 	COMMENT extend it are a bit of a mystery. Stuff may not be what you expect
 	METHOD method_231 getBlockIdAtPos (III)I
+	METHOD method_239 getBlockEntityAtPos (III)Lnet/minecraft/class_408;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
