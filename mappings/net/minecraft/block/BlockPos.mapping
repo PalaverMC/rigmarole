@@ -1,0 +1,15 @@
+CLASS net/minecraft/class_408 net/minecraft/block/BlockPos
+	FIELD field_1223 world Lnet/minecraft/class_4;
+	FIELD field_1224 x I
+	FIELD field_1225 y I
+	FIELD field_1226 z I
+	FIELD field_1229 block Lnet/minecraft/class_366;
+	METHOD method_1249 getWorld ()Lnet/minecraft/class_4;
+	METHOD method_1278 readPos (Lnet/minecraft/class_927;)V
+		ARG 1 pos
+	METHOD method_1282 setWorld (Lnet/minecraft/class_4;)V
+		ARG 1 world
+	METHOD method_1283 writePos (Lnet/minecraft/class_927;)V
+		ARG 1 tag
+	METHOD method_1290 inWorld ()Z
+	METHOD method_1292 getBlock ()Lnet/minecraft/class_366;
