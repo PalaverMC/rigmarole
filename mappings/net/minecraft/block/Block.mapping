@@ -180,6 +180,13 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	METHOD method_1129 getRedstoneSignalStrength (Lnet/minecraft/class_12;IIII)I
 	METHOD method_1131 setStringId (Ljava/lang/String;)Lnet/minecraft/class_366;
 		ARG 1 id
+	METHOD method_1145 is (I)Z
+		ARG 1 blockId
+	METHOD method_1162 onRegister ()V
+		COMMENT This method is only used by FireBlock
+		COMMENT and is called after Minecraft registers it's own blocks.
+		COMMENT You can't use this as a registry callback.
+		COMMENT @see FireBlock
 	METHOD method_1165 getX1 ()D
 	METHOD method_1167 getX2 ()D
 	METHOD method_1168 getY1 ()D
