@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_343 net/minecraft/block/RedstoneDustBlock
+	METHOD <init> (I)V
+		ARG 1 id
