@@ -1,6 +1,6 @@
 # Rigmarole
 
-Rigmarole is a fork of Yarn for 1.5.2, so most of the documentation is from Yarn.
+Rigmarole is a fork of Yarn for 1.5.2 designed for the Palaver project.
 
 ## Original Yarn Readme
 
