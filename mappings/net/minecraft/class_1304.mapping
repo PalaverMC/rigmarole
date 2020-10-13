@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_1304
+	FIELD field_5092 tick I
+	METHOD <init> (Lnet/minecraft/class_1303;Lnet/minecraft/class_1223;I)V
+		ARG 3 tick

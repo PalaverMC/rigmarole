@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_231
+	FIELD field_716 id Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 id
+	METHOD method_759 read (Lnet/minecraft/class_927;)V
+		ARG 1 compoundTag
+	METHOD method_761 write (Lnet/minecraft/class_927;)V
+		ARG 1 compoundTag

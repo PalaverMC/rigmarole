@@ -3,6 +3,7 @@ CLASS net/minecraft/class_61 net/minecraft/world/dimensions/Dimension
 	FIELD field_310 levelType Lnet/minecraft/class_13;
 	FIELD field_311 generatorSettings Ljava/lang/String;
 	FIELD field_314 hasRoof Z
+	FIELD field_316 id I
 	METHOD method_453 get (I)Lnet/minecraft/class_61;
 		ARG 0 id
 	METHOD method_457 (Lnet/minecraft/class_4;)V

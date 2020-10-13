@@ -1,5 +1,6 @@
 CLASS net/minecraft/class_1207 net/minecraft/entity/Entity
 	FIELD field_4431 onGround Z
+	FIELD field_4440 width F
 	FIELD field_4441 height F
 	FIELD field_4445 fallDistance F
 	FIELD field_4453 random Ljava/util/Random;
@@ -9,6 +10,7 @@ CLASS net/minecraft/class_1207 net/minecraft/entity/Entity
 	FIELD field_4483 invulnerable Z
 	FIELD field_4484 uuid Ljava/util/UUID;
 	FIELD field_4485 id I
+	FIELD field_4491 world Lnet/minecraft/class_4;
 	FIELD field_4495 x D
 	FIELD field_4496 y D
 	FIELD field_4497 z D
@@ -17,7 +19,12 @@ CLASS net/minecraft/class_1207 net/minecraft/entity/Entity
 	FIELD field_4500 directionZ D
 	METHOD <init> (Lnet/minecraft/class_4;)V
 		ARG 1 world
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 object
 	METHOD method_3931 getEyeLevel ()D
+	METHOD method_3942 (FF)V
+		ARG 1 width
+		ARG 2 height
 	METHOD method_3950 (Lnet/minecraft/class_927;)V
 		ARG 1 compoundTag
 	METHOD method_3952 populateCrashReport (Lnet/minecraft/class_1192;)V
@@ -27,11 +34,39 @@ CLASS net/minecraft/class_1207 net/minecraft/entity/Entity
 		ARG 1 doubles
 	METHOD method_3962 toListTag ([F)Lnet/minecraft/class_936;
 		ARG 1 floats
+	METHOD method_3963 (Lnet/minecraft/class_1371;)Z
+		ARG 1 playerEntity
 	METHOD method_3976 getName ()Ljava/lang/String;
+	METHOD method_3987 (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_3988 (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD method_3992 (Lnet/minecraft/class_927;)V
 		ARG 1 compoundTag
+	METHOD method_4008 (Lnet/minecraft/class_1207;)F
+		ARG 1 entity
+	METHOD method_4011 (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_4014 (Lnet/minecraft/class_1207;)D
+		ARG 1 entity
+	METHOD method_4016 (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD method_4018 read (Lnet/minecraft/class_927;)V
 		ARG 1 compoundTag
+	METHOD method_4019 (Lnet/minecraft/class_1207;)V
+		ARG 1 entity
+	METHOD method_4021 (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD method_4024 setDirection (DDD)V
 		ARG 1 x
 		ARG 3 y

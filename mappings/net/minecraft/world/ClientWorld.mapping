@@ -1,8 +1,5 @@
-CLASS net/minecraft/class_12 net/minecraft/world/ClientWorld
-	COMMENT Heads up: This class, along with World and the classes that
-	COMMENT extend it are a bit of a mystery. Stuff may not be what you expect
-	METHOD method_231 getBlockIdAtPos (III)I
-	METHOD method_239 getBlockEntityAtPos (III)Lnet/minecraft/class_408;
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
+CLASS net/minecraft/class_743 net/minecraft/world/ClientWorld
+	FIELD field_2683 minecraft Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/class_735;Lnet/minecraft/class_10;IILnet/minecraft/class_1176;Lnet/minecraft/class_1170;)V
+		ARG 3 dimensionId
+		ARG 6 logger

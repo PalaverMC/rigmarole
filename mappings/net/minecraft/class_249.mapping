@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_249
+	METHOD method_844 (Lnet/minecraft/class_61;)Lnet/minecraft/class_53;
+		ARG 1 dimension
+	METHOD method_849 getWorldProperties ()Lnet/minecraft/class_238;

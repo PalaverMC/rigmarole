@@ -1,10 +1,11 @@
-CLASS net/minecraft/class_10 net/minecraft/server/class_10
+CLASS net/minecraft/class_10 net/minecraft/server/ServerSettings
 	FIELD field_76 seed J
 	FIELD field_77 defaultGameMode Lnet/minecraft/class_11;
 	FIELD field_78 generateStructures Z
 	FIELD field_79 hardcore Z
 	FIELD field_80 levelType Lnet/minecraft/class_13;
 	FIELD field_81 allowCommands Z
+	FIELD field_82 demo Z
 	FIELD field_83 generatorSettings Ljava/lang/String;
 	METHOD <init> (JLnet/minecraft/class_11;ZZLnet/minecraft/class_13;)V
 		ARG 1 seed
@@ -14,11 +15,13 @@ CLASS net/minecraft/class_10 net/minecraft/server/class_10
 		ARG 6 levelType
 	METHOD <init> (Lnet/minecraft/class_238;)V
 		ARG 1 worldProperties
+	METHOD method_207 setDemo ()Lnet/minecraft/class_10;
 	METHOD method_208 getGameModeFromId (I)Lnet/minecraft/class_11;
 		ARG 0 id
 	METHOD method_209 setGeneratorSettings (Ljava/lang/String;)Lnet/minecraft/class_10;
 		ARG 1 generatorSettings
 	METHOD method_210 commandsAllowed ()Lnet/minecraft/class_10;
+	METHOD method_211 isDemo ()Z
 	METHOD method_212 getSeed ()J
 	METHOD method_213 getDefaultGameMode ()Lnet/minecraft/class_11;
 	METHOD method_214 hardcore ()Z

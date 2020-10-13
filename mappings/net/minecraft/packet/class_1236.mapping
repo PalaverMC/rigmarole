@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_1236
+CLASS net/minecraft/class_1236 net/minecraft/packet/class_1236
 	FIELD field_4814 typeId I
 	FIELD field_4816 value Ljava/lang/Object;
 	METHOD <init> (IILjava/lang/Object;)V

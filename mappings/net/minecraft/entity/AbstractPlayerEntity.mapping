@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1371 net/minecraft/entity/AbstractPlayerEntity
+	FIELD field_5324 name Ljava/lang/String;
+	FIELD field_5338 playerAbilities Lnet/minecraft/class_1368;

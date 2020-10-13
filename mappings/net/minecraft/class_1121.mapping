@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_1121
+	FIELD field_3997 world Lnet/minecraft/class_1124;
+	FIELD field_4001 viewDistance I
+	METHOD <init> (Lnet/minecraft/class_1124;I)V
+		ARG 1 world
+		ARG 2 viewDistance
+	METHOD method_3477 getWorld ()Lnet/minecraft/class_1124;
+	METHOD method_3483 (Lnet/minecraft/class_1128;)V
+		ARG 1 player

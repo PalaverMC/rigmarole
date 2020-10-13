@@ -24,7 +24,10 @@ CLASS net/minecraft/class_238 net/minecraft/world/WorldProperties
 	FIELD field_747 initialized Z
 	FIELD field_748 gamerules Lnet/minecraft/class_1557;
 	METHOD <init> (Lnet/minecraft/class_10;Ljava/lang/String;)V
+		ARG 1 serverSettings
 		ARG 2 levelName
+	METHOD <init> (Lnet/minecraft/class_238;)V
+		ARG 1 worldProperties
 	METHOD <init> (Lnet/minecraft/class_927;)V
 		ARG 1 compoundTag
 	METHOD method_773 toCompoundTag ()Lnet/minecraft/class_927;
@@ -45,6 +48,7 @@ CLASS net/minecraft/class_238 net/minecraft/world/WorldProperties
 		ARG 2 playerTag
 	METHOD method_781 setLevelName (Ljava/lang/String;)V
 		ARG 1 levelName
+	METHOD method_782 populateCrashReport (Lnet/minecraft/class_1192;)V
 	METHOD method_783 setThundering (Z)V
 		ARG 1 thundering
 	METHOD method_784 getSeed ()J

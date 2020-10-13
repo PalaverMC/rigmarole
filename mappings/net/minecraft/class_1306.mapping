@@ -1,0 +1,27 @@
+CLASS net/minecraft/class_1306
+	FIELD field_5103 world Lnet/minecraft/class_4;
+	FIELD field_5104 blockPosList Ljava/util/List;
+	FIELD field_5107 tick I
+	METHOD <init> (Lnet/minecraft/class_4;)V
+		ARG 1 world
+	METHOD method_4527 ticking ()V
+	METHOD method_4528 addPos (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_4530 setWorld (Lnet/minecraft/class_4;)V
+		ARG 1 world
+	METHOD method_4531 (Lnet/minecraft/class_1381;)V
+		ARG 1 blockPos
+	METHOD method_4533 (III)Lnet/minecraft/class_1302;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_4535 containsBlockPos (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_4537 isWoodDoor (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1367 net/minecraft/entity/VillagerEntity
+	METHOD <init> (Lnet/minecraft/class_4;I)V
+		ARG 1 world

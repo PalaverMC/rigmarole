@@ -1,0 +1,28 @@
+CLASS net/minecraft/class_1302 net/minecraft/world/DoorPos
+	FIELD field_5071 x I
+	FIELD field_5072 y I
+	FIELD field_5073 z I
+	FIELD field_5074 idX I
+	FIELD field_5075 idY I
+	FIELD field_5076 idZ I
+	METHOD <init> (IIIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 idX
+		ARG 5 idY
+		ARG 6 idZ
+	METHOD method_4481 getX ()I
+	METHOD method_4482 (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD method_4483 getY ()I
+	METHOD method_4484 (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_4485 getZ ()I
+	METHOD method_4486 (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

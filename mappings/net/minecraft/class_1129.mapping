@@ -1,11 +1,16 @@
 CLASS net/minecraft/class_1129
 	FIELD field_4053 world Lnet/minecraft/class_4;
+	FIELD field_4054 player Lnet/minecraft/class_1128;
 	FIELD field_4055 gameMode Lnet/minecraft/class_11;
 	METHOD <init> (Lnet/minecraft/class_4;)V
 		ARG 1 world
-	METHOD method_3543 (Lnet/minecraft/class_11;)V
+	METHOD method_3543 updatePlayerAbilities (Lnet/minecraft/class_11;)V
 		ARG 1 gameMode
+	METHOD method_3545 (Lnet/minecraft/class_1371;Lnet/minecraft/class_4;Lnet/minecraft/class_1473;)Z
+		ARG 1 player
+		ARG 2 world
+		ARG 3 itemStack
 	METHOD method_3547 getGameMode ()Lnet/minecraft/class_11;
-	METHOD method_3549 (Lnet/minecraft/class_11;)V
+	METHOD method_3549 setGameMode (Lnet/minecraft/class_11;)V
 		ARG 1 gameMode
 	METHOD method_3551 isCreative ()Z

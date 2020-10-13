@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_1115 net/minecraft/world/DemoWorld
+	FIELD field_3983 seed J
+	FIELD field_3984 demoSettings Lnet/minecraft/class_10;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/class_249;Ljava/lang/String;ILnet/minecraft/class_1176;Lnet/minecraft/class_1170;)V
+		ARG 1 server
+		ARG 3 levelName
+		ARG 6 logger
