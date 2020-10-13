@@ -5,6 +5,10 @@ CLASS net/minecraft/class_1192 net/minecraft/crashreport/class_1192
 	METHOD <init> (Lnet/minecraft/class_653;Ljava/lang/String;)V
 		ARG 1 crashReport
 		ARG 2 message
+	METHOD method_3805 (III)Ljava/lang/String;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
 	METHOD method_3807 put (Ljava/lang/String;Ljava/lang/Object;)V
 		ARG 1 key
 		ARG 2 value

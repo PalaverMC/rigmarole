@@ -1,0 +1,67 @@
+CLASS net/minecraft/class_1473 net/minecraft/item/ItemStack
+	FIELD field_5779 count I
+	FIELD field_5781 itemId I
+	FIELD field_5782 tag Lnet/minecraft/class_927;
+	FIELD field_5783 damage I
+	METHOD <init> (III)V
+		ARG 1 itemId
+		ARG 2 count
+		ARG 3 damage
+	METHOD <init> (Lnet/minecraft/class_1471;)V
+		ARG 1 item
+	METHOD <init> (Lnet/minecraft/class_1471;I)V
+		ARG 1 item
+		ARG 2 count
+	METHOD <init> (Lnet/minecraft/class_1471;II)V
+		ARG 1 item
+		ARG 2 count
+		ARG 3 damage
+	METHOD <init> (Lnet/minecraft/class_366;)V
+		ARG 1 block
+	METHOD <init> (Lnet/minecraft/class_366;I)V
+		ARG 1 block
+		ARG 2 count
+	METHOD <init> (Lnet/minecraft/class_366;II)V
+		ARG 1 block
+		ARG 2 count
+		ARG 3 damage
+	METHOD method_5072 getRepairCost ()I
+	METHOD method_5074 split (I)Lnet/minecraft/class_1473;
+		ARG 1 count
+	METHOD method_5081 (Lnet/minecraft/class_366;)F
+		ARG 1 block
+	METHOD method_5082 createFromTag (Lnet/minecraft/class_927;)Lnet/minecraft/class_1473;
+		ARG 0 compoundTag
+	METHOD method_5083 addProperty (Ljava/lang/String;Lnet/minecraft/class_941;)V
+		ARG 1 key
+		ARG 2 tag
+	METHOD method_5090 equals (Lnet/minecraft/class_1473;)Z
+		ARG 1 itemStack
+	METHOD method_5092 (Lnet/minecraft/class_1532;I)V
+		ARG 1 enchantment
+		ARG 2 level
+	METHOD method_5093 getItem ()Lnet/minecraft/class_1471;
+	METHOD method_5094 setDamage (I)V
+		ARG 1 damage
+	METHOD method_5098 write (Lnet/minecraft/class_927;)Lnet/minecraft/class_927;
+		ARG 1 compoundTag
+	METHOD method_5099 copy (Lnet/minecraft/class_1473;)Lnet/minecraft/class_1473;
+		ARG 0 itemStack
+	METHOD method_5102 setRepairCost (I)V
+		ARG 1 repairCost
+	METHOD method_5103 read (Lnet/minecraft/class_927;)V
+		ARG 1 compoundTag
+	METHOD method_5104 setCustomName (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD method_5106 setTag (Lnet/minecraft/class_927;)V
+		ARG 1 tag
+	METHOD method_5107 equalsTags (Lnet/minecraft/class_1473;)Z
+		ARG 1 itemStack
+	METHOD method_5116 copy ()Lnet/minecraft/class_1473;
+	METHOD method_5118 getRightClickAction ()Lnet/minecraft/class_1501;
+	METHOD method_5119 hasTag ()Z
+	METHOD method_5120 getTag ()Lnet/minecraft/class_927;
+	METHOD method_5121 getEnchants ()Lnet/minecraft/class_936;
+	METHOD method_5122 getName ()Ljava/lang/String;
+	METHOD method_5123 hasCustomName ()Z
+	METHOD method_5127 hasEnchants ()Z

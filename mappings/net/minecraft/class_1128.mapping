@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_1128
+	FIELD field_4034 server Lnet/minecraft/server/MinecraftServer;
+	FIELD field_4036 language Lnet/minecraft/class_924;
+	FIELD field_4042 viewDistance I
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/class_4;Ljava/lang/String;Lnet/minecraft/class_1129;)V
+		ARG 1 server
+		ARG 2 world

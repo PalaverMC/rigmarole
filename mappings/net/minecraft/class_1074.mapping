@@ -2,6 +2,8 @@ CLASS net/minecraft/class_1074
 	FIELD field_3930 maxPlayer I
 	FIELD field_3931 viewDistance I
 	FIELD field_3933 server Lnet/minecraft/server/MinecraftServer;
+	FIELD field_3934 bannedPlayersManager Lnet/minecraft/class_1049;
+	FIELD field_3935 bannedIPManager Lnet/minecraft/class_1049;
 	FIELD field_3936 ops Ljava/util/Set;
 	FIELD field_3937 whiteListed Ljava/util/Set;
 	FIELD field_3939 whiteList Z

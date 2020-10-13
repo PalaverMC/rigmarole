@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_1472 net/minecraft/item/ItemMaterial
+	FIELD field_5773 miningLevel I
+	METHOD <init> (Ljava/lang/String;IIIFII)V
+		ARG 3 miningLevel
+	METHOD method_5068 getMiningLevel ()I
+	METHOD method_5070 getId ()I

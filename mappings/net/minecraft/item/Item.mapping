@@ -146,7 +146,7 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	FIELD field_5737 DISC_11 Lnet/minecraft/class_1471;
 	FIELD field_5738 DISC_WAIT Lnet/minecraft/class_1471;
 	FIELD field_5739 id I
-	FIELD field_5740 stackSize I
+	FIELD field_5740 maxStackSize I
 	FIELD field_5744 stringId Ljava/lang/String;
 	FIELD field_5746 rng Ljava/util/Random;
 	FIELD field_5747 items [Lnet/minecraft/class_1471;
@@ -172,9 +172,43 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	FIELD field_5767 STONE_AXE Lnet/minecraft/class_1471;
 	METHOD <init> (I)V
 		ARG 1 itemId
+	METHOD method_5006 getTranslationKey ()Ljava/lang/String;
+	METHOD method_5009 (ILnet/minecraft/class_1438;Ljava/util/List;)V
+		ARG 1 itemId
+		ARG 2 itemGroup
+		ARG 3 list
+	METHOD method_5011 dropOnRemove (Lnet/minecraft/class_366;)Z
+		ARG 1 block
 	METHOD method_5014 setItemGroup (Lnet/minecraft/class_1438;)Lnet/minecraft/class_1471;
 		ARG 1 itemGroup
+	METHOD method_5015 (Lnet/minecraft/class_1471;)Lnet/minecraft/class_1471;
+		ARG 1 item
+	METHOD method_5021 (Lnet/minecraft/class_1473;Lnet/minecraft/class_366;)F
+		ARG 1 itemStack
+		ARG 2 block
+	METHOD method_5024 onActivate (Lnet/minecraft/class_1473;Lnet/minecraft/class_1371;Lnet/minecraft/class_4;IIIIFFF)Z
+		ARG 1 itemStack
+		ARG 3 world
 	METHOD method_5030 setStringId (Ljava/lang/String;)Lnet/minecraft/class_1471;
 		ARG 1 id
 	METHOD method_5032 getRightClickAction (Lnet/minecraft/class_1473;)Lnet/minecraft/class_1501;
+		ARG 1 itemStack
+	METHOD method_5036 setMaxStackSize (I)Lnet/minecraft/class_1471;
+		ARG 1 maxStackSize
+	METHOD method_5037 getTranslationKey (Lnet/minecraft/class_1473;)Ljava/lang/String;
+		ARG 1 itemStack
+	METHOD method_5041 hasEnchantments (Lnet/minecraft/class_1473;)Z
+		ARG 1 itemStack
+	METHOD method_5043 getItemRarity (Lnet/minecraft/class_1473;)Lnet/minecraft/class_1484;
+		ARG 1 itemStack
+	METHOD method_5045 getName (Lnet/minecraft/class_1473;)Ljava/lang/String;
+		ARG 1 itemStack
+	METHOD method_5046 (Lnet/minecraft/class_1473;)Z
+		ARG 1 itemStack
+	METHOD method_5048 getTranslatedName (Lnet/minecraft/class_1473;)Ljava/lang/String;
+		ARG 1 itemStack
+	METHOD method_5049 getMaxStackSize ()I
+	METHOD method_5050 (Lnet/minecraft/class_1473;)Ljava/lang/String;
+		ARG 1 itemStack
+	METHOD method_5060 getTranslatedName ()Ljava/lang/String;
 	METHOD method_5063 getItemGroup ()Lnet/minecraft/class_1438;

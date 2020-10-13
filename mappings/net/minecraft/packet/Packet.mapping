@@ -1,0 +1,21 @@
+CLASS net/minecraft/class_1011 net/minecraft/packet/Packet
+	FIELD field_3772 CLASS_TO_ID Ljava/util/Map;
+	FIELD field_3775 ID_TO_CLASS Lnet/minecraft/class_1168;
+	FIELD field_3776 logger Lnet/minecraft/class_1170;
+	METHOD method_3162 register (IZZLjava/lang/Class;)V
+		ARG 0 id
+		ARG 3 classType
+	METHOD method_3164 (Lnet/minecraft/class_1011;)Z
+		ARG 1 packet
+	METHOD method_3165 (Lnet/minecraft/class_1011;Ljava/io/DataOutputStream;)V
+		ARG 0 packet
+	METHOD method_3167 read (Ljava/io/DataInputStream;)V
+		ARG 1 dataInputStream
+	METHOD method_3169 write (Ljava/io/DataOutputStream;)V
+		ARG 1 dataOutputStream
+	METHOD method_3172 createPacket (Lnet/minecraft/class_1170;I)Lnet/minecraft/class_1011;
+		ARG 0 logger
+		ARG 1 id
+	METHOD method_3173 (Lnet/minecraft/class_1170;Ljava/io/DataInputStream;ZLjava/net/Socket;)Lnet/minecraft/class_1011;
+		ARG 0 logger
+	METHOD method_3180 getId ()I

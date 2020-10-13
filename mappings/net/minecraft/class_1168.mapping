@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_1168
+	FIELD field_4278 IDS Ljava/util/Set;
+	METHOD method_3683 get (I)Ljava/lang/Object;
+	METHOD method_3686 put (ILjava/lang/Object;)V
+		ARG 1 id
+		ARG 2 classType
+	METHOD method_3688 contains (I)Z
+		ARG 1 id
+	METHOD method_3690 (I)Lnet/minecraft/class_1169;
+		ARG 1 id
+	METHOD method_3691 getIds ()Ljava/util/Set;

@@ -1,0 +1,18 @@
+CLASS net/minecraft/class_1368 net/minecraft/player/PlayerAbilities
+	FIELD field_5298 invulnerable Z
+	FIELD field_5299 flying Z
+	FIELD field_5300 mayFly Z
+	FIELD field_5301 instabuild Z
+	FIELD field_5302 mayBuild Z
+	FIELD field_5303 flySpeed F
+	FIELD field_5304 walkSpeed F
+	METHOD method_4732 getFlySpeed ()F
+	METHOD method_4733 setFlySpeed (F)V
+		ARG 1 flySpeed
+	METHOD method_4734 write (Lnet/minecraft/class_927;)V
+		ARG 1 compoundTag
+	METHOD method_4735 getWalkSpeed ()F
+	METHOD method_4736 setWalkSpeed (F)V
+		ARG 1 walkSpeed
+	METHOD method_4737 read (Lnet/minecraft/class_927;)V
+		ARG 1 compoundTag

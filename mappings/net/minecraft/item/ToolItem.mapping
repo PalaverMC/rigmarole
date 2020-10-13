@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_1451 net/minecraft/item/ToolItem
+	FIELD field_5569 itemMaterial Lnet/minecraft/class_1472;
+	FIELD field_5570 effectiveOn [Lnet/minecraft/class_366;
+	METHOD <init> (IILnet/minecraft/class_1472;[Lnet/minecraft/class_366;)V
+		ARG 1 id
+		ARG 3 itemMaterial
+		ARG 4 effectiveOn
+	METHOD method_4983 getItemMaterial ()Ljava/lang/String;

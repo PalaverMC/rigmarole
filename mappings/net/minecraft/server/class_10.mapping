@@ -12,6 +12,8 @@ CLASS net/minecraft/class_10 net/minecraft/server/class_10
 		ARG 4 generateStructures
 		ARG 5 hardcore
 		ARG 6 levelType
+	METHOD <init> (Lnet/minecraft/class_238;)V
+		ARG 1 worldProperties
 	METHOD method_208 getGameModeFromId (I)Lnet/minecraft/class_11;
 		ARG 0 id
 	METHOD method_209 setGeneratorSettings (Ljava/lang/String;)Lnet/minecraft/class_10;

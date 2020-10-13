@@ -1,0 +1,27 @@
+CLASS net/minecraft/class_1013 net/minecraft/packet/PlayerAbilitiesPacket
+	FIELD field_3783 invulnerable Z
+	FIELD field_3784 flying Z
+	FIELD field_3785 mayFly Z
+	FIELD field_3786 instabuild Z
+	FIELD field_3787 flySpeed F
+	FIELD field_3788 walkSpeed F
+	METHOD <init> (Lnet/minecraft/class_1368;)V
+		ARG 1 playerAbilities
+	METHOD method_3258 setFlySpeed (F)V
+		ARG 1 flySpeed
+	METHOD method_3259 setInvulnerable (Z)V
+		ARG 1 invulnerable
+	METHOD method_3260 setWalkSpeed (F)V
+		ARG 1 walkSpeed
+	METHOD method_3261 setFlying (Z)V
+		ARG 1 flying
+	METHOD method_3262 setMayFly (Z)V
+		ARG 1 mayFly
+	METHOD method_3263 isInvulnerable ()Z
+	METHOD method_3264 setInstabuild (Z)V
+		ARG 1 instabuild
+	METHOD method_3265 isFlying ()Z
+	METHOD method_3266 mayFly ()Z
+	METHOD method_3267 canInstabuild ()Z
+	METHOD method_3268 getFlySpeed ()F
+	METHOD method_3269 getWalkSpeed ()F

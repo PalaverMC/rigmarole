@@ -1,1 +1,6 @@
 CLASS net/minecraft/class_370 net/minecraft/block/material/BlockMaterial
+	FIELD field_1131 id Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;FF)V
+		ARG 1 id
+	METHOD method_1172 getDigSoundKey ()Ljava/lang/String;
+	METHOD method_1176 getStepSoundKey ()Ljava/lang/String;

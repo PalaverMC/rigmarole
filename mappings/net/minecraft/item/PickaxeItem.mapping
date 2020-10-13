@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1481 net/minecraft/item/PickaxeItem
+	FIELD field_5791 blocks [Lnet/minecraft/class_366;
+	METHOD <init> (ILnet/minecraft/class_1472;)V
+		ARG 1 id
+		ARG 2 itemMaterial

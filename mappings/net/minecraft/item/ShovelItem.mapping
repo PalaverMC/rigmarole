@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1492 net/minecraft/item/ShovelItem
+	FIELD field_5811 blocks [Lnet/minecraft/class_366;
+	METHOD <init> (ILnet/minecraft/class_1472;)V
+		ARG 1 id
+		ARG 2 itemMaterial

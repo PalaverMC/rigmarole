@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_1532 net/minecraft/enchantment/Enchantment
+	FIELD field_5901 id I

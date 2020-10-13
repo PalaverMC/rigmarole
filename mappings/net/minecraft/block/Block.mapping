@@ -60,6 +60,7 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_1076 x2 D
 	FIELD field_1077 y2 D
 	FIELD field_1078 z2 D
+	FIELD field_1079 blockMaterial Lnet/minecraft/class_370;
 	FIELD field_1084 SPRUCE_WOOD_STAIRS Lnet/minecraft/class_366;
 	FIELD field_1085 BIRCH_WOOD_STAIRS Lnet/minecraft/class_366;
 	FIELD field_1086 JUNGLE_WOOD_STAIRS Lnet/minecraft/class_366;
@@ -95,6 +96,7 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_1120 MATERIAL_LADDER Lnet/minecraft/class_370;
 	FIELD field_1121 MATERIAL_ANVIL Lnet/minecraft/class_370;
 	FIELD field_1122 blocks [Lnet/minecraft/class_366;
+	FIELD field_1123 opaqueBlocks [Z
 	FIELD field_1128 STONE Lnet/minecraft/class_366;
 	FIELD field_1129 GRASS Lnet/minecraft/class_302;
 	FIELD field_1130 DIRT Lnet/minecraft/class_366;
@@ -171,6 +173,8 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 		ARG 4 x2
 		ARG 5 y2
 		ARG 6 z2
+	METHOD method_1099 setMaterial (Lnet/minecraft/class_370;)Lnet/minecraft/class_366;
+		ARG 1 blockMaterial
 	METHOD method_1105 setItemGroup (Lnet/minecraft/class_1438;)Lnet/minecraft/class_366;
 		ARG 1 itemGroup
 	METHOD method_1108 isFull ()Z
