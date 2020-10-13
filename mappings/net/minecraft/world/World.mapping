@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_12 net/minecraft/world/IWorld
+CLASS net/minecraft/class_12 net/minecraft/world/World
 	COMMENT Heads up: This class, along with World and the classes that
 	COMMENT extend it are a bit of a mystery. Stuff may not be what you expect
 	METHOD method_230 getBiome (II)Lnet/minecraft/class_23;
