@@ -1,6 +1,13 @@
 CLASS net/minecraft/class_1207 net/minecraft/entity/Entity
+	FIELD field_4431 onGround Z
 	FIELD field_4441 height F
+	FIELD field_4445 fallDistance F
 	FIELD field_4453 random Ljava/util/Random;
+	FIELD field_4466 portalCooldown I
+	FIELD field_4469 dimensionId I
+	FIELD field_4479 fire I
+	FIELD field_4483 invulnerable Z
+	FIELD field_4484 uuid Ljava/util/UUID;
 	FIELD field_4485 id I
 	FIELD field_4495 x D
 	FIELD field_4496 y D
@@ -14,7 +21,17 @@ CLASS net/minecraft/class_1207 net/minecraft/entity/Entity
 	METHOD method_3950 (Lnet/minecraft/class_927;)V
 		ARG 1 compoundTag
 	METHOD method_3952 populateCrashReport (Lnet/minecraft/class_1192;)V
+	METHOD method_3954 (Lnet/minecraft/class_1207;)V
+		ARG 1 entity
+	METHOD method_3961 toListTag ([D)Lnet/minecraft/class_936;
+		ARG 1 doubles
+	METHOD method_3962 toListTag ([F)Lnet/minecraft/class_936;
+		ARG 1 floats
 	METHOD method_3976 getName ()Ljava/lang/String;
+	METHOD method_3992 (Lnet/minecraft/class_927;)V
+		ARG 1 compoundTag
+	METHOD method_4018 read (Lnet/minecraft/class_927;)V
+		ARG 1 compoundTag
 	METHOD method_4024 setDirection (DDD)V
 		ARG 1 x
 		ARG 3 y

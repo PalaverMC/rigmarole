@@ -1,0 +1,18 @@
+CLASS net/minecraft/class_1381 net/minecraft/world/BlockPos
+	FIELD field_5410 x I
+	FIELD field_5411 y I
+	FIELD field_5412 z I
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD <init> (Lnet/minecraft/class_1381;)V
+		ARG 1 blockPos
+	METHOD compareTo (Ljava/lang/Object;)I
+		ARG 1 blockPos
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 object
+	METHOD method_4859 set (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

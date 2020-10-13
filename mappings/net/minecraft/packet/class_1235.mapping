@@ -1,0 +1,16 @@
+CLASS net/minecraft/class_1235 net/minecraft/packet/class_1235
+	FIELD field_4810 DATA_TYPES Ljava/util/HashMap;
+	METHOD method_4361 getByte (I)B
+		ARG 1 id
+	METHOD method_4364 read (Ljava/io/DataInputStream;)Ljava/util/List;
+	METHOD method_4366 writeData (Ljava/io/DataOutputStream;Lnet/minecraft/class_1236;)V
+	METHOD method_4368 write (Ljava/util/List;Ljava/io/DataOutputStream;)V
+	METHOD method_4370 getShort (I)S
+		ARG 1 id
+	METHOD method_4373 getInt (I)I
+		ARG 1 id
+	METHOD method_4375 getString (I)Ljava/lang/String;
+		ARG 1 id
+	METHOD method_4376 getItemStack (I)Lnet/minecraft/class_1473;
+		ARG 1 id
+	METHOD method_4378 get (I)Lnet/minecraft/class_1236;
