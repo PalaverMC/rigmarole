@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_990 net/minecraft/packet/class_990
-	FIELD field_3694 x F
-	FIELD field_3695 y F
-	FIELD field_3696 z F

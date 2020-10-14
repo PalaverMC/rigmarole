@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_968 net/minecraft/packet/class_968
-	METHOD <init> (Lnet/minecraft/class_1207;I)V
-		ARG 1 entity

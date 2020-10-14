@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_1042 net/minecraft/packet/class_1042
-	FIELD field_3878 compoundTag Lnet/minecraft/class_927;
-	METHOD <init> (IIIILnet/minecraft/class_927;)V
-		ARG 5 compoundTag

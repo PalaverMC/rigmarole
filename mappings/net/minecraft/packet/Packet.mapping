@@ -5,32 +5,17 @@ CLASS net/minecraft/class_1011 net/minecraft/packet/Packet
 	METHOD method_3162 register (IZZLjava/lang/Class;)V
 		ARG 0 id
 		ARG 3 classType
-	METHOD method_3163 writeCompoundTag (Lnet/minecraft/class_927;Ljava/io/DataOutputStream;)V
-		ARG 0 compoundTag
 	METHOD method_3164 (Lnet/minecraft/class_1011;)Z
 		ARG 1 packet
-	METHOD method_3165 writePacket (Lnet/minecraft/class_1011;Ljava/io/DataOutputStream;)V
+	METHOD method_3165 (Lnet/minecraft/class_1011;Ljava/io/DataOutputStream;)V
 		ARG 0 packet
 	METHOD method_3167 read (Ljava/io/DataInputStream;)V
 		ARG 1 dataInputStream
-	METHOD method_3168 readString (Ljava/io/DataInputStream;I)Ljava/lang/String;
-		ARG 0 dataInputStream
-		ARG 1 maxLength
 	METHOD method_3169 write (Ljava/io/DataOutputStream;)V
-		ARG 1 dataOutputStream
-	METHOD method_3170 writeByteArray (Ljava/io/DataOutputStream;[B)V
-		ARG 1 byteArray
-	METHOD method_3171 writeString (Ljava/lang/String;Ljava/io/DataOutputStream;)V
-		ARG 0 string
 		ARG 1 dataOutputStream
 	METHOD method_3172 createPacket (Lnet/minecraft/class_1170;I)Lnet/minecraft/class_1011;
 		ARG 0 logger
 		ARG 1 id
-	METHOD method_3173 readPacket (Lnet/minecraft/class_1170;Ljava/io/DataInputStream;ZLjava/net/Socket;)Lnet/minecraft/class_1011;
+	METHOD method_3173 (Lnet/minecraft/class_1170;Ljava/io/DataInputStream;ZLjava/net/Socket;)Lnet/minecraft/class_1011;
 		ARG 0 logger
-	METHOD method_3174 writeItemStack (Lnet/minecraft/class_1473;Ljava/io/DataOutputStream;)V
-		ARG 0 itemStack
-	METHOD method_3176 readByteArray (Ljava/io/DataInputStream;)[B
-	METHOD method_3177 readItemStack (Ljava/io/DataInputStream;)Lnet/minecraft/class_1473;
-	METHOD method_3178 readCompoundTag (Ljava/io/DataInputStream;)Lnet/minecraft/class_927;
 	METHOD method_3180 getId ()I

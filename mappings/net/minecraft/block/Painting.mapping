@@ -1,4 +1,0 @@
-CLASS net/minecraft/class_1233 net/minecraft/block/Painting
-	FIELD field_4773 name Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
-		ARG 3 name

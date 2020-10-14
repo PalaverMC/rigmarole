@@ -1,2 +1,0 @@
-CLASS net/minecraft/class_1190
-	METHOD method_3802 getResource (Ljava/lang/String;)Lnet/minecraft/class_1189;

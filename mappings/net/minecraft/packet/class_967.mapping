@@ -1,8 +1,0 @@
-CLASS net/minecraft/class_967 net/minecraft/packet/class_967
-	FIELD field_3615 id I
-	FIELD field_3616 name Ljava/lang/String;
-	FIELD field_3617 x I
-	FIELD field_3618 y I
-	FIELD field_3619 z I
-	METHOD <init> (Lnet/minecraft/class_1371;)V
-		ARG 1 player

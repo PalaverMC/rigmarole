@@ -1,6 +1,0 @@
-CLASS net/minecraft/class_1001 net/minecraft/packet/class_1001
-	FIELD field_3748 levelType Lnet/minecraft/class_13;
-	FIELD field_3750 gameMode Lnet/minecraft/class_11;
-	METHOD <init> (ILnet/minecraft/class_13;Lnet/minecraft/class_11;ZIIII)V
-		ARG 2 levelType
-		ARG 3 gameMode

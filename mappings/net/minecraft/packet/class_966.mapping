@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_966 net/minecraft/packet/class_966
-	FIELD field_3609 id I
-	FIELD field_3614 paintingName Ljava/lang/String;
