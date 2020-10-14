@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_965 net/minecraft/packet/class_965
+	FIELD field_3596 id I
+	FIELD field_3598 x I
+	FIELD field_3599 y I
+	FIELD field_3600 z I
+	FIELD field_3601 directionX I
+	FIELD field_3602 directionY I
+	FIELD field_3603 directionZ I

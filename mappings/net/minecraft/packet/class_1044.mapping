@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_1044 net/minecraft/packet/class_1044
+	FIELD field_3885 x I
+	FIELD field_3886 y I
+	FIELD field_3887 z I
+	FIELD field_3888 blockId I
+	METHOD <init> (IIILnet/minecraft/class_4;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 world

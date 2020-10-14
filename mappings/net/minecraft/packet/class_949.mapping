@@ -1,0 +1,12 @@
+CLASS net/minecraft/class_949 net/minecraft/packet/class_949
+	FIELD field_3536 id I
+	FIELD field_3537 x I
+	FIELD field_3538 y I
+	FIELD field_3539 z I
+	FIELD field_3540 directionX I
+	FIELD field_3541 directionY I
+	FIELD field_3542 directionZ I
+	METHOD <init> (Lnet/minecraft/class_1207;I)V
+		ARG 1 entity
+	METHOD <init> (Lnet/minecraft/class_1207;II)V
+		ARG 1 entity
