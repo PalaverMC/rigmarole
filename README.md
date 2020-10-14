@@ -2,6 +2,8 @@
 
 Rigmarole is a fork of Yarn for 1.5.2 designed for the Palaver project.
 
+[Discord Server](https://discord.gg/AP2gYmM)
+
 ## Original Yarn Readme
 
 Yarn is a set of open, unencumbered Minecraft mappings, free for everyone to use under the Creative Commons Zero license. The intention is to let 
