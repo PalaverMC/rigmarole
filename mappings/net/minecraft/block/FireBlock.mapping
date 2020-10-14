@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_298 net/minecraft/block/FireBlock
+	METHOD method_977 burns (III)V
