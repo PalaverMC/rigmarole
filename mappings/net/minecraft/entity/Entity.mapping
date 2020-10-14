@@ -37,7 +37,7 @@ CLASS net/minecraft/class_1207 net/minecraft/entity/Entity
 	METHOD method_3963 (Lnet/minecraft/class_1371;)Z
 		ARG 1 playerEntity
 	METHOD method_3976 getName ()Ljava/lang/String;
-	METHOD method_3987 (DDD)V
+	METHOD method_3987 setPos (DDD)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z

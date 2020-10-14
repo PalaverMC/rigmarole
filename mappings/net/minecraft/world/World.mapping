@@ -10,6 +10,14 @@ CLASS net/minecraft/class_12 net/minecraft/world/World
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_233 (III)Lnet/minecraft/class_202;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_234 (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_239 getBlockEntityAtPos (III)Lnet/minecraft/class_408;
 		ARG 1 x
 		ARG 2 y

@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_47
+	METHOD method_338 (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
