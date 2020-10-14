@@ -1,5 +1,0 @@
-CLASS net/minecraft/class_202 net/minecraft/block/material/Material
-	FIELD field_608 color Lnet/minecraft/class_204;
-	FIELD field_616 ORGANIC Lnet/minecraft/class_202;
-	METHOD <init> (Lnet/minecraft/class_204;)V
-		ARG 1 color
