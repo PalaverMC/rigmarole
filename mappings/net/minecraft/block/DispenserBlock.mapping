@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_288 net/minecraft/block/DispenserBlock
+	FIELD field_814 behaviors Lnet/minecraft/class_908;

@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_350 net/minecraft/block/SignBlock
+	FIELD field_911 signBlockEntityClass Ljava/lang/Class;

@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_405 net/minecraft/block/entity/SignBlockEntity
+	FIELD field_1215 textRows [Ljava/lang/String;
