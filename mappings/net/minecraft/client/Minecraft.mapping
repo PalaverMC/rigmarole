@@ -1,3 +1,5 @@
 CLASS net/minecraft/client/Minecraft
+	FIELD field_4539 texturepackLoader Lnet/minecraft/class_902;
 	FIELD field_4553 INSTANCE Lnet/minecraft/client/Minecraft;
+	FIELD field_4592 textureLoader Lnet/minecraft/class_809;
 	METHOD method_4118 getInstance ()Lnet/minecraft/client/Minecraft;

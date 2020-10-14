@@ -1,1 +1,12 @@
 CLASS net/minecraft/class_204 net/minecraft/block/material/MaterialColor
+	FIELD field_641 COLORS [Lnet/minecraft/class_204;
+	FIELD field_642 BLACK Lnet/minecraft/class_204;
+	FIELD field_643 GREEN Lnet/minecraft/class_204;
+	FIELD field_644 YELLOW Lnet/minecraft/class_204;
+	FIELD field_645 GRAY Lnet/minecraft/class_204;
+	FIELD field_646 RED Lnet/minecraft/class_204;
+	FIELD field_656 color I
+	FIELD field_657 index I
+	METHOD <init> (II)V
+		ARG 1 index
+		ARG 2 color
