@@ -16,7 +16,7 @@ CLASS net/minecraft/class_1381 net/minecraft/world/BlockPos
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD method_4860 (III)F
+	METHOD method_4860 getDistanceTo (III)F
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z

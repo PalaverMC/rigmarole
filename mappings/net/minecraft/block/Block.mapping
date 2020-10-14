@@ -187,6 +187,7 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	METHOD method_1116 dropItem (Lnet/minecraft/class_4;IIILnet/minecraft/class_1473;)V
 		ARG 1 world
 	METHOD method_1123 isOpaque ()Z
+	METHOD method_1124 setHardness (F)Lnet/minecraft/class_366;
 	METHOD method_1129 getRedstoneSignalStrength (Lnet/minecraft/class_12;IIII)I
 	METHOD method_1131 setStringId (Ljava/lang/String;)Lnet/minecraft/class_366;
 		ARG 1 id
