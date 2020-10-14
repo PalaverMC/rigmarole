@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_983 net/minecraft/packet/class_983
+	FIELD field_3671 itemStacks [Lnet/minecraft/class_1473;

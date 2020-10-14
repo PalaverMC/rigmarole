@@ -22,9 +22,18 @@ CLASS net/minecraft/class_4 net/minecraft/world/AbstractWorld
 		ARG 1 dayTime
 	METHOD method_121 (Lnet/minecraft/class_1207;D)Lnet/minecraft/class_1371;
 		ARG 1 entity
+	METHOD method_126 (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_127 updateNeighborsExcept (IIIII)V
 	METHOD method_149 setDefaultSpawnPos ()V
 	METHOD method_153 updateNeighbors (IIII)V
+	METHOD method_155 (IIIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
 	METHOD method_160 updateBlock (IIII)V
 	METHOD method_21 setSpawnPos (III)V
 		ARG 1 x
@@ -36,6 +45,8 @@ CLASS net/minecraft/class_4 net/minecraft/world/AbstractWorld
 	METHOD method_29 getSpawnPos ()Lnet/minecraft/class_1381;
 	METHOD method_32 getWorldProperties ()Lnet/minecraft/class_238;
 	METHOD method_33 getGamerules ()Lnet/minecraft/class_1557;
+	METHOD method_38 getCalendar ()Ljava/util/Calendar;
+	METHOD method_40 getLogger ()Lnet/minecraft/class_1170;
 	METHOD method_56 setTime (J)V
 		ARG 1 time
 	METHOD method_77 getPlayer (Ljava/lang/String;)Lnet/minecraft/class_1371;

@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1021 net/minecraft/packet/class_1021
+	FIELD field_3810 publicKey Ljava/security/PublicKey;
+	METHOD <init> (Ljava/lang/String;Ljava/security/PublicKey;[B)V
+		ARG 2 publicKey
+	METHOD method_3271 getPublicKey ()Ljava/security/PublicKey;

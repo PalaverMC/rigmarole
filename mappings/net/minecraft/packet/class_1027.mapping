@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1027 net/minecraft/packet/class_1027
+	FIELD field_3825 itemStack Lnet/minecraft/class_1473;
+	METHOD <init> (IILnet/minecraft/class_1473;)V
+		ARG 3 itemStack
+	METHOD method_3274 getItemStack ()Lnet/minecraft/class_1473;

@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1037 net/minecraft/packet/class_1037
+	FIELD field_3856 secretKey Ljavax/crypto/SecretKey;
+	METHOD <init> (Ljavax/crypto/SecretKey;Ljava/security/PublicKey;[B)V
+		ARG 1 secretKey
+		ARG 2 publicKey

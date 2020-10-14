@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_964 net/minecraft/packet/class_964
+	FIELD field_3591 id I
+	FIELD field_3592 x I
+	FIELD field_3593 y I
+	FIELD field_3594 z I
+	FIELD field_3595 isLighteningBolt I
+	METHOD <init> (Lnet/minecraft/class_1207;)V
+		ARG 1 entity
