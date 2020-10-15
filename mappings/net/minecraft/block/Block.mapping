@@ -73,7 +73,6 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_1077 y2 D
 	FIELD field_1078 z2 D
 	FIELD field_1079 blockMaterial Lnet/minecraft/class_370;
-	FIELD field_1081 material Lnet/minecraft/class_202;
 	FIELD field_1084 SPRUCE_WOOD_STAIRS Lnet/minecraft/class_366;
 	FIELD field_1085 BIRCH_WOOD_STAIRS Lnet/minecraft/class_366;
 	FIELD field_1086 JUNGLE_WOOD_STAIRS Lnet/minecraft/class_366;
@@ -138,8 +137,7 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_953 LAPIS_BLOCK Lnet/minecraft/class_366;
 	FIELD field_954 DISPENSER Lnet/minecraft/class_366;
 	FIELD field_955 SANDSTONE Lnet/minecraft/class_366;
-	FIELD field_956 NOTEBLOCK Lnet/minecraft/class_366;
-		COMMENT
+	FIELD field_956 NOTE_BLOCK Lnet/minecraft/class_366;
 	FIELD field_957 BED Lnet/minecraft/class_366;
 	FIELD field_958 ACCELERATOR_RAIL Lnet/minecraft/class_366;
 	FIELD field_959 DETECTOR_RAIL Lnet/minecraft/class_366;
@@ -175,7 +173,6 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_989 TALL_GRASS Lnet/minecraft/class_361;
 	FIELD field_990 DEAD_BUSH Lnet/minecraft/class_282;
 	FIELD field_991 PISTON_BASE Lnet/minecraft/class_412;
-	FIELD field_992 PISTON_STEM Lnet/minecraft/class_413;
 	FIELD field_993 WOOL Lnet/minecraft/class_366;
 	FIELD field_994 PISTON_HEAD Lnet/minecraft/class_414;
 	FIELD field_995 FLOWER Lnet/minecraft/class_268;

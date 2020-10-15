@@ -2,3 +2,4 @@ CLASS net/minecraft/class_1108 net/minecraft/server/class_1108
 	FIELD field_3965 server Lnet/minecraft/class_1106;
 	METHOD <init> (Lnet/minecraft/class_1106;)V
 		ARG 1 server
+	METHOD run ()V
