@@ -21,16 +21,21 @@ CLASS net/minecraft/class_1207 net/minecraft/entity/Entity
 		ARG 1 world
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 object
+	METHOD method_3917 isTouchingWater ()Z
+	METHOD method_3919 isInLava ()Z
 	METHOD method_3931 getEyeLevel ()D
 	METHOD method_3942 (FF)V
 		ARG 1 width
 		ARG 2 height
-	METHOD method_3950 (Lnet/minecraft/class_927;)V
+	METHOD method_3950 toTag (Lnet/minecraft/class_927;)V
 		ARG 1 compoundTag
 	METHOD method_3951 playSound (Ljava/lang/String;FF)V
 	METHOD method_3952 populateCrashReport (Lnet/minecraft/class_1192;)V
 	METHOD method_3954 (Lnet/minecraft/class_1207;)V
 		ARG 1 entity
+	METHOD method_3958 spawnItem (Lnet/minecraft/class_1473;F)Lnet/minecraft/class_1335;
+		ARG 1 stack
+		ARG 2 yOffset
 	METHOD method_3961 toListTag ([D)Lnet/minecraft/class_936;
 		ARG 1 doubles
 	METHOD method_3962 toListTag ([F)Lnet/minecraft/class_936;
@@ -46,7 +51,7 @@ CLASS net/minecraft/class_1207 net/minecraft/entity/Entity
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD method_3992 (Lnet/minecraft/class_927;)V
+	METHOD method_3992 fromTag (Lnet/minecraft/class_927;)V
 		ARG 1 compoundTag
 	METHOD method_4008 (Lnet/minecraft/class_1207;)F
 		ARG 1 entity

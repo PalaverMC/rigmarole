@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1437 net/minecraft/item/NetworkSyncedItem
+	METHOD method_4967 createSyncPacket (Lnet/minecraft/class_1473;Lnet/minecraft/class_4;Lnet/minecraft/class_1371;)Lnet/minecraft/class_1011;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 player

@@ -1,4 +1,13 @@
 CLASS net/minecraft/class_1233 net/minecraft/block/Painting
 	FIELD field_4773 name Ljava/lang/String;
+	FIELD field_4774 width I
+	FIELD field_4775 height I
+	FIELD field_4776 textureU I
+	FIELD field_4777 textureV I
 	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
 		ARG 3 name
+		ARG 4 width
+		ARG 5 height
+		ARG 6 textureU
+		ARG 7 v
+	METHOD values ()[Lnet/minecraft/class_1233;

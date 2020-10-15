@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_1335 net/minecraft/entity/ItemEntity
+	METHOD <init> (Lnet/minecraft/class_4;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Lnet/minecraft/class_4;DDDLnet/minecraft/class_1473;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

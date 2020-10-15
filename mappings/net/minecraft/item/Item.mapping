@@ -28,7 +28,7 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	FIELD field_5617 MINECART Lnet/minecraft/class_1471;
 	FIELD field_5618 SADDLE Lnet/minecraft/class_1471;
 	FIELD field_5619 IRON_DOOR Lnet/minecraft/class_1471;
-	FIELD field_5620 REDSTONE_DUST Lnet/minecraft/class_1471;
+	FIELD field_5620 REDSTONE Lnet/minecraft/class_1471;
 	FIELD field_5621 SNOWBALL Lnet/minecraft/class_1471;
 	FIELD field_5622 BOAT Lnet/minecraft/class_1471;
 	FIELD field_5623 LEATHER Lnet/minecraft/class_1471;
@@ -82,10 +82,11 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	FIELD field_5671 EYE_OF_ENDER Lnet/minecraft/class_1471;
 	FIELD field_5672 GLISTERING_MELON Lnet/minecraft/class_1471;
 	FIELD field_5673 MONSTER_EGG Lnet/minecraft/class_1471;
-	FIELD field_5674 XP_BOTTLE Lnet/minecraft/class_1471;
-	FIELD field_5675 FIREBALL Lnet/minecraft/class_1471;
+	FIELD field_5674 EXPERIENCE_BOTTLE Lnet/minecraft/class_1471;
+	FIELD field_5675 FIRE_CHARGE Lnet/minecraft/class_1471;
 	FIELD field_5676 BOOK_AND_QUILL Lnet/minecraft/class_1471;
 	FIELD field_5677 WRITTEN_BOOK Lnet/minecraft/class_1471;
+	FIELD field_5678 damage I
 	FIELD field_5679 EMERALD Lnet/minecraft/class_1471;
 	FIELD field_5680 ITEM_FRAME Lnet/minecraft/class_1471;
 	FIELD field_5681 FLOWER_POT Lnet/minecraft/class_1471;
@@ -99,7 +100,7 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	FIELD field_5689 CARROT_ON_A_STICK Lnet/minecraft/class_1471;
 	FIELD field_5690 NETHER_STAR Lnet/minecraft/class_1471;
 	FIELD field_5691 PUMPKIN_PIE Lnet/minecraft/class_1471;
-	FIELD field_5692 FIREWORKS Lnet/minecraft/class_1471;
+	FIELD field_5692 FIREWORK_ROCKET Lnet/minecraft/class_1471;
 	FIELD field_5693 FIREWORKS_CHARGE Lnet/minecraft/class_1471;
 	FIELD field_5694 ENCHANTED_BOOK Lnet/minecraft/class_1456;
 	FIELD field_5695 COMPARATOR Lnet/minecraft/class_1471;
@@ -122,7 +123,7 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	FIELD field_5712 BLAZE_ROD Lnet/minecraft/class_1471;
 	FIELD field_5713 GHAST_TEAR Lnet/minecraft/class_1471;
 	FIELD field_5714 GOLD_NUGGET Lnet/minecraft/class_1471;
-	FIELD field_5715 NETHER_WART_SEEDS Lnet/minecraft/class_1471;
+	FIELD field_5715 NETHER_WART Lnet/minecraft/class_1471;
 	FIELD field_5716 POTION Lnet/minecraft/class_1483;
 	FIELD field_5717 GLASS_BOTTLE Lnet/minecraft/class_1471;
 	FIELD field_5718 SPIDER_EYE Lnet/minecraft/class_1471;
@@ -130,6 +131,7 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	FIELD field_5720 BLAZE_POWDER Lnet/minecraft/class_1471;
 	FIELD field_5721 MAGMA_CREAM Lnet/minecraft/class_1471;
 	FIELD field_5722 BREAWING_STAND Lnet/minecraft/class_1471;
+	FIELD field_5723 recipeRemainder Lnet/minecraft/class_1471;
 	FIELD field_5724 NETHER_QUARTZ Lnet/minecraft/class_1471;
 	FIELD field_5725 MINECART_TNT Lnet/minecraft/class_1471;
 	FIELD field_5726 MINECART_HOPPER Lnet/minecraft/class_1471;
@@ -185,7 +187,7 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	METHOD method_5012 render (Lnet/minecraft/class_1190;)V
 	METHOD method_5014 setItemGroup (Lnet/minecraft/class_1438;)Lnet/minecraft/class_1471;
 		ARG 1 itemGroup
-	METHOD method_5015 (Lnet/minecraft/class_1471;)Lnet/minecraft/class_1471;
+	METHOD method_5015 setRecipeRemainder (Lnet/minecraft/class_1471;)Lnet/minecraft/class_1471;
 		ARG 1 item
 	METHOD method_5016 getDecimalColor (Lnet/minecraft/class_1473;I)I
 		ARG 1 stack
@@ -210,6 +212,7 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	METHOD method_5025 (Lnet/minecraft/class_1473;Lnet/minecraft/class_1371;Ljava/util/List;Z)V
 		ARG 1 stack
 		ARG 2 entity
+	METHOD method_5029 hasColor ()Z
 	METHOD method_5030 setStringId (Ljava/lang/String;)Lnet/minecraft/class_1471;
 		ARG 1 id
 	METHOD method_5031 (Lnet/minecraft/class_1473;Lnet/minecraft/class_4;Lnet/minecraft/class_1371;)Lnet/minecraft/class_1473;
@@ -220,6 +223,7 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 		ARG 1 itemStack
 	METHOD method_5035 (Lnet/minecraft/class_1473;)I
 		ARG 1 stack
+	METHOD method_5033 getEnchantability ()I
 	METHOD method_5036 setMaxStackSize (I)Lnet/minecraft/class_1471;
 		ARG 1 maxStackSize
 	METHOD method_5037 getTranslationKey (Lnet/minecraft/class_1473;)Ljava/lang/String;
@@ -230,8 +234,11 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 		ARG 3 entity
 	METHOD method_5039 (Lnet/minecraft/class_1473;)Z
 		ARG 1 stack
+	METHOD method_5040 setDamage (I)Lnet/minecraft/class_1471;
+		ARG 1 damage
 	METHOD method_5041 hasEnchantments (Lnet/minecraft/class_1473;)Z
 		ARG 1 itemStack
+	METHOD method_5042 isNetworkSynced ()Z
 	METHOD method_5043 getDefaultRarity (Lnet/minecraft/class_1473;)Lnet/minecraft/class_1484;
 		ARG 1 itemStack
 	METHOD method_5045 getName (Lnet/minecraft/class_1473;)Ljava/lang/String;
@@ -243,5 +250,8 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	METHOD method_5049 getMaxStackSize ()I
 	METHOD method_5050 (Lnet/minecraft/class_1473;)Ljava/lang/String;
 		ARG 1 itemStack
+	METHOD method_5052 getDamage ()I
+	METHOD method_5058 getRecipeRemainder ()Lnet/minecraft/class_1471;
+	METHOD method_5059 hasRecipeRemainder ()Z
 	METHOD method_5060 getTranslatedName ()Ljava/lang/String;
 	METHOD method_5063 getItemGroup ()Lnet/minecraft/class_1438;

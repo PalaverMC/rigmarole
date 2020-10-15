@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1255 net/minecraft/entity/ai/goal/Goal
+	METHOD method_4420 canStart ()Z
+	METHOD method_4425 tick ()V

@@ -1,19 +1,19 @@
 CLASS net/minecraft/class_204 net/minecraft/block/material/MaterialColor
 	FIELD field_641 COLORS [Lnet/minecraft/class_204;
-	FIELD field_642 BLACK Lnet/minecraft/class_204;
+	FIELD field_642 CLEAR Lnet/minecraft/class_204;
 	FIELD field_643 GREEN Lnet/minecraft/class_204;
-	FIELD field_644 YELLOW Lnet/minecraft/class_204;
-	FIELD field_645 GRAY Lnet/minecraft/class_204;
-	FIELD field_646 RED Lnet/minecraft/class_204;
-	FIELD field_647 PURPLE Lnet/minecraft/class_204;
-	FIELD field_648 LIGHT_GRAY Lnet/minecraft/class_204;
-	FIELD field_649 CACTUS_GREEN Lnet/minecraft/class_204;
+	FIELD field_644 SAND Lnet/minecraft/class_204;
+	FIELD field_645 WEB Lnet/minecraft/class_204;
+	FIELD field_646 LAVA Lnet/minecraft/class_204;
+	FIELD field_647 ICE Lnet/minecraft/class_204;
+	FIELD field_648 IRON Lnet/minecraft/class_204;
+	FIELD field_649 FOLIAGE Lnet/minecraft/class_204;
 	FIELD field_650 WHITE Lnet/minecraft/class_204;
 	FIELD field_651 CLAY Lnet/minecraft/class_204;
-	FIELD field_652 BROWN Lnet/minecraft/class_204;
-	FIELD field_653 DARK_GRAY Lnet/minecraft/class_204;
-	FIELD field_654 BLUE Lnet/minecraft/class_204;
-	FIELD field_655 DARK_BROWN Lnet/minecraft/class_204;
+	FIELD field_652 DIRT Lnet/minecraft/class_204;
+	FIELD field_653 STONE Lnet/minecraft/class_204;
+	FIELD field_654 WATER Lnet/minecraft/class_204;
+	FIELD field_655 WOOD Lnet/minecraft/class_204;
 	FIELD field_656 color I
 	FIELD field_657 index I
 	METHOD <init> (II)V

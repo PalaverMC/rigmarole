@@ -1,1 +1,37 @@
 CLASS net/minecraft/class_202 net/minecraft/block/material/Material
+	FIELD field_602 GOURD Lnet/minecraft/class_202;
+	FIELD field_603 DRAGON_EGG Lnet/minecraft/class_202;
+	FIELD field_604 PORTAL Lnet/minecraft/class_202;
+	FIELD field_605 CAKE Lnet/minecraft/class_202;
+	FIELD field_606 COBWEB Lnet/minecraft/class_202;
+	FIELD field_607 PISTON Lnet/minecraft/class_202;
+	FIELD field_608 color Lnet/minecraft/class_204;
+	FIELD field_616 ORGANIC Lnet/minecraft/class_202;
+	FIELD field_617 SOIL Lnet/minecraft/class_202;
+	FIELD field_618 WOOD Lnet/minecraft/class_202;
+	FIELD field_619 STONE Lnet/minecraft/class_202;
+	FIELD field_620 METAL Lnet/minecraft/class_202;
+	FIELD field_621 ANVIL Lnet/minecraft/class_202;
+	FIELD field_622 WATER Lnet/minecraft/class_202;
+	FIELD field_623 LAVA Lnet/minecraft/class_202;
+	FIELD field_624 LEAVES Lnet/minecraft/class_202;
+	FIELD field_625 PLANT Lnet/minecraft/class_202;
+	FIELD field_626 REPLACEABLE_PLANT Lnet/minecraft/class_202;
+	FIELD field_627 SPONGE Lnet/minecraft/class_202;
+	FIELD field_628 BED Lnet/minecraft/class_202;
+	FIELD field_629 FIRE Lnet/minecraft/class_202;
+	FIELD field_630 AGGREGATE Lnet/minecraft/class_202;
+	FIELD field_631 SUPPORTED Lnet/minecraft/class_202;
+	FIELD field_632 GLASS Lnet/minecraft/class_202;
+	FIELD field_633 REDSTONE_LAMP Lnet/minecraft/class_202;
+	FIELD field_634 TNT Lnet/minecraft/class_202;
+	FIELD field_635 UNUSED_PLANT Lnet/minecraft/class_202;
+		COMMENT Not in use, but has foliage color.
+	FIELD field_636 ICE Lnet/minecraft/class_202;
+	FIELD field_637 SNOW_LAYER Lnet/minecraft/class_202;
+	FIELD field_638 SNOW Lnet/minecraft/class_202;
+	FIELD field_639 CACTUS Lnet/minecraft/class_202;
+	FIELD field_640 CLAY Lnet/minecraft/class_202;
+	METHOD method_693 setBurnable ()Lnet/minecraft/class_202;
+	METHOD method_700 setDestroyedByPiston ()Lnet/minecraft/class_202;
+	METHOD method_701 setBlocksPistons ()Lnet/minecraft/class_202;

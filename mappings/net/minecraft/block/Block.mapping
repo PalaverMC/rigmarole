@@ -20,14 +20,14 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_1018 NETHER_BRICK Lnet/minecraft/class_366;
 	FIELD field_1019 NETHER_BRICK_FENCE Lnet/minecraft/class_366;
 	FIELD field_1020 NETHER_BRICK_STAIRS Lnet/minecraft/class_366;
-	FIELD field_1021 NETHERWART Lnet/minecraft/class_366;
+	FIELD field_1021 NETHER_WART Lnet/minecraft/class_366;
 	FIELD field_1022 ENCHANTMENT_TABLE Lnet/minecraft/class_366;
 	FIELD field_1023 BREWING_STAND Lnet/minecraft/class_366;
 	FIELD field_1024 CAULDRON Lnet/minecraft/class_273;
 	FIELD field_1025 NETHER_PORTAL Lnet/minecraft/class_366;
 	FIELD field_1026 stringId Ljava/lang/String;
 	FIELD field_1027 END_PORTAL_FRAME Lnet/minecraft/class_366;
-	FIELD field_1028 ENDSTONE Lnet/minecraft/class_366;
+	FIELD field_1028 END_STONE Lnet/minecraft/class_366;
 	FIELD field_1029 DRAGON_EGG Lnet/minecraft/class_366;
 	FIELD field_1030 REDSTONE_LAMP_OFF Lnet/minecraft/class_366;
 	FIELD field_1031 REDSTONE_LAMP_ON Lnet/minecraft/class_366;
@@ -37,8 +37,8 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_1035 SANDSTONE_STAIRS Lnet/minecraft/class_366;
 	FIELD field_1036 EMERALD_ORE Lnet/minecraft/class_366;
 	FIELD field_1037 ENDER_CHEST Lnet/minecraft/class_366;
-	FIELD field_1038 TRIP_WIRE Lnet/minecraft/class_377;
-	FIELD field_1039 TRIP_WIRE_HOOK Lnet/minecraft/class_366;
+	FIELD field_1038 TRIPWIRE Lnet/minecraft/class_377;
+	FIELD field_1039 TRIPWIRE_HOOK Lnet/minecraft/class_366;
 	FIELD field_1040 EMERALD_BLOCK Lnet/minecraft/class_366;
 	FIELD field_1041 CLAY Lnet/minecraft/class_366;
 	FIELD field_1042 SUGAR_CANE Lnet/minecraft/class_366;
@@ -51,14 +51,13 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_1049 PORTAL Lnet/minecraft/class_332;
 	FIELD field_1050 JACK_O_LANTERN Lnet/minecraft/class_366;
 	FIELD field_1051 CAKE Lnet/minecraft/class_366;
-	FIELD field_1052 REPEATER Lnet/minecraft/class_347;
-	FIELD field_1053 REPEATER_BLOCKED Lnet/minecraft/class_347;
-	FIELD field_1054 LOCKED_CHEST Lnet/minecraft/class_366;
+	FIELD field_1052 REPEATER_OFF Lnet/minecraft/class_347;
+	FIELD field_1053 REPEATER_ON Lnet/minecraft/class_347;
 	FIELD field_1055 TRAPDOOR Lnet/minecraft/class_366;
-	FIELD field_1056 MOB_EGG Lnet/minecraft/class_366;
+	FIELD field_1056 MONSTER_EGG Lnet/minecraft/class_366;
 	FIELD field_1057 SMOOTH_STONE_BRICK Lnet/minecraft/class_366;
-	FIELD field_1058 BROWN_MUSHROOM_SKIN Lnet/minecraft/class_366;
-	FIELD field_1059 RED_MUSHROOM_SKIN Lnet/minecraft/class_366;
+	FIELD field_1058 BROWN_MUSHROOM_BLOCK Lnet/minecraft/class_366;
+	FIELD field_1059 RED_MUSHROOM_BLOCK Lnet/minecraft/class_366;
 	FIELD field_1060 IRON_BAR Lnet/minecraft/class_366;
 	FIELD field_1061 GLASS_PANE Lnet/minecraft/class_366;
 	FIELD field_1062 MELON Lnet/minecraft/class_366;
@@ -88,13 +87,13 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_1096 TRAPPED_CHEST Lnet/minecraft/class_366;
 	FIELD field_1097 LIGHT_WEIGHTED_PLATE Lnet/minecraft/class_366;
 	FIELD field_1098 HEAVY_WEIGHTED_PLATE Lnet/minecraft/class_366;
-	FIELD field_1099 COMPARATOR Lnet/minecraft/class_279;
-	FIELD field_1100 COMPARATOR_SUB Lnet/minecraft/class_279;
+	FIELD field_1099 COMPARATOR_OFF Lnet/minecraft/class_279;
+	FIELD field_1100 COMPARATOR_ON Lnet/minecraft/class_279;
 	FIELD field_1101 DAYLIGHT_DETECTOR Lnet/minecraft/class_281;
 	FIELD field_1102 REDSTONE_BLOCK Lnet/minecraft/class_366;
 	FIELD field_1103 NETHER_QUARTZ_ORE Lnet/minecraft/class_366;
 	FIELD field_1104 HOPPER Lnet/minecraft/class_309;
-	FIELD field_1105 NETHER_QUARTZ_BLOCK Lnet/minecraft/class_366;
+	FIELD field_1105 QUARTZ_BLOCK Lnet/minecraft/class_366;
 	FIELD field_1106 QUARTZ_STAIRS Lnet/minecraft/class_366;
 	FIELD field_1107 ACTIVATOR_RAIL Lnet/minecraft/class_366;
 	FIELD field_1108 DROPPER Lnet/minecraft/class_366;
@@ -104,7 +103,7 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_1112 MATERIAL_GRAVEL Lnet/minecraft/class_370;
 	FIELD field_1113 MATERIAL_GRASS Lnet/minecraft/class_370;
 	FIELD field_1114 MATERIAL_ROCK Lnet/minecraft/class_370;
-	FIELD field_1115 MATERIAL_METAL Lnet/minecraft/class_370;
+	FIELD field_1115 MATERIAL_RAIL Lnet/minecraft/class_370;
 	FIELD field_1116 MATERIAL_GLASS Lnet/minecraft/class_370;
 	FIELD field_1117 MATERIAL_CLOTH Lnet/minecraft/class_370;
 	FIELD field_1118 MATERIAL_SAND Lnet/minecraft/class_370;
@@ -116,8 +115,8 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_1128 STONE Lnet/minecraft/class_366;
 	FIELD field_1129 GRASS Lnet/minecraft/class_302;
 	FIELD field_1130 DIRT Lnet/minecraft/class_366;
-	FIELD field_935 STONE_BRICK Lnet/minecraft/class_366;
-	FIELD field_936 WOOD Lnet/minecraft/class_366;
+	FIELD field_935 COBBLESTONE Lnet/minecraft/class_366;
+	FIELD field_936 PLANKS Lnet/minecraft/class_366;
 	FIELD field_937 SAPLING Lnet/minecraft/class_366;
 	FIELD field_938 BEDROCK Lnet/minecraft/class_366;
 	FIELD field_939 STILL_WATER Lnet/minecraft/class_317;
@@ -139,7 +138,7 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_955 SANDSTONE Lnet/minecraft/class_366;
 	FIELD field_956 NOTE_BLOCK Lnet/minecraft/class_366;
 	FIELD field_957 BED Lnet/minecraft/class_366;
-	FIELD field_958 ACCELERATOR_RAIL Lnet/minecraft/class_366;
+	FIELD field_958 POWERED_RAIL Lnet/minecraft/class_366;
 	FIELD field_959 DETECTOR_RAIL Lnet/minecraft/class_366;
 	FIELD field_960 STICKY_PISTON_BASE Lnet/minecraft/class_412;
 	FIELD field_961 DIAMOND_ORE Lnet/minecraft/class_366;
@@ -150,7 +149,7 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_966 FURNACE Lnet/minecraft/class_366;
 	FIELD field_967 FURNACE_LIT Lnet/minecraft/class_366;
 	FIELD field_968 WALL_SIGN Lnet/minecraft/class_366;
-	FIELD field_969 WOOD_DOOR Lnet/minecraft/class_366;
+	FIELD field_969 WOODEN_DOOR Lnet/minecraft/class_366;
 	FIELD field_970 LADDER Lnet/minecraft/class_366;
 	FIELD field_971 RAIL Lnet/minecraft/class_366;
 	FIELD field_972 STONE_STAIRS Lnet/minecraft/class_366;
@@ -164,12 +163,12 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_980 REDSTONE_ORE_ACTIVATED Lnet/minecraft/class_366;
 	FIELD field_981 REDSTONE_TORCH_OFF Lnet/minecraft/class_366;
 	FIELD field_982 REDSTONE_TORCH_ON Lnet/minecraft/class_366;
-	FIELD field_983 BUTTON Lnet/minecraft/class_366;
+	FIELD field_983 STONE_BUTTON Lnet/minecraft/class_366;
 	FIELD field_984 LAYERED_SNOW Lnet/minecraft/class_366;
 	FIELD field_985 ICE Lnet/minecraft/class_366;
 	FIELD field_986 SNOW_BLOCK Lnet/minecraft/class_366;
 	FIELD field_987 CACTUS Lnet/minecraft/class_366;
-	FIELD field_988 WEB Lnet/minecraft/class_366;
+	FIELD field_988 COBWEB Lnet/minecraft/class_366;
 	FIELD field_989 TALL_GRASS Lnet/minecraft/class_361;
 	FIELD field_990 DEAD_BUSH Lnet/minecraft/class_282;
 	FIELD field_991 PISTON Lnet/minecraft/class_412;
@@ -183,7 +182,10 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_999 GOLD_BLOCK Lnet/minecraft/class_366;
 	METHOD <init> (ILnet/minecraft/class_202;)V
 		ARG 1 blockId
+		ARG 2 material
 	METHOD method_1068 getItemGroup ()Lnet/minecraft/class_1438;
+	METHOD method_1070 setLuminance (F)Lnet/minecraft/class_366;
+		COMMENT Sets the luminance of the block (0-1).
 	METHOD method_1071 setVoxelShape (FFFFFF)V
 		ARG 1 x1
 		ARG 2 y1
@@ -191,6 +193,9 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 		ARG 4 x2
 		ARG 5 y2
 		ARG 6 z2
+	METHOD method_1075 getItemDrop (ILjava/util/Random;I)I
+		ARG 2 random
+	METHOD method_1082 onMined (Lnet/minecraft/class_4;IIIIFI)V
 	METHOD method_1094 onActivate (Lnet/minecraft/class_4;IIILnet/minecraft/class_1371;IFFF)Z
 		ARG 1 world
 		ARG 2 x
@@ -202,6 +207,7 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	METHOD method_1105 setItemGroup (Lnet/minecraft/class_1438;)Lnet/minecraft/class_366;
 		ARG 1 itemGroup
 	METHOD method_1108 isFull ()Z
+	METHOD method_1109 setBlastResistance (F)Lnet/minecraft/class_366;
 	METHOD method_1116 dropItem (Lnet/minecraft/class_4;IIILnet/minecraft/class_1473;)V
 		ARG 1 world
 	METHOD method_1123 isOpaque ()Z
@@ -211,6 +217,7 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 		ARG 1 id
 	METHOD method_1145 is (I)Z
 		ARG 1 blockId
+	METHOD method_1159 setIndestructible ()Lnet/minecraft/class_366;
 	METHOD method_1162 onRegister ()V
 		COMMENT This method is only used by FireBlock
 		COMMENT and is called after Minecraft registers it's own blocks.
