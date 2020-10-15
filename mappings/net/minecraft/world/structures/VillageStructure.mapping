@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_1303 net/minecraft/world/structures/class_1303
+CLASS net/minecraft/class_1303 net/minecraft/world/structures/VillageStructure
 	FIELD field_5079 world Lnet/minecraft/class_4;
 	FIELD field_5080 doorPosList Ljava/util/List;
 	FIELD field_5082 villageCenter Lnet/minecraft/class_1381;

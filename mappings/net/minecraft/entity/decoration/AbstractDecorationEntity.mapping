@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1221 net/minecraft/entity/decoration/AbstractDecorationEntity
+	METHOD method_4057 getPaintingWidth ()I
+	METHOD method_4058 getPaintingHeight ()I

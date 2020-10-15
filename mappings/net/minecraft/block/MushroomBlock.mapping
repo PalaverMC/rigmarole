@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_310 net/minecraft/block/MushroomBlock
+	FIELD field_848 type I
+	METHOD <init> (ILnet/minecraft/class_202;I)V
+		ARG 1 blockId
+		ARG 2 material
+		ARG 3 type

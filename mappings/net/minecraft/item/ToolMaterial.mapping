@@ -1,4 +1,5 @@
-CLASS net/minecraft/class_1472 net/minecraft/item/ItemMaterial
+CLASS net/minecraft/class_1472 net/minecraft/item/ToolMaterial
+	FIELD field_5771 DIAMOND Lnet/minecraft/class_1472;
 	FIELD field_5773 miningLevel I
 	METHOD <init> (Ljava/lang/String;IIIFII)V
 		ARG 3 miningLevel

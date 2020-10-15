@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_1423 net/minecraft/item/ArmorMaterial
+	FIELD field_5538 durabilityMultiplier I
+	FIELD field_5539 protectionAmounts [I
+	FIELD field_5540 enchantability I
+	METHOD <init> (Ljava/lang/String;II[II)V
+		ARG 3 durabilityMultiplier
+		ARG 4 protectionAmounts
+		ARG 5 enchantability
+	METHOD method_4957 getEnchantability ()I
+	METHOD method_4959 getRepairIngredient ()I
