@@ -1,1 +1,5 @@
 CLASS net/minecraft/class_1466 net/minecraft/item/GenericFoodItem
+	METHOD method_4999 (Lnet/minecraft/class_1473;Lnet/minecraft/class_4;Lnet/minecraft/class_1371;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 entity

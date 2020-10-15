@@ -193,6 +193,10 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 		ARG 1 stack
 		ARG 2 world
 		ARG 3 entity
+	METHOD method_5019 (Lnet/minecraft/class_1473;Lnet/minecraft/class_4;Lnet/minecraft/class_1371;)Lnet/minecraft/class_1473;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 entity
 	METHOD method_5020 (Lnet/minecraft/class_1473;Lnet/minecraft/class_4;Lnet/minecraft/class_1371;I)V
 		ARG 1 stack
 		ARG 2 world
@@ -208,6 +212,10 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 		ARG 2 entity
 	METHOD method_5030 setStringId (Ljava/lang/String;)Lnet/minecraft/class_1471;
 		ARG 1 id
+	METHOD method_5031 (Lnet/minecraft/class_1473;Lnet/minecraft/class_4;Lnet/minecraft/class_1371;)Lnet/minecraft/class_1473;
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 entity
 	METHOD method_5032 getRightClickAction (Lnet/minecraft/class_1473;)Lnet/minecraft/class_1501;
 		ARG 1 itemStack
 	METHOD method_5035 (Lnet/minecraft/class_1473;)I
@@ -224,7 +232,7 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 		ARG 1 stack
 	METHOD method_5041 hasEnchantments (Lnet/minecraft/class_1473;)Z
 		ARG 1 itemStack
-	METHOD method_5043 getItemRarity (Lnet/minecraft/class_1473;)Lnet/minecraft/class_1484;
+	METHOD method_5043 getDefaultRarity (Lnet/minecraft/class_1473;)Lnet/minecraft/class_1484;
 		ARG 1 itemStack
 	METHOD method_5045 getName (Lnet/minecraft/class_1473;)Ljava/lang/String;
 		ARG 1 itemStack
