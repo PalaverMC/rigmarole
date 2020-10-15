@@ -120,10 +120,10 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_936 WOOD Lnet/minecraft/class_366;
 	FIELD field_937 SAPLING Lnet/minecraft/class_366;
 	FIELD field_938 BEDROCK Lnet/minecraft/class_366;
-	FIELD field_939 WATER Lnet/minecraft/class_317;
-	FIELD field_940 WATER2 Lnet/minecraft/class_366;
-	FIELD field_941 LAVA Lnet/minecraft/class_317;
-	FIELD field_942 LAVA2 Lnet/minecraft/class_366;
+	FIELD field_939 STILL_WATER Lnet/minecraft/class_317;
+	FIELD field_940 FLOWING_WATER Lnet/minecraft/class_366;
+	FIELD field_941 STILL_LAVA Lnet/minecraft/class_317;
+	FIELD field_942 FLOWING_LAVA Lnet/minecraft/class_366;
 	FIELD field_943 SAND Lnet/minecraft/class_366;
 	FIELD field_944 GRAVEL Lnet/minecraft/class_366;
 	FIELD field_945 GOLD_ORE Lnet/minecraft/class_366;
@@ -172,9 +172,10 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_988 WEB Lnet/minecraft/class_366;
 	FIELD field_989 TALL_GRASS Lnet/minecraft/class_361;
 	FIELD field_990 DEAD_BUSH Lnet/minecraft/class_282;
-	FIELD field_991 PISTON_BASE Lnet/minecraft/class_412;
+	FIELD field_991 PISTON Lnet/minecraft/class_412;
+	FIELD field_992 PISTON_HEAD Lnet/minecraft/class_413;
 	FIELD field_993 WOOL Lnet/minecraft/class_366;
-	FIELD field_994 PISTON_HEAD Lnet/minecraft/class_414;
+	FIELD field_994 MOVING_PISTON Lnet/minecraft/class_414;
 	FIELD field_995 FLOWER Lnet/minecraft/class_268;
 	FIELD field_996 ROSE Lnet/minecraft/class_268;
 	FIELD field_997 BROWN_MUSHROOM Lnet/minecraft/class_268;

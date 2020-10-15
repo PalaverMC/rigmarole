@@ -2,7 +2,7 @@ CLASS net/minecraft/class_1368 net/minecraft/player/PlayerAbilities
 	FIELD field_5298 invulnerable Z
 	FIELD field_5299 flying Z
 	FIELD field_5300 mayFly Z
-	FIELD field_5301 instabuild Z
+	FIELD field_5301 instaBuild Z
 	FIELD field_5302 mayBuild Z
 	FIELD field_5303 flySpeed F
 	FIELD field_5304 walkSpeed F
