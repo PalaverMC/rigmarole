@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_1332 net/minecraft/entity/LighteningBolt
+CLASS net/minecraft/class_1332 net/minecraft/entity/LightningBolt
 	METHOD <init> (Lnet/minecraft/class_4;DDD)V
 		ARG 1 world
 		ARG 2 x
