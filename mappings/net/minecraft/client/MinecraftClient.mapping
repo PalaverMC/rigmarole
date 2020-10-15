@@ -1,0 +1,17 @@
+CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
+	FIELD field_4539 texturepackLoader Lnet/minecraft/class_902;
+	FIELD field_4551 logger Lnet/minecraft/class_1170;
+	FIELD field_4553 INSTANCE Lnet/minecraft/client/Minecraft;
+	FIELD field_4576 workingDir Ljava/io/File;
+	FIELD field_4589 canvas Ljava/awt/Canvas;
+	FIELD field_4592 textureLoader Lnet/minecraft/class_809;
+	METHOD <init> (Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 1 canvas
+		ARG 2 applet
+	METHOD method_4075 initWindow ()V
+	METHOD method_4086 setWorkingDir (Ljava/lang/String;)Ljava/io/File;
+		ARG 0 path
+	METHOD method_4091 getWorkingDir ()Ljava/io/File;
+	METHOD method_4094 getPlatform ()Lnet/minecraft/class_542;
+	METHOD method_4100 logGlError (Ljava/lang/String;)V
+	METHOD method_4118 getInstance ()Lnet/minecraft/client/Minecraft;

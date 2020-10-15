@@ -1,1 +1,4 @@
 CLASS net/minecraft/class_746 net/minecraft/client/entity/ClientPlayer
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lnet/minecraft/class_4;Lnet/minecraft/class_555;Lnet/minecraft/class_735;)V
+		ARG 1 client
+		ARG 2 world

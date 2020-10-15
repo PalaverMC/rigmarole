@@ -27,6 +27,7 @@ CLASS net/minecraft/class_1207 net/minecraft/entity/Entity
 		ARG 2 height
 	METHOD method_3950 (Lnet/minecraft/class_927;)V
 		ARG 1 compoundTag
+	METHOD method_3951 playSound (Ljava/lang/String;FF)V
 	METHOD method_3952 populateCrashReport (Lnet/minecraft/class_1192;)V
 	METHOD method_3954 (Lnet/minecraft/class_1207;)V
 		ARG 1 entity

@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_1161 net/minecraft/LogFormatter
+	FIELD field_4262 manager Lnet/minecraft/class_1159;
+	FIELD field_4263 format Ljava/text/SimpleDateFormat;
+	METHOD <init> (Lnet/minecraft/class_1159;)V
+		ARG 1 manager
+	METHOD format (Ljava/util/logging/LogRecord;)Ljava/lang/String;
+		ARG 1 record

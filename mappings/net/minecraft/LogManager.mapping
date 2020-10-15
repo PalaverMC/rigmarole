@@ -1,2 +1,10 @@
 CLASS net/minecraft/class_1159 net/minecraft/LogManager
 	FIELD field_4258 LOGGER Ljava/util/logging/Logger;
+	FIELD field_4259 fileName Ljava/lang/String;
+	FIELD field_4260 source Ljava/lang/String;
+	FIELD field_4261 side Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 source
+		ARG 2 side
+		ARG 3 fileName
+	METHOD method_3659 log ()V

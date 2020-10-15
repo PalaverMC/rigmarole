@@ -35,9 +35,14 @@ CLASS net/minecraft/class_1473 net/minecraft/item/ItemStack
 	METHOD method_5083 addProperty (Ljava/lang/String;Lnet/minecraft/class_941;)V
 		ARG 1 key
 		ARG 2 tag
+	METHOD method_5088 (Lnet/minecraft/class_1371;Lnet/minecraft/class_4;IIIIFFF)Z
+		ARG 1 entity
+		ARG 2 world
+	METHOD method_5089 getItemDisplay (Lnet/minecraft/class_1371;Z)Ljava/util/List;
+		ARG 1 entity
 	METHOD method_5090 equals (Lnet/minecraft/class_1473;)Z
 		ARG 1 itemStack
-	METHOD method_5092 (Lnet/minecraft/class_1532;I)V
+	METHOD method_5092 enchant (Lnet/minecraft/class_1532;I)V
 		ARG 1 enchantment
 		ARG 2 level
 	METHOD method_5093 getItem ()Lnet/minecraft/class_1471;
@@ -64,4 +69,6 @@ CLASS net/minecraft/class_1473 net/minecraft/item/ItemStack
 	METHOD method_5121 getEnchants ()Lnet/minecraft/class_936;
 	METHOD method_5122 getName ()Ljava/lang/String;
 	METHOD method_5123 hasCustomName ()Z
+	METHOD method_5124 getEnchantments ()Z
+	METHOD method_5125 getItemRarity ()Lnet/minecraft/class_1484;
 	METHOD method_5127 hasEnchants ()Z

@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_1546 net/minecraft/enchantment/ThornsEnchantment
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 weight
+	METHOD method_5257 (Lnet/minecraft/class_1207;Lnet/minecraft/class_1223;Ljava/util/Random;)V
+		ARG 0 entity
+		ARG 2 random

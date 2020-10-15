@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_386 net/minecraft/block/WoodBlock
+	FIELD field_1144 LOG_TYPES [Ljava/lang/String;
+	FIELD field_1145 WOOD_TYPES [Ljava/lang/String;

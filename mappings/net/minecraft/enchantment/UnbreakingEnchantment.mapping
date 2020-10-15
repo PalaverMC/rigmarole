@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_1530 net/minecraft/enchantment/UnbreakingEnchantment
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 weight
+	METHOD method_5210 (Lnet/minecraft/class_1473;ILjava/util/Random;)Z
+		ARG 0 stack
+		ARG 2 random
