@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_1252 net/minecraft/entity/ai/goal/SwimGoal
+	FIELD field_4883 mob Lnet/minecraft/class_1223;
+	METHOD <init> (Lnet/minecraft/class_1223;)V
+		ARG 1 mob

@@ -21,6 +21,8 @@ CLASS net/minecraft/class_1207 net/minecraft/entity/Entity
 		ARG 1 world
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 object
+	METHOD method_3917 isTouchingWater ()Z
+	METHOD method_3919 isInLava ()Z
 	METHOD method_3931 getEyeLevel ()D
 	METHOD method_3942 (FF)V
 		ARG 1 width

@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1239 net/minecraft/entity/ai/control/JumpControl
+	METHOD method_4397 setActive ()V
