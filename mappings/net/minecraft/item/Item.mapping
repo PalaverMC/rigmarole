@@ -100,7 +100,7 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	FIELD field_5689 CARROT_ON_A_STICK Lnet/minecraft/class_1471;
 	FIELD field_5690 NETHER_STAR Lnet/minecraft/class_1471;
 	FIELD field_5691 PUMPKIN_PIE Lnet/minecraft/class_1471;
-	FIELD field_5692 FIREWORKS Lnet/minecraft/class_1471;
+	FIELD field_5692 FIREWORK_ROCKET Lnet/minecraft/class_1471;
 	FIELD field_5693 FIREWORKS_CHARGE Lnet/minecraft/class_1471;
 	FIELD field_5694 ENCHANTED_BOOK Lnet/minecraft/class_1456;
 	FIELD field_5695 COMPARATOR Lnet/minecraft/class_1471;

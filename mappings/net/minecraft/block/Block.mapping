@@ -180,6 +180,7 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_999 GOLD_BLOCK Lnet/minecraft/class_366;
 	METHOD <init> (ILnet/minecraft/class_202;)V
 		ARG 1 blockId
+		ARG 2 material
 	METHOD method_1068 getItemGroup ()Lnet/minecraft/class_1438;
 	METHOD method_1070 setLuminance (F)Lnet/minecraft/class_366;
 		COMMENT Sets the luminance of the block (0-1).

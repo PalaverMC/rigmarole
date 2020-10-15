@@ -1,1 +1,3 @@
 CLASS net/minecraft/class_271 net/minecraft/block/CakeBlock
+	METHOD <init> (I)V
+		ARG 1 blockId

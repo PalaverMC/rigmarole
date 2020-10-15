@@ -1,3 +1,5 @@
 CLASS net/minecraft/class_268 net/minecraft/block/PlantBlock
+	METHOD <init> (I)V
+		ARG 1 blockId
 	METHOD method_915 canPlaceOn (I)Z
 		ARG 1 blockId
