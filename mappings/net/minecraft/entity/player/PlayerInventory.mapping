@@ -1,0 +1,22 @@
+CLASS net/minecraft/class_1369 net/minecraft/entity/player/PlayerInventory
+	FIELD field_5305 main [Lnet/minecraft/class_1473;
+	FIELD field_5306 armor [Lnet/minecraft/class_1473;
+	FIELD field_5307 selectedSlot I
+	FIELD field_5308 player Lnet/minecraft/class_1371;
+	FIELD field_5310 heldStack Lnet/minecraft/class_1473;
+	METHOD <init> (Lnet/minecraft/class_1371;)V
+		ARG 1 player
+	METHOD method_4738 (IIZZ)V
+		ARG 3 matchMeta
+	METHOD method_4749 scrollInHotbar (I)V
+		ARG 1 scrollAmount
+	METHOD method_4752 getSlotWithItemIdAndMeta (II)I
+		ARG 1 itemId
+		ARG 2 meta
+	METHOD method_4753 getSlotWithStack (Lnet/minecraft/class_1473;)I
+		ARG 1 stack
+	METHOD method_4758 getHeldStack ()Lnet/minecraft/class_1473;
+	METHOD method_4759 getSlotWithItemId (I)I
+		ARG 1 itemId
+	METHOD method_4760 getHotbarSize ()I
+	METHOD method_4761 getEmptySlot ()I

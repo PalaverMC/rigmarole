@@ -149,6 +149,7 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	FIELD field_5738 DISC_WAIT Lnet/minecraft/class_1471;
 	FIELD field_5739 id I
 	FIELD field_5740 maxStackSize I
+	FIELD field_5742 hasMeta Z
 	FIELD field_5744 stringId Ljava/lang/String;
 	FIELD field_5746 rng Ljava/util/Random;
 	FIELD field_5747 items [Lnet/minecraft/class_1471;
@@ -212,6 +213,8 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	METHOD method_5025 (Lnet/minecraft/class_1473;Lnet/minecraft/class_1371;Ljava/util/List;Z)V
 		ARG 1 stack
 		ARG 2 entity
+	METHOD method_5027 setHasMeta (Z)Lnet/minecraft/class_1471;
+		ARG 1 hasMeta
 	METHOD method_5029 hasColor ()Z
 	METHOD method_5030 setStringId (Ljava/lang/String;)Lnet/minecraft/class_1471;
 		ARG 1 id
@@ -221,9 +224,9 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 		ARG 3 entity
 	METHOD method_5032 getRightClickAction (Lnet/minecraft/class_1473;)Lnet/minecraft/class_1501;
 		ARG 1 itemStack
+	METHOD method_5033 getEnchantability ()I
 	METHOD method_5035 (Lnet/minecraft/class_1473;)I
 		ARG 1 stack
-	METHOD method_5033 getEnchantability ()I
 	METHOD method_5036 setMaxStackSize (I)Lnet/minecraft/class_1471;
 		ARG 1 maxStackSize
 	METHOD method_5037 getTranslationKey (Lnet/minecraft/class_1473;)Ljava/lang/String;
@@ -248,8 +251,9 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	METHOD method_5048 getTranslatedName (Lnet/minecraft/class_1473;)Ljava/lang/String;
 		ARG 1 itemStack
 	METHOD method_5049 getMaxStackSize ()I
-	METHOD method_5050 (Lnet/minecraft/class_1473;)Ljava/lang/String;
+	METHOD method_5050 getDefaultTranslation (Lnet/minecraft/class_1473;)Ljava/lang/String;
 		ARG 1 itemStack
+	METHOD method_5051 hasMeta ()Z
 	METHOD method_5052 getDamage ()I
 	METHOD method_5058 getRecipeRemainder ()Lnet/minecraft/class_1471;
 	METHOD method_5059 hasRecipeRemainder ()Z

@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_1391 net/minecraft/screen/BeaconScreenHandler
+	FIELD field_5438 blockEntity Lnet/minecraft/class_388;
+	FIELD field_5439 paymentSlot Lnet/minecraft/class_1392;
+	FIELD field_5440 levels I
+	FIELD field_5441 primaryEffect I
+	FIELD field_5442 secondaryEffect I
+	METHOD <init> (Lnet/minecraft/class_1369;Lnet/minecraft/class_388;)V
+		ARG 1 playerInventory
+		ARG 2 beaconBlockEntity
+	METHOD method_4914 getBlockEntity ()Lnet/minecraft/class_388;

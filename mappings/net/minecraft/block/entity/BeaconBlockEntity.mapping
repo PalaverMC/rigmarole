@@ -1,1 +1,21 @@
 CLASS net/minecraft/class_388 net/minecraft/block/entity/BeaconBlockEntity
+	FIELD field_1149 EFFECTS_BY_LEVEL [[Lnet/minecraft/class_1203;
+	FIELD field_1152 activated Z
+	FIELD field_1153 levels I
+	FIELD field_1154 primaryId I
+	FIELD field_1155 secondaryId I
+	FIELD field_1156 paymentStack Lnet/minecraft/class_1473;
+	FIELD field_1157 customName Ljava/lang/String;
+	METHOD method_1198 setCustomName (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD method_1199 setLevels (I)V
+		ARG 1 levels
+	METHOD method_1200 setPrimaryEffect (I)V
+		ARG 1 effectId
+	METHOD method_1201 setSecondaryEffect (I)V
+		ARG 1 effectId
+	METHOD method_1202 getPrimaryEffectId ()I
+	METHOD method_1203 getSecondaryEffectId ()I
+	METHOD method_1204 getLevels ()I
+	METHOD method_1205 applyEffects ()V
+	METHOD method_1206 checkStructure ()V

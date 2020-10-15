@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_1418 net/minecraft/screen/slot/Slot
+	METHOD method_4940 onTakeItem (Lnet/minecraft/class_1371;Lnet/minecraft/class_1473;)V
+	METHOD method_4943 onStackChanged (Lnet/minecraft/class_1473;Lnet/minecraft/class_1473;)V
+	METHOD method_4946 getStack ()Lnet/minecraft/class_1473;
+	METHOD method_4947 setStack (Lnet/minecraft/class_1473;)V
+	METHOD method_4948 hasStack ()Z
+	METHOD method_4949 markDirty ()V

@@ -16,5 +16,8 @@ CLASS net/minecraft/class_408 net/minecraft/block/entity/BlockEntity
 		ARG 1 world
 	METHOD method_1283 writePos (Lnet/minecraft/class_927;)V
 		ARG 1 tag
+	METHOD method_1285 tick ()V
+	METHOD method_1288 toUpdatePacket ()Lnet/minecraft/class_1011;
+	METHOD method_1289 getSquaredRenderDistance ()D
 	METHOD method_1290 inWorld ()Z
 	METHOD method_1292 getBlock ()Lnet/minecraft/class_366;

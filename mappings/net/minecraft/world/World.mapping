@@ -27,6 +27,7 @@ CLASS net/minecraft/class_4 net/minecraft/world/World
 		ARG 2 y
 		ARG 3 z
 	METHOD method_127 updateNeighborsExcept (IIIII)V
+	METHOD method_142 getWorldChunk (II)Lnet/minecraft/class_49;
 	METHOD method_149 setDefaultSpawnPos ()V
 	METHOD method_153 updateNeighbors (IIII)V
 	METHOD method_155 (IIIIII)Z
@@ -35,6 +36,10 @@ CLASS net/minecraft/class_4 net/minecraft/world/World
 		ARG 3 z
 		ARG 4 blockId
 	METHOD method_160 updateBlock (IIII)V
+	METHOD method_174 (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_21 setSpawnPos (III)V
 		ARG 1 x
 		ARG 2 y

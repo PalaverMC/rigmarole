@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_1203 net/minecraft/entity/effect/StatusEffects
+	FIELD field_4385 effectId I
+	FIELD field_4394 SPEED Lnet/minecraft/class_1203;
+	FIELD field_4396 HASTE Lnet/minecraft/class_1203;
+	FIELD field_4398 STRENGTH Lnet/minecraft/class_1203;
+	FIELD field_4401 JUMP_BOOST Lnet/minecraft/class_1203;
+	FIELD field_4403 REGENERATION Lnet/minecraft/class_1203;
+	FIELD field_4404 RESISTANCE Lnet/minecraft/class_1203;
