@@ -1,5 +1,7 @@
 CLASS net/minecraft/class_1533 net/minecraft/commands/Command
 	METHOD method_5223 getCommandDescription (Lnet/minecraft/class_28;)Ljava/lang/String;
+		ARG 1 executor
 	METHOD method_5228 executeCommand (Lnet/minecraft/class_28;[Ljava/lang/String;)V
+		ARG 1 executor
 		ARG 2 arguments
 	METHOD method_5229 name ()Ljava/lang/String;

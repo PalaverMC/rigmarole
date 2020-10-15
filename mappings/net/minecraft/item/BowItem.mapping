@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1429 net/minecraft/item/BowItem
+	FIELD field_5543 TEXTURE_STATES [Ljava/lang/String;

@@ -177,26 +177,51 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 		ARG 1 itemId
 		ARG 2 itemGroup
 		ARG 3 list
+	METHOD method_5010 (Lnet/minecraft/class_4;Lnet/minecraft/class_1371;Z)Lnet/minecraft/class_420;
+		ARG 1 world
+		ARG 2 entity
 	METHOD method_5011 dropOnRemove (Lnet/minecraft/class_366;)Z
 		ARG 1 block
+	METHOD method_5012 render (Lnet/minecraft/class_1190;)V
 	METHOD method_5014 setItemGroup (Lnet/minecraft/class_1438;)Lnet/minecraft/class_1471;
 		ARG 1 itemGroup
 	METHOD method_5015 (Lnet/minecraft/class_1471;)Lnet/minecraft/class_1471;
 		ARG 1 item
+	METHOD method_5016 getDecimalColor (Lnet/minecraft/class_1473;I)I
+		ARG 1 stack
+	METHOD method_5018 (Lnet/minecraft/class_1473;Lnet/minecraft/class_4;Lnet/minecraft/class_1207;IZ)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 entity
+	METHOD method_5020 (Lnet/minecraft/class_1473;Lnet/minecraft/class_4;Lnet/minecraft/class_1371;I)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 entity
 	METHOD method_5021 (Lnet/minecraft/class_1473;Lnet/minecraft/class_366;)F
 		ARG 1 itemStack
 		ARG 2 block
 	METHOD method_5024 onActivate (Lnet/minecraft/class_1473;Lnet/minecraft/class_1371;Lnet/minecraft/class_4;IIIIFFF)Z
 		ARG 1 itemStack
 		ARG 3 world
+	METHOD method_5025 (Lnet/minecraft/class_1473;Lnet/minecraft/class_1371;Ljava/util/List;Z)V
+		ARG 1 stack
+		ARG 2 entity
 	METHOD method_5030 setStringId (Ljava/lang/String;)Lnet/minecraft/class_1471;
 		ARG 1 id
 	METHOD method_5032 getRightClickAction (Lnet/minecraft/class_1473;)Lnet/minecraft/class_1501;
 		ARG 1 itemStack
+	METHOD method_5035 (Lnet/minecraft/class_1473;)I
+		ARG 1 stack
 	METHOD method_5036 setMaxStackSize (I)Lnet/minecraft/class_1471;
 		ARG 1 maxStackSize
 	METHOD method_5037 getTranslationKey (Lnet/minecraft/class_1473;)Ljava/lang/String;
 		ARG 1 itemStack
+	METHOD method_5038 (Lnet/minecraft/class_1473;Lnet/minecraft/class_4;Lnet/minecraft/class_1371;)V
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 entity
+	METHOD method_5039 (Lnet/minecraft/class_1473;)Z
+		ARG 1 stack
 	METHOD method_5041 hasEnchantments (Lnet/minecraft/class_1473;)Z
 		ARG 1 itemStack
 	METHOD method_5043 getItemRarity (Lnet/minecraft/class_1473;)Lnet/minecraft/class_1484;
