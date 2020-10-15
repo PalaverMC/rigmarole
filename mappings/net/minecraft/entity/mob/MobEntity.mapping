@@ -1,0 +1,12 @@
+CLASS net/minecraft/class_1223 net/minecraft/entity/mob/MobEntity
+	FIELD field_4660 texturePath Ljava/lang/String;
+	FIELD field_4725 goalSelector Lnet/minecraft/class_1256;
+	FIELD field_4726 targetSelector Lnet/minecraft/class_1256;
+	METHOD method_4225 getJumpControl ()Lnet/minecraft/class_1239;
+	METHOD method_4226 getNavigation ()Lnet/minecraft/class_1298;
+	METHOD method_4228 getRandom ()Ljava/util/Random;
+	METHOD method_4245 getMaxHealth ()I
+	METHOD method_4282 getIdleSoundId ()Ljava/lang/String;
+	METHOD method_4283 getHurtSoundId ()Ljava/lang/String;
+	METHOD method_4284 getDeathSoundId ()Ljava/lang/String;
+	METHOD method_4285 getItemDrop ()I

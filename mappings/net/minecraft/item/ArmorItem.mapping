@@ -1,2 +1,6 @@
 CLASS net/minecraft/class_1421 net/minecraft/item/ArmorItem
 	FIELD field_5524 armorPartId I
+	FIELD field_5529 armorMaterial Lnet/minecraft/class_1423;
+	METHOD <init> (ILnet/minecraft/class_1423;II)V
+		ARG 1 itemId
+	METHOD method_4955 getArmorMaterial ()Lnet/minecraft/class_1423;

@@ -1,0 +1,54 @@
+CLASS net/minecraft/class_1303 net/minecraft/world/structures/VillageStructure
+	FIELD field_5079 world Lnet/minecraft/class_4;
+	FIELD field_5080 doorPosList Ljava/util/List;
+	FIELD field_5082 villageCenter Lnet/minecraft/class_1381;
+	FIELD field_5083 radius I
+	FIELD field_5084 stable I
+	FIELD field_5085 tick I
+	FIELD field_5086 popSize I
+	FIELD field_5087 mTick I
+	FIELD field_5088 players Ljava/util/TreeMap;
+	FIELD field_5090 golems I
+	METHOD <init> (Lnet/minecraft/class_4;)V
+		ARG 1 world
+	METHOD method_4491 setTick (I)V
+		ARG 1 tick
+	METHOD method_4492 (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_4493 (IIIIII)Lnet/minecraft/class_422;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_4494 setWorld (Lnet/minecraft/class_4;)V
+		ARG 1 world
+	METHOD method_4495 read (Lnet/minecraft/class_927;)V
+		ARG 1 compoundTag
+	METHOD method_4496 getPlayerId (Ljava/lang/String;)I
+		ARG 1 name
+	METHOD method_4497 (Ljava/lang/String;I)I
+		ARG 1 playerName
+	METHOD method_4499 (Lnet/minecraft/class_1302;)V
+		ARG 1 doorPos
+	METHOD method_4500 getRadius ()I
+	METHOD method_4503 (IIIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_4504 write (Lnet/minecraft/class_927;)V
+		ARG 1 compoundTag
+	METHOD method_4506 getDoorsAmount ()I
+	METHOD method_4510 (Ljava/lang/String;)Z
+		ARG 1 playerName
+	METHOD method_4511 getPopSize ()I
+	METHOD method_4512 (III)Lnet/minecraft/class_1302;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_4513 getDoors ()Ljava/util/List;
+	METHOD method_4514 isWoodDoor (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_4515 doesNotHaveDoors ()Z

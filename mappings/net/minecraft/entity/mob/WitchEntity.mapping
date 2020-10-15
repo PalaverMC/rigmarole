@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1363 net/minecraft/entity/mob/WitchEntity
+	FIELD field_5278 DROPS [I
