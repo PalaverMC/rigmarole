@@ -18,3 +18,4 @@ CLASS net/minecraft/class_11 net/minecraft/GameMode
 	METHOD method_223 getName ()Ljava/lang/String;
 	METHOD method_224 isAdventure ()Z
 	METHOD method_225 isCreative ()Z
+	METHOD method_226 isNotCreative ()Z

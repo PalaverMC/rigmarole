@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_1545 net/minecraft/enchantment/ProtectionEnchantment
+	FIELD field_5921 TYPES [Ljava/lang/String;
+	FIELD field_5925 categoryId I
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 weight
+		ARG 3 category
+	METHOD method_5254 (Lnet/minecraft/class_1207;D)D
+		ARG 0 entity
+	METHOD method_5255 (Lnet/minecraft/class_1207;I)I
+		ARG 0 entity

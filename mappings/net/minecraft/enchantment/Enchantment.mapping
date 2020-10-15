@@ -1,2 +1,48 @@
 CLASS net/minecraft/class_1532 net/minecraft/enchantment/Enchantment
+	FIELD field_5874 category Lnet/minecraft/class_1534;
+	FIELD field_5875 name Ljava/lang/String;
+	FIELD field_5876 weight I
+	FIELD field_5877 ENCHANTMENTS [Lnet/minecraft/class_1532;
+	FIELD field_5878 ENCHANTMENTS_LIST [Lnet/minecraft/class_1532;
+	FIELD field_5879 PROTECTION Lnet/minecraft/class_1532;
+	FIELD field_5880 FIRE_PROTECTION Lnet/minecraft/class_1532;
+	FIELD field_5881 FEATHER_FALLING Lnet/minecraft/class_1532;
+	FIELD field_5882 BLAST_PROTECTION Lnet/minecraft/class_1532;
+	FIELD field_5883 PROJECTILE_PROTECTION Lnet/minecraft/class_1532;
+	FIELD field_5884 RESPIRATION Lnet/minecraft/class_1532;
+	FIELD field_5885 AQUA_AFFINITY Lnet/minecraft/class_1532;
+	FIELD field_5886 THORNS Lnet/minecraft/class_1532;
+	FIELD field_5887 SHARPNESS Lnet/minecraft/class_1532;
+	FIELD field_5888 SMITE Lnet/minecraft/class_1532;
+	FIELD field_5889 BANE_OF_ARTHROPODS Lnet/minecraft/class_1532;
+	FIELD field_5890 KNOCKBACK Lnet/minecraft/class_1532;
+	FIELD field_5891 FIRE_ASPECT Lnet/minecraft/class_1532;
+	FIELD field_5892 LOOTING Lnet/minecraft/class_1532;
+	FIELD field_5893 EFFICIENCY Lnet/minecraft/class_1532;
+	FIELD field_5894 SILK_TOUCH Lnet/minecraft/class_1532;
+	FIELD field_5895 UNBREAKING Lnet/minecraft/class_1532;
+	FIELD field_5896 FORTUNE Lnet/minecraft/class_1532;
+	FIELD field_5897 POWER Lnet/minecraft/class_1532;
+	FIELD field_5898 PUNCH Lnet/minecraft/class_1532;
+	FIELD field_5899 FLAME Lnet/minecraft/class_1532;
+	FIELD field_5900 INFINITY Lnet/minecraft/class_1532;
 	FIELD field_5901 id I
+	METHOD <init> (IILnet/minecraft/class_1534;)V
+		ARG 1 id
+		ARG 2 weight
+		ARG 3 category
+	METHOD method_5211 getNameTranslationKey ()Ljava/lang/String;
+	METHOD method_5212 (I)I
+		ARG 1 level
+	METHOD method_5215 categoryHasItem (Lnet/minecraft/class_1473;)Z
+		ARG 1 stack
+	METHOD method_5216 isEnchantment (Lnet/minecraft/class_1532;)Z
+		ARG 1 enchantment
+	METHOD method_5217 getMaxLevel ()I
+	METHOD method_5218 (I)I
+		ARG 1 level
+	METHOD method_5219 setName (Ljava/lang/String;)Lnet/minecraft/class_1532;
+		ARG 1 name
+	METHOD method_5220 getWeight ()I
+	METHOD method_5221 getDescription (I)Ljava/lang/String;
+		ARG 1 level

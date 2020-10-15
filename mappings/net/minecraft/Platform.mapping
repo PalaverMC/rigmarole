@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_542 net/minecraft/Platform
+	METHOD values ()[Lnet/minecraft/class_542;

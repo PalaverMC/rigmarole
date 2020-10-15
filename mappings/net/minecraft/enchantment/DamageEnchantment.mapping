@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_1529 net/minecraft/enchantment/DamageEnchantment
+	FIELD field_5869 TYPES [Ljava/lang/String;
+	FIELD field_5873 categoryId I
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 weight
+		ARG 3 category
