@@ -1,3 +1,4 @@
 CLASS net/minecraft/class_202 net/minecraft/block/material/BlockSettings
 	FIELD field_608 color Lnet/minecraft/class_204;
-	FIELD field_616 ORGANIC Lnet/minecraft/class_202;
+	FIELD field_615 AIR Lnet/minecraft/class_202;
+	FIELD field_616 GRASS Lnet/minecraft/class_202;

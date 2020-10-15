@@ -1,2 +1,25 @@
 CLASS net/minecraft/class_1157 net/minecraft/stat/Stats
+	FIELD field_4222 STAT_PLAYER_KILLS Lnet/minecraft/class_1152;
+	FIELD field_4223 STAT_FISH_CAUGHT Lnet/minecraft/class_1152;
+	FIELD field_4235 STAT_START_GAME Lnet/minecraft/class_1152;
+	FIELD field_4236 STAT_CREATE_WORLD Lnet/minecraft/class_1152;
+	FIELD field_4237 STAT_LOAD_WORLD Lnet/minecraft/class_1152;
+	FIELD field_4238 STAT_JOIN_MULTIPLAYER Lnet/minecraft/class_1152;
+	FIELD field_4239 STAT_LEAVE_GAME Lnet/minecraft/class_1152;
+	FIELD field_4240 STAT_PLAY_ONE_MINUTE Lnet/minecraft/class_1152;
+	FIELD field_4241 STAT_WALK_ONE_CM Lnet/minecraft/class_1152;
+	FIELD field_4242 STAT_SWIM_ONE_CM Lnet/minecraft/class_1152;
+	FIELD field_4243 STAT_FALL_ONE_CM Lnet/minecraft/class_1152;
+	FIELD field_4244 STAT_CLIMB_ONE_CM Lnet/minecraft/class_1152;
+	FIELD field_4245 STAT_FLY_ONE_CM Lnet/minecraft/class_1152;
+	FIELD field_4246 STAT_DIVE_ONE_CM Lnet/minecraft/class_1152;
+	FIELD field_4247 STAT_MINECART_ONE_CM Lnet/minecraft/class_1152;
+	FIELD field_4248 STAT_BOAT_ONE_CM Lnet/minecraft/class_1152;
+	FIELD field_4249 STAT_PIG_ONE_CM Lnet/minecraft/class_1152;
+	FIELD field_4250 STAT_JUMP Lnet/minecraft/class_1152;
+	FIELD field_4251 STAT_DROP Lnet/minecraft/class_1152;
+	FIELD field_4252 STAT_DAMAGE_DEALT Lnet/minecraft/class_1152;
+	FIELD field_4253 STAT_DAMAGE_TAKEN Lnet/minecraft/class_1152;
+	FIELD field_4254 STAT_DEATHS Lnet/minecraft/class_1152;
+	FIELD field_4255 STAT_MOB_KILLS Lnet/minecraft/class_1152;
 	METHOD method_3655 createItemStats ()V
