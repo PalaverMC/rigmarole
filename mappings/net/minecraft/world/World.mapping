@@ -27,6 +27,7 @@ CLASS net/minecraft/class_4 net/minecraft/world/World
 		ARG 2 y
 		ARG 3 z
 	METHOD method_127 updateNeighborsExcept (IIIII)V
+	METHOD method_140 spawnEntity (Lnet/minecraft/class_1207;)Z
 	METHOD method_142 getWorldChunk (II)Lnet/minecraft/class_49;
 	METHOD method_149 setDefaultSpawnPos ()V
 	METHOD method_153 updateNeighbors (IIII)V
@@ -56,3 +57,4 @@ CLASS net/minecraft/class_4 net/minecraft/world/World
 		ARG 1 time
 	METHOD method_77 getPlayer (Ljava/lang/String;)Lnet/minecraft/class_1371;
 		ARG 1 playerName
+	METHOD method_92 playSound (Lnet/minecraft/class_1207;Ljava/lang/String;FF)V

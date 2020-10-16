@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_1204 net/minecraft/entity/effect/StatusEffectInstance
+	METHOD method_3891 getStatusEffectId ()I
+	METHOD method_3896 getDuration ()I
+	METHOD method_3897 fromTag (Lnet/minecraft/class_927;)Lnet/minecraft/class_1204;
+	METHOD method_3900 getAmplifier ()I
+	METHOD method_3903 getTranslationText ()Ljava/lang/String;

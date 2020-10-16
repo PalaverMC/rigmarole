@@ -1,1 +1,15 @@
 CLASS net/minecraft/class_399 net/minecraft/block/entity/FurnaceBlockEntity
+	FIELD field_1200 fuelTime I
+	FIELD field_1201 cookTime I
+	FIELD field_1202 burnTime I
+	FIELD field_1203 TOP_SLOTS [I
+	FIELD field_1204 BOTTOM_SLOTS [I
+	FIELD field_1205 SIDE_SLOTS [I
+	FIELD field_1206 inventory [Lnet/minecraft/class_1473;
+	FIELD field_1207 customName Ljava/lang/String;
+	METHOD method_1238 setCustomName (Ljava/lang/String;)V
+		ARG 1 customName
+	METHOD method_1239 getFuelTime (Lnet/minecraft/class_1473;)I
+	METHOD method_1240 isFuel (Lnet/minecraft/class_1473;)Z
+		ARG 0 stack
+	METHOD method_1243 isBurning ()Z

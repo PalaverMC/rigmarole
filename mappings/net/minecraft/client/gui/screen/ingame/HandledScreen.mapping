@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_613 net/minecraft/client/gui/screen/ingame/HandledScreen
+	FIELD field_2107 screenHandler Lnet/minecraft/class_1390;
+	METHOD <init> (Lnet/minecraft/class_1390;)V
+		ARG 1 screenHandler
+	METHOD method_1976 drawBackground (FII)V
+		ARG 1 delta
+		ARG 2 mouseX
+		ARG 3 mouseY
+	METHOD method_1985 drawForeground (II)V
+		ARG 1 mouseX
+		ARG 2 mouseY

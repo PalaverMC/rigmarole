@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1512 net/minecraft/recipe/FoodRecipes
+	METHOD method_5188 addRecipes (Lnet/minecraft/class_1517;)V
+		ARG 1 craftingRecipes

@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_636 net/minecraft/client/gui/screen/ingame/TradingScreen
+	FIELD field_2195 trader Lnet/minecraft/class_1549;

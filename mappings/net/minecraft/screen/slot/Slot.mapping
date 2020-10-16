@@ -1,7 +1,34 @@
 CLASS net/minecraft/class_1418 net/minecraft/screen/slot/Slot
+	FIELD field_5517 index I
+	FIELD field_5518 inventory Lnet/minecraft/class_1186;
+	FIELD field_5519 id I
+	FIELD field_5520 x I
+	FIELD field_5521 y I
+	METHOD <init> (Lnet/minecraft/class_1186;III)V
+		ARG 1 inventory
+		ARG 2 index
+		ARG 3 x
+		ARG 4 y
+	METHOD method_4936 getMaxStackSize ()I
+	METHOD method_4937 removeStack (I)Lnet/minecraft/class_1473;
+		ARG 1 amount
+	METHOD method_4939 canTakeItems (Lnet/minecraft/class_1371;)Z
+		ARG 1 player
 	METHOD method_4940 onTakeItem (Lnet/minecraft/class_1371;Lnet/minecraft/class_1473;)V
+		ARG 1 player
+		ARG 2 stack
+	METHOD method_4941 canInsert (Lnet/minecraft/class_1473;)Z
+		ARG 1 stack
+	METHOD method_4942 onCrafted (Lnet/minecraft/class_1473;I)V
+		ARG 1 stack
+		ARG 2 amount
 	METHOD method_4943 onStackChanged (Lnet/minecraft/class_1473;Lnet/minecraft/class_1473;)V
+		ARG 1 originalStack
+		ARG 2 newStack
+	METHOD method_4945 onCrafted (Lnet/minecraft/class_1473;)V
+		ARG 1 stack
 	METHOD method_4946 getStack ()Lnet/minecraft/class_1473;
 	METHOD method_4947 setStack (Lnet/minecraft/class_1473;)V
+		ARG 1 stack
 	METHOD method_4948 hasStack ()Z
 	METHOD method_4949 markDirty ()V

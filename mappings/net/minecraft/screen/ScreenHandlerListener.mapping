@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1396 net/minecraft/screen/ScreenHandlerListener
+	METHOD method_4917 onSlotUpdate (Lnet/minecraft/class_1390;ILnet/minecraft/class_1473;)V
+	METHOD method_4918 onHandlerRegistered (Lnet/minecraft/class_1390;Ljava/util/List;)V

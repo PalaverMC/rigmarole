@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_1516 net/minecraft/recipe/MetalCompressionRecipes
+	FIELD field_5853 materialsToResults [[Ljava/lang/Object;
+	METHOD method_5194 addRecipes (Lnet/minecraft/class_1517;)V
+		ARG 1 craftingRecipes

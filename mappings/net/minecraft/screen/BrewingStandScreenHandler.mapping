@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_1393 net/minecraft/screen/BrewingStandScreenHandler
+	FIELD field_5444 blockEntity Lnet/minecraft/class_389;
+	FIELD field_5445 ingredientSlot Lnet/minecraft/class_1418;
+	FIELD field_5446 brewTime I
+	METHOD <init> (Lnet/minecraft/class_1369;Lnet/minecraft/class_389;)V
+		ARG 1 playerInventory
+		ARG 2 blockEntity

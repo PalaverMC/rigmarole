@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_1406 net/minecraft/screen/PlayerScreenHandler
+	FIELD field_5477 craftingInventory Lnet/minecraft/class_1398;
+	FIELD field_5478 inventory Lnet/minecraft/class_1186;
+	FIELD field_5479 onServer Z
+	FIELD field_5480 player Lnet/minecraft/class_1371;
+	METHOD <init> (Lnet/minecraft/class_1369;ZLnet/minecraft/class_1371;)V
+		ARG 1 playerInventory
+		ARG 2 onServer
+		ARG 3 player

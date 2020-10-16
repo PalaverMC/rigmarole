@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_1519 net/minecraft/recipe/Recipe
+	METHOD method_5201 size ()I
+	METHOD method_5202 craft (Lnet/minecraft/class_1398;)Lnet/minecraft/class_1473;
+		ARG 1 craftingInventory
+	METHOD method_5203 matches (Lnet/minecraft/class_1398;Lnet/minecraft/class_4;)Z
+		ARG 1 craftingInventory
+		ARG 2 world
+	METHOD method_5204 getOutput ()Lnet/minecraft/class_1473;

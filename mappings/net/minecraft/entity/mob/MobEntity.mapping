@@ -10,3 +10,4 @@ CLASS net/minecraft/class_1223 net/minecraft/entity/mob/MobEntity
 	METHOD method_4283 getHurtSoundId ()Ljava/lang/String;
 	METHOD method_4284 getDeathSoundId ()Ljava/lang/String;
 	METHOD method_4285 getItemDrop ()I
+	METHOD method_4311 addStatusEffect (Lnet/minecraft/class_1204;)V

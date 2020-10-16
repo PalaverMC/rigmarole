@@ -152,7 +152,7 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	FIELD field_5742 hasMeta Z
 	FIELD field_5744 stringId Ljava/lang/String;
 	FIELD field_5746 rng Ljava/util/Random;
-	FIELD field_5747 items [Lnet/minecraft/class_1471;
+	FIELD field_5747 ITEMS [Lnet/minecraft/class_1471;
 	FIELD field_5748 IRON_SHOVEL Lnet/minecraft/class_1471;
 	FIELD field_5749 IRON_PICKAXE Lnet/minecraft/class_1471;
 	FIELD field_5750 IRON_AXE Lnet/minecraft/class_1471;
@@ -176,7 +176,7 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	METHOD <init> (I)V
 		ARG 1 itemId
 	METHOD method_5006 getTranslationKey ()Ljava/lang/String;
-	METHOD method_5009 (ILnet/minecraft/class_1438;Ljava/util/List;)V
+	METHOD method_5009 appendStacks (ILnet/minecraft/class_1438;Ljava/util/List;)V
 		ARG 1 itemId
 		ARG 2 itemGroup
 		ARG 3 list
@@ -192,11 +192,19 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 		ARG 1 item
 	METHOD method_5016 getDecimalColor (Lnet/minecraft/class_1473;I)I
 		ARG 1 stack
+	METHOD method_5017 postMine (Lnet/minecraft/class_1473;Lnet/minecraft/class_4;IIIILnet/minecraft/class_1223;)Z
+		ARG 1 stack
+		ARG 2 world
+		ARG 3 blockId
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 miner
 	METHOD method_5018 (Lnet/minecraft/class_1473;Lnet/minecraft/class_4;Lnet/minecraft/class_1207;IZ)V
 		ARG 1 stack
 		ARG 2 world
 		ARG 3 entity
-	METHOD method_5019 (Lnet/minecraft/class_1473;Lnet/minecraft/class_4;Lnet/minecraft/class_1371;)Lnet/minecraft/class_1473;
+	METHOD method_5019 use (Lnet/minecraft/class_1473;Lnet/minecraft/class_4;Lnet/minecraft/class_1371;)Lnet/minecraft/class_1473;
 		ARG 1 stack
 		ARG 2 world
 		ARG 3 entity
@@ -204,28 +212,33 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 		ARG 1 stack
 		ARG 2 world
 		ARG 3 entity
-	METHOD method_5021 (Lnet/minecraft/class_1473;Lnet/minecraft/class_366;)F
+	METHOD method_5021 getMiningSpeedMultiplier (Lnet/minecraft/class_1473;Lnet/minecraft/class_366;)F
 		ARG 1 itemStack
 		ARG 2 block
+	METHOD method_5023 postHit (Lnet/minecraft/class_1473;Lnet/minecraft/class_1223;Lnet/minecraft/class_1223;)Z
+		ARG 1 stack
+		ARG 2 target
+		ARG 3 attacker
 	METHOD method_5024 onActivate (Lnet/minecraft/class_1473;Lnet/minecraft/class_1371;Lnet/minecraft/class_4;IIIIFFF)Z
 		ARG 1 itemStack
 		ARG 3 world
-	METHOD method_5025 (Lnet/minecraft/class_1473;Lnet/minecraft/class_1371;Ljava/util/List;Z)V
+	METHOD method_5025 appendTooltip (Lnet/minecraft/class_1473;Lnet/minecraft/class_1371;Ljava/util/List;Z)V
 		ARG 1 stack
 		ARG 2 entity
+		ARG 3 tooltips
 	METHOD method_5027 setHasMeta (Z)Lnet/minecraft/class_1471;
 		ARG 1 hasMeta
 	METHOD method_5029 hasColor ()Z
 	METHOD method_5030 setStringId (Ljava/lang/String;)Lnet/minecraft/class_1471;
 		ARG 1 id
-	METHOD method_5031 (Lnet/minecraft/class_1473;Lnet/minecraft/class_4;Lnet/minecraft/class_1371;)Lnet/minecraft/class_1473;
+	METHOD method_5031 finishUsing (Lnet/minecraft/class_1473;Lnet/minecraft/class_4;Lnet/minecraft/class_1371;)Lnet/minecraft/class_1473;
 		ARG 1 stack
 		ARG 2 world
 		ARG 3 entity
 	METHOD method_5032 getRightClickAction (Lnet/minecraft/class_1473;)Lnet/minecraft/class_1501;
 		ARG 1 itemStack
 	METHOD method_5033 getEnchantability ()I
-	METHOD method_5035 (Lnet/minecraft/class_1473;)I
+	METHOD method_5035 getMaxUseTime (Lnet/minecraft/class_1473;)I
 		ARG 1 stack
 	METHOD method_5036 setMaxStackSize (I)Lnet/minecraft/class_1471;
 		ARG 1 maxStackSize
@@ -258,4 +271,5 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 	METHOD method_5058 getRecipeRemainder ()Lnet/minecraft/class_1471;
 	METHOD method_5059 hasRecipeRemainder ()Z
 	METHOD method_5060 getTranslatedName ()Ljava/lang/String;
+	METHOD method_5062 isValidBrewingIngredient ()Z
 	METHOD method_5063 getItemGroup ()Lnet/minecraft/class_1438;

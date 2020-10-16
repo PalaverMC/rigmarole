@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_1410 net/minecraft/screen/TradingScreenHandler
+	FIELD field_5489 trader Lnet/minecraft/class_1549;
+	FIELD field_5490 traderInventory Lnet/minecraft/class_1409;
+	FIELD field_5491 world Lnet/minecraft/class_4;
+	METHOD <init> (Lnet/minecraft/class_1369;Lnet/minecraft/class_1549;Lnet/minecraft/class_4;)V
+		ARG 1 playerInventory
+		ARG 2 trader
+		ARG 3 world
+	METHOD method_4926 getTraderInventory ()Lnet/minecraft/class_1409;
+	METHOD method_4927 setRecipeIndex (I)V
+		ARG 1 index
