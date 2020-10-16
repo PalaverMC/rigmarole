@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_1549 net/minecraft/village/Trader
+	METHOD method_5259 setCurrentCustomer (Lnet/minecraft/class_1371;)V
+		ARG 1 player
+	METHOD method_5261 getOffersFromServer (Lnet/minecraft/class_1551;)V
+		ARG 1 offers
+	METHOD method_5262 getOffers (Lnet/minecraft/class_1371;)Lnet/minecraft/class_1551;
+		ARG 1 player
+	METHOD method_5263 getCurrentCustomer ()Lnet/minecraft/class_1371;

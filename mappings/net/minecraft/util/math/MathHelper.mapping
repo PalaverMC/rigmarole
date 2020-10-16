@@ -1,0 +1,64 @@
+CLASS net/minecraft/class_1173 net/minecraft/util/math/MathHelper
+	FIELD field_4292 SINE_TABLE [F
+	METHOD method_3722 sqrt (D)F
+		ARG 0 d
+	METHOD method_3723 absMax (DD)D
+		ARG 0 d
+		ARG 2 e
+	METHOD method_3724 sin (F)F
+		ARG 0 f
+	METHOD method_3725 clamp (FFF)F
+		ARG 0 value
+		ARG 1 min
+		ARG 2 max
+	METHOD method_3726 abs (I)I
+		ARG 0 i
+	METHOD method_3727 floorDiv (II)I
+		ARG 0 i
+		ARG 1 j
+	METHOD method_3728 clamp (III)I
+		ARG 0 value
+		ARG 1 min
+		ARG 2 max
+	METHOD method_3729 isStringEmpty (Ljava/lang/String;)Z
+		ARG 0 string
+	METHOD method_3730 parseDouble (Ljava/lang/String;D)D
+		ARG 0 string
+		ARG 1 fallback
+	METHOD method_3732 parseInt (Ljava/lang/String;I)I
+		ARG 0 string
+		ARG 1 fallback
+	METHOD method_3733 (Ljava/lang/String;II)I
+		ARG 0 string
+	METHOD method_3734 nextDouble (Ljava/util/Random;DD)D
+		ARG 0 random
+		ARG 1 min
+		ARG 3 max
+	METHOD method_3735 nextInt (Ljava/util/Random;II)I
+		ARG 0 random
+		ARG 1 min
+		ARG 2 max
+	METHOD method_3736 average ([J)D
+		ARG 0 array
+	METHOD method_3737 fastFloor (D)I
+		ARG 0 d
+	METHOD method_3738 cos (F)F
+		ARG 0 f
+	METHOD method_3739 floor (D)I
+		ARG 0 d
+	METHOD method_3740 sqrt (F)F
+		ARG 0 f
+	METHOD method_3741 lfloor (D)J
+		ARG 0 d
+	METHOD method_3742 floor (F)I
+		ARG 0 f
+	METHOD method_3743 abs (F)F
+		ARG 0 f
+	METHOD method_3744 ceil (D)I
+		ARG 0 d
+	METHOD method_3745 ceil (F)I
+		ARG 0 f
+	METHOD method_3746 wrapDegrees (D)D
+		ARG 0 d
+	METHOD method_3747 wrapDegrees (F)F
+		ARG 0 f

@@ -3,6 +3,7 @@ CLASS net/minecraft/class_1473 net/minecraft/item/ItemStack
 	FIELD field_5781 itemId I
 	FIELD field_5782 tag Lnet/minecraft/class_927;
 	FIELD field_5783 damage I
+	FIELD field_5784 itemFrame Lnet/minecraft/class_1222;
 	METHOD <init> (III)V
 		ARG 1 itemId
 		ARG 2 count
@@ -25,9 +26,12 @@ CLASS net/minecraft/class_1473 net/minecraft/item/ItemStack
 		ARG 1 block
 		ARG 2 count
 		ARG 3 damage
+	METHOD method_5071 getItemFrame ()Lnet/minecraft/class_1222;
 	METHOD method_5072 getRepairCost ()I
+	METHOD method_5073 getTranslationKey ()Ljava/lang/String;
 	METHOD method_5074 split (I)Lnet/minecraft/class_1473;
 		ARG 1 count
+	METHOD method_5076 damage (ILnet/minecraft/class_1223;)V
 	METHOD method_5081 (Lnet/minecraft/class_366;)F
 		ARG 1 block
 	METHOD method_5082 createFromTag (Lnet/minecraft/class_927;)Lnet/minecraft/class_1473;
@@ -35,13 +39,18 @@ CLASS net/minecraft/class_1473 net/minecraft/item/ItemStack
 	METHOD method_5083 addProperty (Ljava/lang/String;Lnet/minecraft/class_941;)V
 		ARG 1 key
 		ARG 2 tag
+	METHOD method_5085 setItemFrame (Lnet/minecraft/class_1222;)V
+		ARG 1 itemFrameEntity
 	METHOD method_5088 (Lnet/minecraft/class_1371;Lnet/minecraft/class_4;IIIIFFF)Z
 		ARG 1 entity
 		ARG 2 world
 	METHOD method_5089 getItemDisplay (Lnet/minecraft/class_1371;Z)Ljava/util/List;
 		ARG 1 entity
+		ARG 2 advanced
+			COMMENT aka F3+H.
 	METHOD method_5090 equals (Lnet/minecraft/class_1473;)Z
 		ARG 1 itemStack
+	METHOD method_5091 areTagsEqual (Lnet/minecraft/class_1473;Lnet/minecraft/class_1473;)Z
 	METHOD method_5092 enchant (Lnet/minecraft/class_1532;I)V
 		ARG 1 enchantment
 		ARG 2 level
@@ -52,6 +61,7 @@ CLASS net/minecraft/class_1473 net/minecraft/item/ItemStack
 		ARG 1 compoundTag
 	METHOD method_5099 copy (Lnet/minecraft/class_1473;)Lnet/minecraft/class_1473;
 		ARG 0 itemStack
+	METHOD method_5100 areEqual (Lnet/minecraft/class_1473;Lnet/minecraft/class_1473;)Z
 	METHOD method_5102 setRepairCost (I)V
 		ARG 1 repairCost
 	METHOD method_5103 read (Lnet/minecraft/class_927;)V
@@ -62,6 +72,14 @@ CLASS net/minecraft/class_1473 net/minecraft/item/ItemStack
 		ARG 1 tag
 	METHOD method_5107 equalsTags (Lnet/minecraft/class_1473;)Z
 		ARG 1 itemStack
+	METHOD method_5108 getMaxStackSize ()I
+	METHOD method_5109 isStackable ()Z
+	METHOD method_5110 isDamageable ()Z
+	METHOD method_5111 hasMeta ()Z
+	METHOD method_5112 hasDamage ()Z
+	METHOD method_5113 getDamage ()I
+	METHOD method_5114 getMeta ()I
+	METHOD method_5115 getMaxDamage ()I
 	METHOD method_5116 copy ()Lnet/minecraft/class_1473;
 	METHOD method_5118 getRightClickAction ()Lnet/minecraft/class_1501;
 	METHOD method_5119 hasTag ()Z
@@ -72,3 +90,4 @@ CLASS net/minecraft/class_1473 net/minecraft/item/ItemStack
 	METHOD method_5124 getEnchantments ()Z
 	METHOD method_5125 getItemRarity ()Lnet/minecraft/class_1484;
 	METHOD method_5127 hasEnchants ()Z
+	METHOD method_5129 isInItemFrame ()Z

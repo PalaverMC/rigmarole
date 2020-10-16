@@ -55,7 +55,7 @@ CLASS net/minecraft/class_1207 net/minecraft/entity/Entity
 		ARG 1 compoundTag
 	METHOD method_4008 (Lnet/minecraft/class_1207;)F
 		ARG 1 entity
-	METHOD method_4011 (DDD)D
+	METHOD method_4011 squaredDistanceTo (DDD)D
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z

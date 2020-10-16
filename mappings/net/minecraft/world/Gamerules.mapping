@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_1557 net/minecraft/world/Gamerules
+CLASS net/minecraft/class_1557 net/minecraft/world/GameRules
 	FIELD field_5962 values Ljava/util/TreeMap;
 	METHOD method_5313 toCompoundTag ()Lnet/minecraft/class_927;
 	METHOD method_5314 parse (Lnet/minecraft/class_927;)V

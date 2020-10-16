@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_1520 net/minecraft/recipe/ShapedRecipe
+	FIELD field_5857 outputItemId I
+	FIELD field_5858 width I
+	FIELD field_5859 height I
+	FIELD field_5860 ingredients [Lnet/minecraft/class_1473;
+	FIELD field_5861 output Lnet/minecraft/class_1473;
+	METHOD <init> (II[Lnet/minecraft/class_1473;Lnet/minecraft/class_1473;)V
+		ARG 1 width
+		ARG 2 height
+		ARG 3 ingredients
+		ARG 4 output

@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1510 net/minecraft/recipe/DyeRecipes
+	METHOD method_5187 addRecipes (Lnet/minecraft/class_1517;)V
+		ARG 1 craftingRecipes

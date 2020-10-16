@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1409 net/minecraft/inventory/TraderInventory
+	METHOD method_4922 setRecipeIndex (I)V
+	METHOD method_4924 updateRecipes ()V

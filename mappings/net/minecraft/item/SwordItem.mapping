@@ -1,1 +1,8 @@
 CLASS net/minecraft/class_1503 net/minecraft/item/SwordItem
+	FIELD field_5827 attackDamage I
+	FIELD field_5828 material Lnet/minecraft/class_1472;
+	METHOD <init> (ILnet/minecraft/class_1472;)V
+		ARG 1 itemId
+		ARG 2 material
+	METHOD method_5164 getDamageLevel ()I
+		COMMENT Returns the attack damage specified by the material. Note: this is NOT the real damage value inflicted when attacked!

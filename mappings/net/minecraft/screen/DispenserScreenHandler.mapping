@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1419 net/minecraft/screen/DispenserScreenHandler
+	FIELD field_5522 dispenserBlockEntity Lnet/minecraft/class_395;
+	METHOD <init> (Lnet/minecraft/class_1186;Lnet/minecraft/class_395;)V
+		ARG 1 inventory
+		ARG 2 dispenserBlockEntity

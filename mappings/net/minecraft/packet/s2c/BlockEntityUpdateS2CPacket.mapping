@@ -1,0 +1,12 @@
+CLASS net/minecraft/class_1042 net/minecraft/packet/s2c/BlockEntityUpdateS2CPacket
+	FIELD field_3874 x I
+	FIELD field_3875 y I
+	FIELD field_3876 z I
+	FIELD field_3877 blockEntityType I
+	FIELD field_3878 compoundTag Lnet/minecraft/class_927;
+	METHOD <init> (IIIILnet/minecraft/class_927;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 type
+		ARG 5 compoundTag

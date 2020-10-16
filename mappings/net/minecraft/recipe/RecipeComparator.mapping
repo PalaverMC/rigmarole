@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_1518 net/minecraft/recipe/RecipeComparator
+	FIELD field_5856 craftingRecipes Lnet/minecraft/class_1517;
+	METHOD <init> (Lnet/minecraft/class_1517;)V
+		ARG 1 craftingRecipes
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 recipe1
+		ARG 2 recipe2

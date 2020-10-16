@@ -1,1 +1,9 @@
 CLASS net/minecraft/class_1483 net/minecraft/item/PotionItem
+	FIELD field_5792 meta2PotionEffects Ljava/util/HashMap;
+	METHOD method_5134 getPotionEffectsWithMeta (I)Ljava/util/List;
+		ARG 1 meta
+	METHOD method_5136 isSplashPotion (I)Z
+		ARG 0 meta
+	METHOD method_5137 getColor (I)I
+	METHOD method_5138 getPotionEffects (Lnet/minecraft/class_1473;)Ljava/util/List;
+		ARG 1 stack

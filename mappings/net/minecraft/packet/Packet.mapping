@@ -11,6 +11,8 @@ CLASS net/minecraft/class_1011 net/minecraft/packet/Packet
 		ARG 1 packet
 	METHOD method_3165 writePacket (Lnet/minecraft/class_1011;Ljava/io/DataOutputStream;)V
 		ARG 0 packet
+	METHOD method_3166 apply (Lnet/minecraft/class_1012;)V
+		ARG 1 clientPlayPacketListener
 	METHOD method_3167 read (Ljava/io/DataInputStream;)V
 		ARG 1 dataInputStream
 	METHOD method_3168 readString (Ljava/io/DataInputStream;I)Ljava/lang/String;

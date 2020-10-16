@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_1558 net/minecraft/world/GameruleValue
+CLASS net/minecraft/class_1558 net/minecraft/world/GameRuleValue
 	FIELD field_5963 valueString Ljava/lang/String;
 	FIELD field_5964 valueBoolean Z
 	FIELD field_5965 valueInt I

@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1405 net/minecraft/screen/HopperScreenHandler
+	FIELD field_5476 inventory Lnet/minecraft/class_1186;
+	METHOD <init> (Lnet/minecraft/class_1369;Lnet/minecraft/class_1186;)V
+		ARG 1 playerInventory
+		ARG 2 inventory

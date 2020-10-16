@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1395 net/minecraft/screen/slot/BrewingStandPotionSlot
+	METHOD method_4915 matches (Lnet/minecraft/class_1473;)Z

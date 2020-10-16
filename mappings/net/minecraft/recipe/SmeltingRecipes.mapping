@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_1513 net/minecraft/recipe/SmeltingRecipes
+	FIELD field_5850 instance Lnet/minecraft/class_1513;
+	FIELD field_5851 itemToResult Ljava/util/Map;
+	FIELD field_5852 itemIdToXp Ljava/util/Map;
+	METHOD method_5189 getInstance ()Lnet/minecraft/class_1513;
+	METHOD method_5190 addRecipe (ILnet/minecraft/class_1473;F)V
+		ARG 1 itemId
+		ARG 2 stack
+		ARG 3 xp
+	METHOD method_5191 getItemToResultMap ()Ljava/util/Map;
+	METHOD method_5192 getResult (I)Lnet/minecraft/class_1473;
+		ARG 1 itemId
+	METHOD method_5193 getExperience (I)F
+		ARG 1 itemId

@@ -1,1 +1,16 @@
 CLASS net/minecraft/class_389 net/minecraft/block/entity/BrewingStandBlockEntity
+	FIELD field_1158 TOP_SLOTS [I
+	FIELD field_1159 SIDE_SLOTS [I
+	FIELD field_1160 inventory [Lnet/minecraft/class_1473;
+	FIELD field_1161 brewTime I
+	FIELD field_1163 brewingItemId I
+	FIELD field_1164 customName Ljava/lang/String;
+	METHOD method_1208 setCustomName (Ljava/lang/String;)V
+		ARG 1 customName
+	METHOD method_1209 (ILnet/minecraft/class_1473;)I
+		ARG 2 stack
+	METHOD method_1210 setBrewTime (I)V
+		ARG 1 brewTime
+	METHOD method_1212 canCraft ()Z
+	METHOD method_1213 craft ()V
+	METHOD method_1214 getBrewTime ()I

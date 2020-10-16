@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1522 net/minecraft/recipe/BlockRecipes
+	METHOD method_5207 addRecipes (Lnet/minecraft/class_1517;)V
+		ARG 1 craftingRecipes

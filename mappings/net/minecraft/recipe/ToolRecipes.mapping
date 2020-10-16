@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1523 net/minecraft/recipe/ToolRecipes
+	FIELD field_5865 recipeCombinations [[Ljava/lang/String;
+	FIELD field_5866 materialsToResults [[Ljava/lang/Object;
+	METHOD method_5208 addRecipes (Lnet/minecraft/class_1517;)V
+		ARG 1 craftingRecipes

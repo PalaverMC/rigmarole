@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_1517 net/minecraft/recipe/CraftingRecipes
+	FIELD field_5854 instance Lnet/minecraft/class_1517;
+	FIELD field_5855 recipes Ljava/util/List;
+	METHOD method_5195 getInstance ()Lnet/minecraft/class_1517;
+	METHOD method_5196 getCraftingResult (Lnet/minecraft/class_1398;Lnet/minecraft/class_4;)Lnet/minecraft/class_1473;
+		ARG 1 craftingInventory
+		ARG 2 world
+	METHOD method_5197 addShapedRecipe (Lnet/minecraft/class_1473;[Ljava/lang/Object;)Lnet/minecraft/class_1520;
+		ARG 1 stack
+		ARG 2 objects
+	METHOD method_5198 getRecipes ()Ljava/util/List;
+	METHOD method_5199 addShapelessRecipe (Lnet/minecraft/class_1473;[Ljava/lang/Object;)V
+		ARG 1 stack
+		ARG 2 objects

@@ -1,0 +1,23 @@
+CLASS net/minecraft/class_1186 net/minecraft/inventory/Inventory
+	METHOD method_1287 markDirty ()V
+	METHOD method_3778 getStack (I)Lnet/minecraft/class_1473;
+		ARG 1 slot
+	METHOD method_3779 removeStack (II)Lnet/minecraft/class_1473;
+		ARG 1 slot
+		ARG 2 amount
+	METHOD method_3780 setStack (ILnet/minecraft/class_1473;)V
+		ARG 1 slot
+		ARG 2 stack
+	METHOD method_3781 canPlayerUse (Lnet/minecraft/class_1371;)Z
+		ARG 1 player
+	METHOD method_3782 getDisplayName ()Ljava/lang/String;
+	METHOD method_3783 removeStack (I)Lnet/minecraft/class_1473;
+		ARG 1 slot
+	METHOD method_3784 isValid (ILnet/minecraft/class_1473;)Z
+		ARG 1 slot
+		ARG 2 stack
+	METHOD method_3785 hasCustomName ()Z
+	METHOD method_3786 getMaxStackSize ()I
+	METHOD method_3787 onOpen ()V
+	METHOD method_3788 onClose ()V
+	METHOD method_3789 size ()I

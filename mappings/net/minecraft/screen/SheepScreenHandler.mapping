@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_1317 net/minecraft/screen/SheepScreenHandler
+	FIELD field_5124 sheep Lnet/minecraft/class_1316;
+	METHOD <init> (Lnet/minecraft/class_1316;)V
+		ARG 1 sheep
