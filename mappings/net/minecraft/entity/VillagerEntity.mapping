@@ -1,3 +1,7 @@
 CLASS net/minecraft/class_1367 net/minecraft/entity/VillagerEntity
+	FIELD field_5295 player Lnet/minecraft/class_1371;
 	METHOD <init> (Lnet/minecraft/class_4;I)V
 		ARG 1 world
+	METHOD method_4725 getProfession ()I
+	METHOD method_4730 setProfession (I)V
+		ARG 1 professionId

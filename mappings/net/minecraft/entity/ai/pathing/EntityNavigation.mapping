@@ -1,4 +1,13 @@
 CLASS net/minecraft/class_1298 net/minecraft/entity/ai/pathing/EntityNavigation
+	FIELD field_5052 entity Lnet/minecraft/class_1223;
+	FIELD field_5053 world Lnet/minecraft/class_4;
+	FIELD field_5060 vec3d4 Lnet/minecraft/class_422;
 	FIELD field_5064 canSwim Z
+	METHOD <init> (Lnet/minecraft/class_1223;Lnet/minecraft/class_4;F)V
+		ARG 1 entity
+		ARG 2 world
+	METHOD method_4455 (Lnet/minecraft/class_1223;F)Z
+		ARG 1 entity
 	METHOD method_4464 setCanSwim (Z)V
 		ARG 1 canSwim
+	METHOD method_4471 isTouchingLiquid ()Z

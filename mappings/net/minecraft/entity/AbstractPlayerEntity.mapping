@@ -3,3 +3,6 @@ CLASS net/minecraft/class_1371 net/minecraft/entity/AbstractPlayerEntity
 	FIELD field_5324 name Ljava/lang/String;
 	FIELD field_5338 playerAbilities Lnet/minecraft/class_1368;
 	METHOD method_4806 offerOrDrop (Lnet/minecraft/class_1473;)Lnet/minecraft/class_1335;
+	METHOD method_4811 getHeldStack ()Lnet/minecraft/class_1473;
+	METHOD method_4838 (Lnet/minecraft/class_1207;)Z
+		ARG 1 entity

@@ -1,0 +1,10 @@
+CLASS net/minecraft/class_1288
+	FIELD field_5015 entity Lnet/minecraft/class_1234;
+	FIELD field_5017 playerX D
+	FIELD field_5018 playerY D
+	FIELD field_5019 playerZ D
+	FIELD field_5022 player Lnet/minecraft/class_1371;
+	FIELD field_5025 itemId I
+	METHOD <init> (Lnet/minecraft/class_1234;FIZ)V
+		ARG 1 entity
+		ARG 3 itemId

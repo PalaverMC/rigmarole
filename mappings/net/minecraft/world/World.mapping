@@ -53,8 +53,16 @@ CLASS net/minecraft/class_4 net/minecraft/world/World
 	METHOD method_33 getGamerules ()Lnet/minecraft/class_1557;
 	METHOD method_38 getCalendar ()Ljava/util/Calendar;
 	METHOD method_40 getLogger ()Lnet/minecraft/class_1170;
+	METHOD method_42 getPlayerAtDistance (DDDD)Lnet/minecraft/class_1371;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 distance
 	METHOD method_56 setTime (J)V
 		ARG 1 time
 	METHOD method_77 getPlayer (Ljava/lang/String;)Lnet/minecraft/class_1371;
 		ARG 1 playerName
+	METHOD method_85 getPlayerAtDistance (Lnet/minecraft/class_1207;D)Lnet/minecraft/class_1371;
+		ARG 1 entity
+		ARG 2 distance
 	METHOD method_92 playSound (Lnet/minecraft/class_1207;Ljava/lang/String;FF)V

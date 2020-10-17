@@ -1,1 +1,6 @@
 CLASS net/minecraft/class_1205 net/minecraft/entity/passive/PassiveEntity
+	METHOD method_3906 setAge (I)V
+		ARG 1 age
+	METHOD method_3907 create (Lnet/minecraft/class_1205;)Lnet/minecraft/class_1205;
+		ARG 1 entity
+	METHOD method_3909 getAge ()I
