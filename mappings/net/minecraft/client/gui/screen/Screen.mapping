@@ -1,1 +1,8 @@
 CLASS net/minecraft/class_593 net/minecraft/client/gui/screen/Screen
+	FIELD field_1975 IS_MACOS Z
+	FIELD field_1976 client Lnet/minecraft/client/Minecraft;
+	FIELD field_1979 buttons Ljava/util/List;
+	METHOD method_1873 render (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

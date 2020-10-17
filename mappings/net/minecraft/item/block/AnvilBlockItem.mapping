@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1420 net/minecraft/item/block/AnvilBlockItem
+	METHOD <init> (Lnet/minecraft/class_366;)V
+		ARG 1 block

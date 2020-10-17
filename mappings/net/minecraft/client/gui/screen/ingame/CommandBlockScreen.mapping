@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_622 net/minecraft/client/gui/screen/ingame/CommandBlockScreen
+	FIELD field_2154 commandBlockEntity Lnet/minecraft/class_391;
+	METHOD <init> (Lnet/minecraft/class_391;)V
+		ARG 1 commandBlockEntity

@@ -65,6 +65,8 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_1064 MELON_STEM Lnet/minecraft/class_366;
 	FIELD field_1065 VINE Lnet/minecraft/class_366;
 	FIELD field_1066 FENCE_GATE Lnet/minecraft/class_366;
+	FIELD field_1067 hardness F
+	FIELD field_1068 resistance F
 	FIELD field_1073 x1 D
 	FIELD field_1074 y1 D
 	FIELD field_1075 z1 D
@@ -112,7 +114,8 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	FIELD field_1120 MATERIAL_LADDER Lnet/minecraft/class_370;
 	FIELD field_1121 MATERIAL_ANVIL Lnet/minecraft/class_370;
 	FIELD field_1122 blocks [Lnet/minecraft/class_366;
-	FIELD field_1123 opaqueBlocks [Z
+	FIELD field_1123 OPAQUE_BLOCKS [Z
+	FIELD field_1126 LUMINANCE [I
 	FIELD field_1128 STONE Lnet/minecraft/class_366;
 	FIELD field_1129 GRASS Lnet/minecraft/class_302;
 	FIELD field_1130 DIRT Lnet/minecraft/class_366;
@@ -187,6 +190,7 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	METHOD method_1068 getItemGroup ()Lnet/minecraft/class_1438;
 	METHOD method_1070 setLuminance (F)Lnet/minecraft/class_366;
 		COMMENT Sets the luminance of the block (0-1).
+		ARG 1 luminance
 	METHOD method_1071 setVoxelShape (FFFFFF)V
 		ARG 1 x1
 		ARG 2 y1
@@ -212,11 +216,13 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 	METHOD method_1105 setItemGroup (Lnet/minecraft/class_1438;)Lnet/minecraft/class_366;
 		ARG 1 itemGroup
 	METHOD method_1108 isFull ()Z
-	METHOD method_1109 setBlastResistance (F)Lnet/minecraft/class_366;
+	METHOD method_1109 setResistance (F)Lnet/minecraft/class_366;
+		ARG 1 resistance
 	METHOD method_1116 dropItem (Lnet/minecraft/class_4;IIILnet/minecraft/class_1473;)V
 		ARG 1 world
 	METHOD method_1123 isOpaque ()Z
 	METHOD method_1124 setHardness (F)Lnet/minecraft/class_366;
+		ARG 1 hardness
 	METHOD method_1129 getRedstoneSignalStrength (Lnet/minecraft/class_12;IIII)I
 	METHOD method_1131 setStringId (Ljava/lang/String;)Lnet/minecraft/class_366;
 		ARG 1 id

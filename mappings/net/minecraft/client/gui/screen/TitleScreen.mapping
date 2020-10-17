@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_914 net/minecraft/client/ui/MainMenu
+CLASS net/minecraft/class_914 net/minecraft/client/gui/screen/TitleScreen
 	FIELD field_3423 rng Ljava/util/Random;
 	FIELD field_3425 splashText Ljava/lang/String;
 	FIELD field_3435 panoramaTextureIds [Ljava/lang/String;
