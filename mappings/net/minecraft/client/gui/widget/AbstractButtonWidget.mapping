@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_556 net/minecraft/client/gui/widget/AbstractButtonWidget
+	METHOD method_1697 render (Lnet/minecraft/client/Minecraft;II)V

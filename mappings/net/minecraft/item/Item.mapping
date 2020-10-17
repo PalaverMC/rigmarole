@@ -221,6 +221,7 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 		ARG 3 attacker
 	METHOD method_5024 onActivate (Lnet/minecraft/class_1473;Lnet/minecraft/class_1371;Lnet/minecraft/class_4;IIIIFFF)Z
 		ARG 1 itemStack
+		ARG 2 player
 		ARG 3 world
 	METHOD method_5025 appendTooltip (Lnet/minecraft/class_1473;Lnet/minecraft/class_1371;Ljava/util/List;Z)V
 		ARG 1 stack
@@ -268,6 +269,7 @@ CLASS net/minecraft/class_1471 net/minecraft/item/Item
 		ARG 1 itemStack
 	METHOD method_5051 hasMeta ()Z
 	METHOD method_5052 getDamage ()I
+	METHOD method_5054 isDamageable ()Z
 	METHOD method_5058 getRecipeRemainder ()Lnet/minecraft/class_1471;
 	METHOD method_5059 hasRecipeRemainder ()Z
 	METHOD method_5060 getTranslatedName ()Ljava/lang/String;
