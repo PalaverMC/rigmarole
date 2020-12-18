@@ -1,0 +1,16 @@
+CLASS net/minecraft/class_252
+	FIELD field_760 lastPlayed J
+	FIELD field_761 sizeOnDisk J
+	FIELD field_763 defaultGameMode Lnet/minecraft/class_11;
+	FIELD field_764 hardcore Z
+	FIELD field_765 commands Z
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;JJLnet/minecraft/class_11;ZZZ)V
+		ARG 3 lastPlayed
+		ARG 5 sizeOnDisk
+		ARG 7 defaultGameMode
+		ARG 9 hardcore
+		ARG 10 commands
+	METHOD method_865 getLastPlayed ()J
+	METHOD method_866 getDefaultGameMode ()Lnet/minecraft/class_11;
+	METHOD method_867 isHardcore ()Z
+	METHOD method_868 allowCommands ()Z

@@ -1,0 +1,54 @@
+CLASS net/minecraft/class_50 net/minecraft/ChunkSection
+	FIELD field_268 blocks [B
+	FIELD field_270 dataManager Lnet/minecraft/class_47;
+	FIELD field_271 blockLightManager Lnet/minecraft/class_47;
+	FIELD field_272 skyLightManager Lnet/minecraft/class_47;
+	METHOD <init> (IZ)V
+		ARG 2 visibleSky
+	METHOD method_388 (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_389 (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+	METHOD method_391 setBlocks ([B)V
+		ARG 1 blocks
+	METHOD method_393 (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_394 (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_395 setDataManager (Lnet/minecraft/class_47;)V
+		ARG 1 dataManagerManager
+	METHOD method_396 getSkyLightLevel (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_397 setSkyLightLevel (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 lightLevel
+	METHOD method_398 setBlockLightManager (Lnet/minecraft/class_47;)V
+		ARG 1 blockLight
+	METHOD method_400 getBlockLightLevel (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_401 setBlockLightLevel (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 lightLevel
+	METHOD method_402 setSkyLightManager (Lnet/minecraft/class_47;)V
+		ARG 1 skyLightManager
+	METHOD method_404 getBlocks ()[B
+	METHOD method_407 getDataManager ()Lnet/minecraft/class_47;
+	METHOD method_408 getBlockLightManager ()Lnet/minecraft/class_47;
+	METHOD method_409 getSkyLightManager ()Lnet/minecraft/class_47;

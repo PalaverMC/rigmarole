@@ -1,0 +1,9 @@
+CLASS net/minecraft/class_53
+	METHOD method_426 (Lnet/minecraft/class_4;II)Lnet/minecraft/class_49;
+		ARG 1 world
+	METHOD method_427 (Lnet/minecraft/class_4;Lnet/minecraft/class_49;)V
+		ARG 1 world
+		ARG 2 worldChunk
+	METHOD method_429 (Lnet/minecraft/class_4;Lnet/minecraft/class_49;)V
+		ARG 1 world
+		ARG 2 worldChunk

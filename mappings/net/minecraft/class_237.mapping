@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_237
+	FIELD field_724 worldsDirectory Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 worldsDirectory
+	METHOD method_772 deleteFiles ([Ljava/io/File;)Z
+		ARG 0 files

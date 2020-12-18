@@ -1,5 +1,12 @@
 CLASS net/minecraft/class_47
-	METHOD method_338 (III)I
+	METHOD <init> (II)V
+		ARG 1 length
+	METHOD method_338 getValue (III)I
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_339 setValue (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 value

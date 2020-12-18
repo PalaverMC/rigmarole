@@ -9,3 +9,6 @@ CLASS net/minecraft/class_1335 net/minecraft/entity/ItemEntity
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
+		ARG 8 itemStack
+	METHOD method_4622 (Lnet/minecraft/class_1473;)V
+		ARG 1 itemStack

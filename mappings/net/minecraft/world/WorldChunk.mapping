@@ -1,5 +1,23 @@
 CLASS net/minecraft/class_49 net/minecraft/world/WorldChunk
+	FIELD field_248 world Lnet/minecraft/class_4;
 	FIELD field_249 heightmap [I
+	FIELD field_250 xPos I
+	FIELD field_251 zPos I
+	FIELD field_254 terrainPopulated Z
+	FIELD field_261 chunkSections [Lnet/minecraft/class_50;
+	FIELD field_262 biomes [B
+	METHOD <init> (Lnet/minecraft/class_4;II)V
+		ARG 1 world
+		ARG 2 xPos
+		ARG 3 zPos
+	METHOD <init> (Lnet/minecraft/class_4;[BII)V
+		ARG 1 world
+		ARG 3 xPos
+		ARG 4 zPos
+	METHOD method_356 setBiomes ([B)V
+		ARG 1 biomes
+	METHOD method_358 setChunkSections ([Lnet/minecraft/class_50;)V
+		ARG 1 chunkSections
 	METHOD method_366 (III)I
 		ARG 1 x
 		ARG 2 y
@@ -8,3 +26,4 @@ CLASS net/minecraft/class_49 net/minecraft/world/WorldChunk
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_383 getBiomes ()[B

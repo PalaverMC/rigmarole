@@ -1,0 +1,15 @@
+CLASS net/minecraft/class_251
+	METHOD method_852 (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 worldName
+	METHOD method_853 (Ljava/lang/String;Lnet/minecraft/class_1178;)Z
+		ARG 1 worldName
+	METHOD method_854 (Ljava/lang/String;Z)Lnet/minecraft/class_249;
+		ARG 1 worldName
+	METHOD method_856 (Ljava/lang/String;)Z
+		ARG 1 worldName
+	METHOD method_857 readWorldProperties (Ljava/lang/String;)Lnet/minecraft/class_238;
+		ARG 1 worldName
+	METHOD method_859 deleteWorld (Ljava/lang/String;)Z
+		ARG 1 worldName
+	METHOD method_860 isDirectory (Ljava/lang/String;)Z
+		ARG 1 worldName

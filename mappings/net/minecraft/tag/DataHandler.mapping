@@ -1,0 +1,23 @@
+CLASS net/minecraft/class_938 net/minecraft/tag/DataHandler
+	METHOD method_3071 tagToBytes (Lnet/minecraft/class_927;)[B
+		ARG 0 tag
+	METHOD method_3072 writeTag (Lnet/minecraft/class_927;Ljava/io/DataOutput;)V
+		ARG 0 tag
+		ARG 1 dataOutput
+	METHOD method_3073 write (Lnet/minecraft/class_927;Ljava/io/File;)V
+		ARG 0 tag
+		ARG 1 file
+	METHOD method_3074 writeTag (Lnet/minecraft/class_927;Ljava/io/OutputStream;)V
+		ARG 0 tag
+		ARG 1 outputStream
+	METHOD method_3075 readTag (Ljava/io/DataInput;)Lnet/minecraft/class_927;
+		ARG 0 dataInput
+	METHOD method_3076 readAsTag (Ljava/io/File;)Lnet/minecraft/class_927;
+		ARG 0 file
+	METHOD method_3077 readAsTag (Ljava/io/InputStream;)Lnet/minecraft/class_927;
+		ARG 0 inputStream
+	METHOD method_3078 readTag ([B)Lnet/minecraft/class_927;
+		ARG 0 bytes
+	METHOD method_3079 writeTag (Lnet/minecraft/class_927;Ljava/io/File;)V
+		ARG 0 tag
+		ARG 1 file

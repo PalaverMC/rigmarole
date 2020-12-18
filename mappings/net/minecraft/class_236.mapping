@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_236
+	FIELD field_719 worldDirectory Ljava/io/File;
+	FIELD field_720 playerDirectory Ljava/io/File;
+	FIELD field_721 dataDirectory Ljava/io/File;
+	FIELD field_722 loadedTime J
+	FIELD field_723 worldName Ljava/lang/String;
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;Z)V
+		ARG 1 worldsDirectory
+		ARG 2 worldName
+		ARG 3 firstRun
+	METHOD method_769 readPlayerData (Ljava/lang/String;)Lnet/minecraft/class_927;
+		ARG 1 playerName
+	METHOD method_770 getWorldDirectory ()Ljava/io/File;
+	METHOD method_771 writeSessionLock ()V

@@ -1,4 +1,12 @@
 CLASS net/minecraft/class_249
 	METHOD method_844 (Lnet/minecraft/class_61;)Lnet/minecraft/class_53;
 		ARG 1 dimension
+	METHOD method_845 (Lnet/minecraft/class_238;)V
+		ARG 1 worldProperties
+	METHOD method_846 (Lnet/minecraft/class_238;Lnet/minecraft/class_927;)V
+		ARG 1 worldProperties
+		ARG 2 tag
+	METHOD method_848 readSessionLock ()V
 	METHOD method_849 getWorldProperties ()Lnet/minecraft/class_238;
+	METHOD method_850 getPlayerStorage ()Lnet/minecraft/class_254;
+	METHOD method_851 getWorldName ()Ljava/lang/String;

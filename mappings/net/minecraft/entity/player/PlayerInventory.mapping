@@ -9,6 +9,8 @@ CLASS net/minecraft/class_1369 net/minecraft/entity/player/PlayerInventory
 	METHOD method_4738 (IIZZ)V
 		ARG 3 matchMeta
 	METHOD method_4743 insertStack (Lnet/minecraft/class_1473;)Z
+	METHOD method_4745 (Lnet/minecraft/class_366;)Z
+		ARG 1 block
 	METHOD method_4748 setCursorStack (Lnet/minecraft/class_1473;)V
 	METHOD method_4749 scrollInHotbar (I)V
 		ARG 1 scrollAmount

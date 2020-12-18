@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_254 net/minecraft/PlayerStorage
+	METHOD method_869 savePlayer (Lnet/minecraft/class_1371;)V
+		ARG 1 playerEntity
+	METHOD method_870 readPlayerData (Lnet/minecraft/class_1371;)Lnet/minecraft/class_927;
+		ARG 1 player
+	METHOD method_871 getPlayerDataList ()[Ljava/lang/String;

@@ -204,30 +204,129 @@ CLASS net/minecraft/class_366 net/minecraft/block/Block
 		ARG 1 blockId
 		ARG 2 group
 		ARG 3 list
+	METHOD method_1078 (Lnet/minecraft/class_4;)I
+		ARG 1 world
+	METHOD method_1079 (Lnet/minecraft/class_4;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_1080 (Lnet/minecraft/class_4;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD method_1082 onMined (Lnet/minecraft/class_4;IIIIFI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_1083 (Lnet/minecraft/class_4;IIIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_1086 (Lnet/minecraft/class_4;IIILnet/minecraft/class_416;Ljava/util/List;Lnet/minecraft/class_1207;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 box
+		ARG 7 entity
+	METHOD method_1088 (Lnet/minecraft/class_4;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
 	METHOD method_1094 onActivate (Lnet/minecraft/class_4;IIILnet/minecraft/class_1371;IFFF)Z
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 player
+	METHOD method_1098 (Lnet/minecraft/class_12;IIII)Z
+		ARG 1 worldAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD method_1099 setMaterial (Lnet/minecraft/class_370;)Lnet/minecraft/class_366;
 		ARG 1 blockMaterial
+	METHOD method_1101 (Ljava/util/Random;)I
+		ARG 1 random
+	METHOD method_1104 (Lnet/minecraft/class_1371;Lnet/minecraft/class_4;III)F
+		ARG 1 player
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
 	METHOD method_1105 setItemGroup (Lnet/minecraft/class_1438;)Lnet/minecraft/class_366;
 		ARG 1 itemGroup
+	METHOD method_1107 (Lnet/minecraft/class_12;IIII)Z
+		ARG 1 worldAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD method_1108 isFull ()Z
 	METHOD method_1109 setResistance (F)Lnet/minecraft/class_366;
 		ARG 1 resistance
+	METHOD method_1112 (Lnet/minecraft/class_4;III)Lnet/minecraft/class_416;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_1114 (Lnet/minecraft/class_4;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
 	METHOD method_1116 dropItem (Lnet/minecraft/class_4;IIILnet/minecraft/class_1473;)V
 		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 itemStack
+	METHOD method_1122 (Lnet/minecraft/class_12;IIII)Lnet/minecraft/class_1189;
+		ARG 1 worldAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD method_1123 isOpaque ()Z
 	METHOD method_1124 setHardness (F)Lnet/minecraft/class_366;
 		ARG 1 hardness
+	METHOD method_1127 onMined (Lnet/minecraft/class_4;IIIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD method_1129 getRedstoneSignalStrength (Lnet/minecraft/class_12;IIII)I
 	METHOD method_1131 setStringId (Ljava/lang/String;)Lnet/minecraft/class_366;
 		ARG 1 id
+	METHOD method_1133 (Lnet/minecraft/class_4;III)Lnet/minecraft/class_416;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_1136 (Lnet/minecraft/class_12;III)I
+		ARG 1 worldAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_1139 (Lnet/minecraft/class_12;III)F
+		ARG 1 worldAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_1142 (Lnet/minecraft/class_4;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD method_1145 is (I)Z
 		ARG 1 blockId
+	METHOD method_1151 (I)Z
+		ARG 0 blockId
 	METHOD method_1152 getHardness (Lnet/minecraft/class_4;III)F
 	METHOD method_1159 setIndestructible ()Lnet/minecraft/class_366;
 	METHOD method_1162 onRegister ()V

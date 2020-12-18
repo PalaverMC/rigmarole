@@ -4,9 +4,11 @@ CLASS net/minecraft/class_1207 net/minecraft/entity/Entity
 	FIELD field_4440 width F
 	FIELD field_4441 height F
 	FIELD field_4445 fallDistance F
+	FIELD field_4449 entityCameraHeight F
 	FIELD field_4453 random Ljava/util/Random;
 	FIELD field_4466 portalCooldown I
 	FIELD field_4469 dimensionId I
+	FIELD field_4472 entityTypeNumber I
 	FIELD field_4479 fire I
 	FIELD field_4483 invulnerable Z
 	FIELD field_4484 uuid Ljava/util/UUID;
@@ -54,12 +56,16 @@ CLASS net/minecraft/class_1207 net/minecraft/entity/Entity
 		ARG 5 z
 	METHOD method_3992 fromTag (Lnet/minecraft/class_927;)V
 		ARG 1 compoundTag
+	METHOD method_4007 (Lnet/minecraft/class_927;)Z
+		ARG 1 tag
 	METHOD method_4008 distanceToEntity (Lnet/minecraft/class_1207;)F
 		ARG 1 entity
 	METHOD method_4011 squaredDistanceTo (DDD)D
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
+	METHOD method_4013 write (Lnet/minecraft/class_927;)V
+		ARG 1 tag
 	METHOD method_4014 squaredDistanceToEntity (Lnet/minecraft/class_1207;)D
 		ARG 1 entity
 	METHOD method_4016 distanceTo (DDD)D

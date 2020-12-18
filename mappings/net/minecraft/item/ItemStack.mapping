@@ -32,6 +32,18 @@ CLASS net/minecraft/class_1473 net/minecraft/item/ItemStack
 	METHOD method_5074 split (I)Lnet/minecraft/class_1473;
 		ARG 1 count
 	METHOD method_5076 damage (ILnet/minecraft/class_1223;)V
+	METHOD method_5077 postMine (Lnet/minecraft/class_4;IIIILnet/minecraft/class_1371;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 6 player
+	METHOD method_5078 (Lnet/minecraft/class_4;Lnet/minecraft/class_1207;IZ)V
+		ARG 1 world
+		ARG 2 entity
+	METHOD method_5080 (Lnet/minecraft/class_4;Lnet/minecraft/class_1371;I)V
+		ARG 1 world
+		ARG 2 player
 	METHOD method_5081 (Lnet/minecraft/class_366;)F
 		ARG 1 block
 	METHOD method_5082 createFromTag (Lnet/minecraft/class_927;)Lnet/minecraft/class_1473;
@@ -39,8 +51,15 @@ CLASS net/minecraft/class_1473 net/minecraft/item/ItemStack
 	METHOD method_5083 addProperty (Ljava/lang/String;Lnet/minecraft/class_941;)V
 		ARG 1 key
 		ARG 2 tag
+	METHOD method_5084 (Lnet/minecraft/class_1207;)I
+		ARG 1 entity
 	METHOD method_5085 setItemFrame (Lnet/minecraft/class_1222;)V
 		ARG 1 itemFrameEntity
+	METHOD method_5086 (Lnet/minecraft/class_1223;)Z
+		ARG 1 mobEntity
+	METHOD method_5087 postHit (Lnet/minecraft/class_1223;Lnet/minecraft/class_1371;)V
+		ARG 1 mobEntity
+		ARG 2 player
 	METHOD method_5088 (Lnet/minecraft/class_1371;Lnet/minecraft/class_4;IIIIFFF)Z
 		ARG 1 entity
 		ARG 2 world
@@ -57,6 +76,11 @@ CLASS net/minecraft/class_1473 net/minecraft/item/ItemStack
 	METHOD method_5093 getItem ()Lnet/minecraft/class_1471;
 	METHOD method_5094 setDamage (I)V
 		ARG 1 damage
+	METHOD method_5096 (Lnet/minecraft/class_4;Lnet/minecraft/class_1371;I)V
+		ARG 1 world
+		ARG 2 player
+	METHOD method_5097 dropOnRemove (Lnet/minecraft/class_366;)Z
+		ARG 1 block
 	METHOD method_5098 write (Lnet/minecraft/class_927;)Lnet/minecraft/class_927;
 		ARG 1 compoundTag
 	METHOD method_5099 copy (Lnet/minecraft/class_1473;)Lnet/minecraft/class_1473;
@@ -81,6 +105,7 @@ CLASS net/minecraft/class_1473 net/minecraft/item/ItemStack
 	METHOD method_5114 getMeta ()I
 	METHOD method_5115 getMaxDamage ()I
 	METHOD method_5116 copy ()Lnet/minecraft/class_1473;
+	METHOD method_5117 getMaxUseTime ()I
 	METHOD method_5118 getRightClickAction ()Lnet/minecraft/class_1501;
 	METHOD method_5119 hasTag ()Z
 	METHOD method_5120 getTag ()Lnet/minecraft/class_927;

@@ -2,6 +2,8 @@ CLASS net/minecraft/class_12 net/minecraft/world/WorldAccess
 	COMMENT Heads up: This class, along with World and the classes that
 	COMMENT extend it are a bit of a mystery. Stuff may not be what you expect
 	METHOD method_230 getBiome (II)Lnet/minecraft/class_23;
+		ARG 1 x
+		ARG 2 z
 	METHOD method_231 getBlockIdAtPos (III)I
 		ARG 1 x
 		ARG 2 y
@@ -10,7 +12,7 @@ CLASS net/minecraft/class_12 net/minecraft/world/WorldAccess
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD method_233 (III)Lnet/minecraft/class_202;
+	METHOD method_233 getBlockSettings (III)Lnet/minecraft/class_202;
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
@@ -18,7 +20,35 @@ CLASS net/minecraft/class_12 net/minecraft/world/WorldAccess
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_235 (IIII)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_236 (IIII)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_237 (IIII)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_238 (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_239 getBlockEntityAtPos (III)Lnet/minecraft/class_408;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_240 (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_241 (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_242 (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z

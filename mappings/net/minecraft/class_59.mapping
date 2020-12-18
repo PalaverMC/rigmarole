@@ -1,0 +1,12 @@
+CLASS net/minecraft/class_59
+	FIELD field_306 regionDirectory Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 regionDirectory
+	METHOD method_446 readWorldChunk (Lnet/minecraft/class_4;IILnet/minecraft/class_927;)Lnet/minecraft/class_49;
+		ARG 1 world
+		ARG 2 xPos
+		ARG 3 zPos
+		ARG 4 tag
+	METHOD method_447 (Lnet/minecraft/class_4;Lnet/minecraft/class_927;)Lnet/minecraft/class_49;
+		ARG 1 world
+		ARG 2 tag
