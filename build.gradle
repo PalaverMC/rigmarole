@@ -193,14 +193,14 @@ task downloadMcJars(dependsOn: downloadWantedVersionManifest) {
 
 task downloadIntermediary(type: Download) {
 	group = buildMappingGroup
-	def url = "https://github.com/darkerbit/intermediary/raw/master/mappings/${minecraft_version}.tiny"
+	def url = "https://github.com/PalaverMC/intermediary/raw/master/mappings/${minecraft_version}.tiny"
 	src com.google.common.net.UrlEscapers.urlFragmentEscaper().escape(url)
 	dest new File(cacheFilesMinecraft, "${minecraft_version}-intermediary.tiny")
 }
 
 task downloadIntermediaryV2(type: Download) {
 	group = buildMappingGroup
-	def url = "https://jitpack.io/io/github/darkerbit/intermediary/${minecraft_version}/intermediary-${minecraft_version}-v2.jar"
+	def url = "https://jitpack.io/com/github/PalaverMC/intermediary/0bc1261625/intermediary-0bc1261625-v2.jar"
 	src com.google.common.net.UrlEscapers.urlFragmentEscaper().escape(url)
 	dest new File(cacheFilesMinecraft, "${minecraft_version}-intermediary-v2.jar")
 }
