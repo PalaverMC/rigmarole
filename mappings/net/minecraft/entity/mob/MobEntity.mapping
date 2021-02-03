@@ -5,7 +5,6 @@ CLASS net/minecraft/class_1223 net/minecraft/entity/mob/MobEntity
 	METHOD method_4225 getJumpControl ()Lnet/minecraft/class_1239;
 	METHOD method_4226 getNavigation ()Lnet/minecraft/class_1298;
 	METHOD method_4228 getRandom ()Ljava/util/Random;
-	METHOD method_4245 getMaxHealth ()I
 	METHOD method_4270 setRandomProfession ()V
 	METHOD method_4282 getIdleSoundId ()Ljava/lang/String;
 	METHOD method_4283 getHurtSoundId ()Ljava/lang/String;
